@@ -1,0 +1,20 @@
+[package]
+name = "http-constant"
+version = "0.1.0"
+edition = "2021"
+authors = ["ltpp-universe <root@ltpp.vip>"] 
+license = "MIT"
+description = """A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers."""
+keywords = ["http", "request", "response", "tcp", "redirect"]
+repository = "https://github.com/ltpp-universe/http-constant.git"
+categories = ["network-programming", "web-programming"]
+exclude = [
+    "target",
+    "Cargo.lock",
+    "sh",
+    ".github"
+]
+
+[dependencies]
+brotli = "7.0.0"
+flate2 = "1.0.35"
