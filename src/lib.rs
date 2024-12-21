@@ -1,2 +1,2 @@
 mod constant;
-pub use constant::r#type;
+pub use constant::r#type::*;
