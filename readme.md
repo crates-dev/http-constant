@@ -24,8 +24,7 @@ cargo add http-constant
 ## Use
 
 ```rust
-use http-constant::*;
-assert_eq!("\r\n", HTTP_BR);
+use http_constant::*;
 ```
 
 ## License
