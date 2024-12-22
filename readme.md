@@ -7,7 +7,7 @@
 
 [Official Documentation](https://docs.ltpp.vip/HTTP-CONSTANT/)
 
-[Api Docs](https://docs.rs/http-constant/latest/http-constant/)
+[Api Docs](https://docs.rs/http-constant/latest/http_constant/)
 
 > A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers.
 
