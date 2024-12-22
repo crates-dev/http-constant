@@ -125,3 +125,9 @@ pub static COLON_SPACE: &str = ": ";
 /// This constant provides the byte equivalent of the colon character
 /// from the `COLON_SPACE` string.
 pub static COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
+
+/// GET
+pub static GET: &str = "GET";
+
+/// POST
+pub static POST: &str = "POST";
