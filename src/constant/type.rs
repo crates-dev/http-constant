@@ -146,3 +146,6 @@ pub static EMPTY_STR: &str = "";
 
 /// OPTIONS
 pub static OPTIONS: &str = "OPTIONS";
+
+/// OK
+pub static OK: &str = "OK";
