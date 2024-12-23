@@ -69,6 +69,9 @@ pub static FORM_URLENCODED: &str = "application/x-www-form-urlencoded";
 /// Query symbols
 pub static QUERY_SYMBOL: &str = "?";
 
+/// Hash symbols
+pub static HASH_SYMBOL: &str = "#";
+
 /// A constant representing the "HTTP" protocol.
 pub static HTTP: &str = "HTTP";
 
@@ -131,3 +134,6 @@ pub static GET: &str = "GET";
 
 /// POST
 pub static POST: &str = "POST";
+
+/// Empty str
+pub static EMPTY_STR: &str = "";
