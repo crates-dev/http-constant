@@ -129,6 +129,12 @@ pub static COLON_SPACE: &str = ": ";
 /// from the `COLON_SPACE` string.
 pub static COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
 
+/// A colon followed by a space symbol (`:`).
+///
+/// This constant is commonly used in formatted strings, such as
+/// headers or key-value pairs, where a colon and a space are needed.
+pub static COLON_SPACE_SYMBOL: &str = ":";
+
 /// GET
 pub static GET: &str = "GET";
 
