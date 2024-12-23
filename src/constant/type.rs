@@ -143,3 +143,6 @@ pub static POST: &str = "POST";
 
 /// Empty str
 pub static EMPTY_STR: &str = "";
+
+/// OPTIONS
+pub static OPTIONS: &str = "OPTIONS";
