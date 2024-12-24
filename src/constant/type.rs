@@ -144,8 +144,14 @@ pub static POST: &str = "POST";
 /// Empty str
 pub static EMPTY_STR: &str = "";
 
-/// OPTIONS
+/// Options
 pub static OPTIONS: &str = "OPTIONS";
 
 /// OK
 pub static OK: &str = "OK";
+
+/// Default host
+pub static DEFAULT_HOST: &str = "0.0.0.0";
+
+/// Default web port
+pub static DEFAULT_WEB_PORT: usize = 80;
