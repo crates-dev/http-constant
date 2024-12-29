@@ -1,6 +1,3 @@
-/// The value for the `Accept-Encoding` header indicating gzip compression.
-pub static ACCEPT_ENCODING_GZIP: &str = "gzip";
-
 /// The default value for the `Accept-Language` header indicating any language is acceptable.
 pub static ACCEPT_LANGUAGE_DEFAULT: &str = "*";
 
@@ -28,11 +25,33 @@ pub static X_REQUESTED_WITH_XMLHTTPREQUEST: &str = "XMLHttpRequest";
 /// The value for the `Accept` header indicating that any content type is acceptable.
 pub static ACCEPT_ANY: &str = "*/*";
 
+/// The value for the `Accept-Encoding` header indicating gzip compression.
+pub static ACCEPT_ENCODING_GZIP: &str = "gzip";
+
 /// The value for the `Accept-Encoding` header indicating deflate compression.
 pub static ACCEPT_ENCODING_DEFLATE: &str = "deflate";
 
 /// The value for the `Accept-Encoding` header indicating br (Brotli) compression.
 pub static ACCEPT_ENCODING_BROTLI: &str = "br";
+
+/// The value for the `Accept-Encoding` header indicating no encoding (identity).
+pub static ACCEPT_ENCODING_IDENTITY: &str = "identity";
+
+/// The value for the `Content-Encoding` header indicating gzip compression.
+/// The response body is compressed using the Gzip algorithm.
+pub static CONTENT_ENCODING_GZIP: &str = "gzip";
+
+/// The value for the `Content-Encoding` header indicating deflate compression.
+/// The response body is compressed using the Deflate algorithm.
+pub static CONTENT_ENCODING_DEFLATE: &str = "deflate";
+
+/// The value for the `Content-Encoding` header indicating Brotli compression.
+/// The response body is compressed using the Brotli algorithm, a more modern compression algorithm.
+pub static CONTENT_ENCODING_BROTLI: &str = "br";
+
+/// The value for the `Content-Encoding` header indicating no encoding (identity).
+/// The response body is not compressed or encoded.
+pub static CONTENT_ENCODING_IDENTITY: &str = "identity";
 
 /// The value for the `Accept-Language` header indicating any language is acceptable.
 pub static ACCEPT_LANGUAGE_ANY: &str = "*";

@@ -63,3 +63,6 @@ pub static X_REQUESTED_WITH: &str = "X-Requested-With";
 
 /// The value for the `Content-Length` header, used to specify the size of the request body in octets (8-bit bytes).
 pub static CONTENT_LENGTH: &str = "Content-Length";
+
+/// The HTTP header field name `Content-Encoding`, used to specify the encoding transformations applied to the response body.
+pub static CONTENT_ENCODING: &str = "Content-Encoding";
