@@ -66,3 +66,15 @@ pub static DEFAULT_WEB_PORT: usize = 80;
 
 /// Http br
 pub static HTTP_BR: &str = "\r\n";
+
+/// Http br bytes
+pub static HTTP_BR_BYTES: &[u8] = HTTP_BR.as_bytes();
+
+/// Http doubble br
+pub static HTTP_DOUBLE_BR: &str = "\r\n\r\n";
+
+/// Http doubble br bytes
+pub static HTTP_DOUBLE_BR_BYTES: &[u8] = HTTP_DOUBLE_BR.as_bytes();
+
+/// Default http path
+pub static DEFAULT_HTTP_PATH: &str = "/";

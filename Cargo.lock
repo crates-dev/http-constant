@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "http-constant"
-version = "1.12.0"
+version = "1.13.0"
 dependencies = [
  "brotli",
  "flate2",

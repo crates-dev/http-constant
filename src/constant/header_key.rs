@@ -66,3 +66,9 @@ pub static CONTENT_LENGTH: &str = "Content-Length";
 
 /// The HTTP header field name `Content-Encoding`, used to specify the encoding transformations applied to the response body.
 pub static CONTENT_ENCODING: &str = "Content-Encoding";
+
+/// The HTTP header field name Content-Type, used to specify the media type of the resource or the data being sent in an HTTP request or response.
+pub static CONTENT_TYPE: &str = "Content-Type";
+
+/// The HTTP header field "User-Agent".
+pub static USER_AGENT: &str = "User-Agent";
