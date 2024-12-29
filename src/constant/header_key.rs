@@ -60,3 +60,6 @@ pub static X_POWERED_BY: &str = "X-Powered-By";
 
 /// The HTTP header field name `X-Requested-With`, used to identify the type of request, typically for AJAX requests.
 pub static X_REQUESTED_WITH: &str = "X-Requested-With";
+
+/// The value for the `Content-Length` header, used to specify the size of the request body in octets (8-bit bytes).
+pub static CONTENT_LENGTH: &str = "Content-Length";
