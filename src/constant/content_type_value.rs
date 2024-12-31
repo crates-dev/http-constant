@@ -63,6 +63,7 @@ pub static APPLICATION_X_BLORB: &str = "application/x-blorb";
 pub static APPLICATION_VND_BMI: &str = "application/vnd.bmi";
 pub static IMAGE_BMP: &str = "image/bmp";
 pub static TEXT_HTML: &str = "text/html";
+pub static FORM_URLENCODED: &str = "application/x-www-form-urlencoded";
 pub static APPLICATION_VND_FRAMEMAKER: &str = "application/vnd.framemaker";
 pub static APPLICATION_VND_PREVIEWSYSTEMS_BOX: &str = "application/vnd.previewsystems.box";
 pub static APPLICATION_X_BZIP2: &str = "application/x-bzip2";
