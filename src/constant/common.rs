@@ -87,3 +87,9 @@ pub static AND: &str = "&";
 
 /// And bytes
 pub static AND_BYTES: &[u8] = AND.as_bytes();
+
+/// Equal
+pub static EQUAL: &str = "=";
+
+/// Equa bytes
+pub static EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
