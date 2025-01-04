@@ -93,3 +93,9 @@ pub static EQUAL: &str = "=";
 
 /// Equa bytes
 pub static EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
+
+/// Zero str
+pub static ZERO_STR: &str = "0";
+
+/// Zero str bytes
+pub static ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
