@@ -78,3 +78,12 @@ pub static HTTP_DOUBLE_BR_BYTES: &[u8] = HTTP_DOUBLE_BR.as_bytes();
 
 /// Default http path
 pub static DEFAULT_HTTP_PATH: &str = "/";
+
+/// Default http path bytes
+pub static DEFAULT_HTTP_PATH_BYTES: &[u8] = DEFAULT_HTTP_PATH.as_bytes();
+
+/// And
+pub static AND: &str = "&";
+
+/// And bytes
+pub static AND_BYTES: &[u8] = AND.as_bytes();
