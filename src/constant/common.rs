@@ -102,3 +102,9 @@ pub static ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
 
 /// Default buffer size
 pub static DEFAULT_BUFFER_SIZE: usize = 512_000;
+
+/// Default max redirect times
+pub static DEFAULT_MAX_REDIRECT_TIMES: usize = 8;
+
+// Default timeout
+pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
