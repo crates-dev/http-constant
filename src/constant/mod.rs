@@ -1,7 +1,7 @@
-pub mod common;
-pub mod content_type_value;
-pub mod file_extension;
-pub mod header_key;
-pub mod header_value;
-pub mod method;
-pub mod protocol;
+pub(crate) mod common;
+pub(crate) mod content_type_value;
+pub(crate) mod file_extension;
+pub(crate) mod header_key;
+pub(crate) mod header_value;
+pub(crate) mod method;
+pub(crate) mod protocol;
