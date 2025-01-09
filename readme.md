@@ -11,8 +11,6 @@
 
 > A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers.
 
-## Features
-
 ## Installation
 
 To use this crate, you can run cmd:
