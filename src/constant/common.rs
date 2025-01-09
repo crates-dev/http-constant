@@ -111,3 +111,6 @@ pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
 
 /// Point
 pub const POINT: &str = ".";
+
+/// Root path
+pub const ROOT_PATH: &str = "/";
