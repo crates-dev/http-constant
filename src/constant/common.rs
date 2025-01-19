@@ -114,3 +114,9 @@ pub const POINT: &str = ".";
 
 /// Root path
 pub const ROOT_PATH: &str = "/";
+
+/// Semicolon
+pub const SEMICOLON: &str = ";";
+
+/// Semicolon and space
+pub const SEMICOLON_SPACE: &str = "; ";

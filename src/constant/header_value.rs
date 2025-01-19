@@ -73,3 +73,33 @@ pub static CONNECTION_CLOSE: &str = "close";
 
 /// The value for the `X-Frame-Options` header to allow the page to be framed only by the same origin.
 pub static X_FRAME_OPTIONS_SAMEORIGIN: &str = "SAMEORIGIN";
+
+/// Charset utf8
+pub static CHARSET_UTF_8: &str = "charset=utf-8";
+
+/// Charset iso-8859-1
+pub static CHARSET_ISO_8859_1: &str = "charset=iso-8859-1";
+
+/// Charset windows-1252
+pub static CHARSET_WINDOWS_1252: &str = "charset=windows-1252";
+
+/// Charset shift_jis
+pub static CHARSET_SHIFT_JIS: &str = "charset=shift_jis";
+
+/// Charset gb2312
+pub static CHARSET_GB2312: &str = "charset=gb2312";
+
+/// Charset big5
+pub static CHARSET_BIG5: &str = "charset=big5";
+
+/// Charset utf-16
+pub static CHARSET_UTF_16: &str = "charset=utf-16";
+
+/// Charset utf-32
+pub static CHARSET_UTF_32: &str = "charset=utf-32";
+
+/// Charset macintosh
+pub static CHARSET_MACINTOSH: &str = "charset=macintosh";
+
+/// Charset euc-kr
+pub static CHARSET_EUC_KR: &str = "charset=euc-kr";
