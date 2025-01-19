@@ -1,6 +1,6 @@
 [package]
 name = "http-constant"
-version = "1.25.1"
+version = "1.25.2"
 edition = "2021"
 authors = ["ltpp-universe <root@ltpp.vip>"] 
 license = "MIT"
@@ -15,4 +15,22 @@ exclude = [
     ".github"
 ]
 
-[dependencies]
+[profile.dev]
+incremental = false
+opt-level = 3
+lto = true
+panic = "abort"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
+backtrace = "off"
+
+[profile.release]
+incremental = false
+opt-level = 3
+lto = true
+panic = "abort"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
+backtrace = "off"
