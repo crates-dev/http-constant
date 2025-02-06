@@ -56,6 +56,9 @@ pub static CONTENT_ENCODING_IDENTITY: &str = "identity";
 /// The value for the `Accept-Language` header indicating any language is acceptable.
 pub static ACCEPT_LANGUAGE_ANY: &str = "*";
 
+/// Any
+pub static ANY: &str = "*";
+
 /// The value for the `Accept-Language` header indicating English as the preferred language.
 pub static ACCEPT_LANGUAGE_ENGLISH: &str = "en";
 

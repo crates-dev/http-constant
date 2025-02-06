@@ -72,3 +72,12 @@ pub static CONTENT_TYPE: &str = "Content-Type";
 
 /// The HTTP header field "User-Agent".
 pub static USER_AGENT: &str = "User-Agent";
+
+/// The HTTP header field "Access-Control-Allow-Origin", used to specify which origins are allowed to access the resource.
+pub static ACCESS_CONTROL_ALLOW_ORIGIN: &str = "Access-Control-Allow-Origin";
+
+/// The HTTP header field "Access-Control-Allow-Methods", used to specify the HTTP methods that are allowed when accessing the resource.
+pub static ACCESS_CONTROL_ALLOW_METHODS: &str = "Access-Control-Allow-Methods";
+
+/// The HTTP header field "Access-Control-Allow-Headers", used to specify which HTTP headers can be used during the request.
+pub static ACCESS_CONTROL_ALLOW_HEADERS: &str = "Access-Control-Allow-Headers";

@@ -120,3 +120,6 @@ pub const SEMICOLON: &str = ";";
 
 /// Semicolon and space
 pub const SEMICOLON_SPACE: &str = "; ";
+
+/// OK
+pub static OK: &str = "OK";
