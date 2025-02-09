@@ -1,9 +1,13 @@
+<center>
+
 ## http-constant
 
 [![](https://img.shields.io/crates/v/http-constant.svg)](https://crates.io/crates/http-constant)
 [![](https://docs.rs/http-constant/badge.svg)](https://docs.rs/http-constant)
-[![](https://img.shields.io/crates/l/http-constant.svg)](./LICENSE)
 [![](https://github.com/ltpp-universe/http-constant/workflows/Rust/badge.svg)](https://github.com/ltpp-universe/http-constant/actions?query=workflow:Rust)
+[![](https://img.shields.io/crates/l/http-constant.svg)](./LICENSE)
+
+</center>
 
 [Official Documentation](https://docs.ltpp.vip/HTTP-CONSTANT/)
 
