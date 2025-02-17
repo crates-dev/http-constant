@@ -1,3 +1,6 @@
+/// Server
+pub static SERVER: &str = "Server";
+
 /// The HTTP header field name `Accept`.
 pub static ACCEPT: &str = "Accept";
 
