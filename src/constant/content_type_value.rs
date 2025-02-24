@@ -31,6 +31,7 @@ pub static APPLICATION_ANNODEX: &str = "application/annodex";
 pub static APPLICATION_VND_ANDROID_PACKAGE_ARCHIVE: &str =
     "application/vnd.android.package-archive";
 pub static TEXT_CACHE_MANIFEST: &str = "text/cache-manifest";
+pub static TEXT_EVENT_STREAM: &str = "text/event-stream";
 pub static APPLICATION_X_MS_APPLICATION: &str = "application/x-ms-application";
 pub static APPLICATION_VND_LOTUS_APPROACH: &str = "application/vnd.lotus-approach";
 pub static APPLICATION_X_FREEARC: &str = "application/x-freearc";
