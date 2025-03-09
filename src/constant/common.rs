@@ -101,7 +101,7 @@ pub static ZERO_STR: &str = "0";
 pub static ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
 
 /// Default buffer size
-pub static DEFAULT_BUFFER_SIZE: usize = 512_000;
+pub static DEFAULT_BUFFER_SIZE: usize = 4096;
 
 /// Default max redirect times
 pub static DEFAULT_MAX_REDIRECT_TIMES: usize = 8;
@@ -139,3 +139,6 @@ pub static HASH_STATE: [u32; 5] = [
 /// BASE64_CHARSET_TABLE
 pub static BASE64_CHARSET_TABLE: &[u8] =
     b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
+/// MAX_FRAME_SIZE
+pub static MAX_FRAME_SIZE: usize = 65535;
