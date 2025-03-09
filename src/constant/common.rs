@@ -123,3 +123,19 @@ pub const SEMICOLON_SPACE: &str = "; ";
 
 /// OK
 pub static OK: &str = "OK";
+
+/// GUID
+pub static GUID: &[u8; 36] = b"258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
+
+/// HASH_STATE
+pub static HASH_STATE: [u32; 5] = [
+    0x67452301u32,
+    0xEFCDAB89,
+    0x98BADCFE,
+    0x10325476,
+    0xC3D2E1F0,
+];
+
+/// BASE64_CHARSET_TABLE
+pub static BASE64_CHARSET_TABLE: &[u8] =
+    b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";

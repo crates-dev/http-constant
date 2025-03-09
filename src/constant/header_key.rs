@@ -49,6 +49,12 @@ pub static TRANSFER_ENCODING: &str = "Transfer-Encoding";
 /// The HTTP header field name `Upgrade`, used to indicate the protocol the client wants to upgrade to.
 pub static UPGRADE: &str = "Upgrade";
 
+/// Sec-WebSocket-Accept
+pub static SEC_WEB_SOCKET_ACCEPT: &str = "Sec-WebSocket-Accept";
+
+/// Sec-WebSocket-Key
+pub static SEC_WEBSOCKET_KEY: &str = "Sec-WebSocket-Key";
+
 /// The HTTP header field name `Vary`, used to specify that the response may vary based on certain request headers.
 pub static VARY: &str = "Vary";
 

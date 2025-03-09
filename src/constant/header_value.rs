@@ -4,6 +4,9 @@ pub static ACCEPT_LANGUAGE_DEFAULT: &str = "*";
 /// The value for the `Authorization` header when using Basic authentication.
 pub static AUTHORIZATION_BASIC: &str = "Basic";
 
+/// websocket
+pub static WEBSOCKE: &str = "websocket";
+
 /// The value for the `Cache-Control` header indicating no-cache.
 pub static CACHE_CONTROL_NO_CACHE: &str = "no-cache";
 
