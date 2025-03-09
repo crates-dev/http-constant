@@ -1,3 +1,5 @@
+use crate::*;
+
 /// A single space character.
 ///
 /// This constant is used to represent a space character in string
@@ -142,3 +144,11 @@ pub static BASE64_CHARSET_TABLE: &[u8] =
 
 /// MAX_FRAME_SIZE
 pub static MAX_FRAME_SIZE: usize = 65535;
+
+/// DEFAULT_SOCKET_ADDR
+pub static DEFAULT_SOCKET_ADDR: SocketAddr =
+    SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 0));
+
+/// SOCKET_ADDR_127_0_0_1
+pub static SOCKET_ADDR_127_0_0_1: SocketAddr =
+    SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(127, 0, 0, 1), 0));
