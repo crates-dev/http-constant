@@ -152,3 +152,9 @@ pub static DEFAULT_SOCKET_ADDR: SocketAddr =
 /// SOCKET_ADDR_127_0_0_1
 pub static SOCKET_ADDR_127_0_0_1: SocketAddr =
     SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(127, 0, 0, 1), 0));
+
+/// hyperlane
+pub static HYPERLANE: &str = "hyperlane";
+
+/// Hyperlane
+pub static HYPERLANE_PASCAL_CASE: &str = "Hyperlane";
