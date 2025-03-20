@@ -5,7 +5,7 @@ pub static ACCEPT_LANGUAGE_DEFAULT: &str = "*";
 pub static AUTHORIZATION_BASIC: &str = "Basic";
 
 /// websocket
-pub static WEBSOCKE: &str = "websocket";
+pub static WEBSOCKET: &str = "websocket";
 
 /// The value for the `Cache-Control` header indicating no-cache.
 pub static CACHE_CONTROL_NO_CACHE: &str = "no-cache";

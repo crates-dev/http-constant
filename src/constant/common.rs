@@ -72,10 +72,10 @@ pub static HTTP_BR: &str = "\r\n";
 /// Http br bytes
 pub static HTTP_BR_BYTES: &[u8] = HTTP_BR.as_bytes();
 
-/// Http doubble br
+/// Http double br
 pub static HTTP_DOUBLE_BR: &str = "\r\n\r\n";
 
-/// Http doubble br bytes
+/// Http double br bytes
 pub static HTTP_DOUBLE_BR_BYTES: &[u8] = HTTP_DOUBLE_BR.as_bytes();
 
 /// Default http path
@@ -93,7 +93,7 @@ pub static AND_BYTES: &[u8] = AND.as_bytes();
 /// Equal
 pub static EQUAL: &str = "=";
 
-/// Equa bytes
+/// Equal bytes
 pub static EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
 
 /// Zero str
