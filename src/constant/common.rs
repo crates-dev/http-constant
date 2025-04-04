@@ -158,3 +158,18 @@ pub static HYPERLANE: &str = "hyperlane";
 
 /// Hyperlane
 pub static HYPERLANE_PASCAL_CASE: &str = "Hyperlane";
+
+/// DEFAULT_INNER_PRINT
+pub static DEFAULT_INNER_PRINT: bool = true;
+
+/// DEFAULT_NODELAY
+pub static DEFAULT_INNER_LOG: bool = true;
+
+/// DEFAULT_NODELAY
+pub static DEFAULT_NODELAY: bool = false;
+
+/// DEFAULT_LINGER
+pub static DEFAULT_LINGER: Option<Duration> = None;
+
+/// DEFAULT_TTI
+pub static DEFAULT_TTI: Option<u32> = None;

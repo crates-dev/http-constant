@@ -5,4 +5,7 @@ pub use constant::{
     http_version::*, method::*, protocol::*,
 };
 
-pub(crate) use std::net::{Ipv4Addr, SocketAddr, SocketAddrV4};
+pub(crate) use std::{
+    net::{Ipv4Addr, SocketAddr, SocketAddrV4},
+    time::Duration,
+};
