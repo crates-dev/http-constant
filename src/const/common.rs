@@ -173,3 +173,21 @@ pub const DEFAULT_LINGER: Option<Duration> = None;
 
 /// DEFAULT_TTI
 pub const DEFAULT_TTI: Option<u32> = None;
+
+/// warning
+pub const WARNING: &str = "warning";
+
+/// success
+pub const SUCCESS: &str = "success";
+
+/// fail
+pub const FAIL: &str = "fail";
+
+/// error
+pub const ERROR: &str = "error";
+
+/// info
+pub const INFO: &str = "info";
+
+/// debug
+pub const DEBUG: &str = "debug";

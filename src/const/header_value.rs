@@ -4,9 +4,6 @@ pub const ACCEPT_LANGUAGE_DEFAULT: &str = "*";
 /// The value for the `Authorization` header when using Basic authentication.
 pub const AUTHORIZATION_BASIC: &str = "Basic";
 
-/// websocket
-pub const WEBSOCKET: &str = "websocket";
-
 /// The value for the `Cache-Control` header indicating no-cache.
 pub const CACHE_CONTROL_NO_CACHE: &str = "no-cache";
 
