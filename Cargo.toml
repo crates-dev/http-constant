@@ -1,8 +1,8 @@
 [package]
 name = "http-constant"
-version = "1.42.3"
+version = "1.42.4"
 edition = "2024"
-authors = ["eastspire <root@ltpp.vip>"] 
+authors = ["root@ltpp.vip"] 
 license = "MIT"
 description = """A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers."""
 keywords = ["http", "request", "response", "tcp", "redirect"]
