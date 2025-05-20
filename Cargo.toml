@@ -1,12 +1,12 @@
 [package]
 name = "http-constant"
-version = "1.42.1"
+version = "1.42.2"
 edition = "2024"
-authors = ["ltpp-universe <root@ltpp.vip>"] 
+authors = ["eastspire <root@ltpp.vip>"] 
 license = "MIT"
 description = """A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers."""
 keywords = ["http", "request", "response", "tcp", "redirect"]
-repository = "https://github.com/ltpp-universe/http-constant.git"
+repository = "https://github.com/eastspire/http-constant.git"
 categories = ["network-programming", "web-programming"]
 exclude = [
     "target",
