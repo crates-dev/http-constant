@@ -1,6 +1,6 @@
 [package]
 name = "http-constant"
-version = "1.42.4"
+version = "1.43.0"
 edition = "2024"
 authors = ["root@ltpp.vip"] 
 license = "MIT"
