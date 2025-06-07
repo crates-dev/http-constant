@@ -319,3 +319,18 @@ pub const CHARSET_UTF_32LE: &str = "charset=utf-32le";
 
 /// Charset utf-32be
 pub const CHARSET_UTF_32BE: &str = "charset=utf-32be";
+
+/// H2C
+pub const H2C: &str = "h2c";
+
+/// TLS/1.0
+pub const TLS_1_0: &str = "TLS/1.0";
+
+/// TLS/1.1
+pub const TLS_1_1: &str = "TLS/1.1";
+
+/// TLS/1.2
+pub const TLS_1_2: &str = "TLS/1.2";
+
+/// TLS/1.3
+pub const TLS_1_3: &str = "TLS/1.3";
