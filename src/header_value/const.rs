@@ -1,6 +1,3 @@
-/// Default value indicating any language.
-pub const DEFAULT: &str = "*";
-
 /// Basic authentication scheme.
 pub const BASIC: &str = "Basic";
 
