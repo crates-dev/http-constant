@@ -1,81 +1,62 @@
-/// The default value for the `Accept-Language` header indicating any language is acceptable.
-pub const ACCEPT_LANGUAGE_DEFAULT: &str = "*";
+/// Default value indicating any language.
+pub const DEFAULT: &str = "*";
 
-/// The value for the `Authorization` header when using Basic authentication.
-pub const AUTHORIZATION_BASIC: &str = "Basic";
+/// Basic authentication scheme.
+pub const BASIC: &str = "Basic";
 
-/// The value for the `Cache-Control` header indicating no-cache.
-pub const CACHE_CONTROL_NO_CACHE: &str = "no-cache";
+/// Indicates no-cache.
+pub const NO_CACHE: &str = "no-cache";
 
-/// The value for the `Connection` header indicating keep-alive.
-pub const CONNECTION_KEEP_ALIVE: &str = "keep-alive";
+/// Indicates keep-alive connection.
+pub const KEEP_ALIVE: &str = "keep-alive";
 
-/// The value for the `Transfer-Encoding` header indicating chunked transfer encoding.
-pub const TRANSFER_ENCODING_CHUNKED: &str = "chunked";
+/// Indicates chunked transfer encoding.
+pub const CHUNKED: &str = "chunked";
 
-/// The value for the `X-Frame-Options` header to prevent the page from being framed.
-pub const X_FRAME_OPTIONS_DENY: &str = "DENY";
+/// Deny page from being framed.
+pub const DENY: &str = "DENY";
 
-/// The value for the `X-Content-Type-Options` header to prevent MIME sniffing.
-pub const X_CONTENT_TYPE_OPTIONS_NOSNIFF: &str = "nosniff";
+/// Prevent MIME sniffing.
+pub const NOSNIFF: &str = "nosniff";
 
-/// The value for the `X-Requested-With` header indicating an AJAX request.
-pub const X_REQUESTED_WITH_XMLHTTPREQUEST: &str = "XMLHttpRequest";
+/// Indicates an XMLHttpRequest (AJAX).
+pub const XMLHTTPREQUEST: &str = "XMLHttpRequest";
 
-/// The value for the `Accept` header indicating that any content type is acceptable.
+/// Gzip compression.
+pub const GZIP: &str = "gzip";
+
+/// Deflate compression.
+pub const DEFLATE: &str = "deflate";
+
+/// Brotli compression.
+pub const BROTLI: &str = "br";
+
+/// No encoding (identity).
+pub const IDENTITY: &str = "identity";
+
+/// Accept any content type.
 pub const ACCEPT_ANY: &str = "*/*";
 
-/// The value for the `Accept-Encoding` header indicating gzip compression.
-pub const ACCEPT_ENCODING_GZIP: &str = "gzip";
+/// Wildcard any.
+pub const WILDCARD_ANY: &str = "*";
 
-/// The value for the `Accept-Encoding` header indicating deflate compression.
-pub const ACCEPT_ENCODING_DEFLATE: &str = "deflate";
+/// Prefer English language.
+pub const ENGLISH: &str = "en";
 
-/// The value for the `Accept-Encoding` header indicating br (Brotli) compression.
-pub const ACCEPT_ENCODING_BROTLI: &str = "br";
+/// Bearer token authentication.
+pub const BEARER: &str = "Bearer";
 
-/// The value for the `Accept-Encoding` header indicating no encoding (identity).
-pub const ACCEPT_ENCODING_IDENTITY: &str = "identity";
+/// Private caching.
+pub const PRIVATE: &str = "private";
 
-/// The value for the `Content-Encoding` header indicating gzip compression.
-/// The response body is compressed using the Gzip algorithm.
-pub const CONTENT_ENCODING_GZIP: &str = "gzip";
+/// Public caching.
+pub const PUBLIC: &str = "public";
 
-/// The value for the `Content-Encoding` header indicating deflate compression.
-/// The response body is compressed using the Deflate algorithm.
-pub const CONTENT_ENCODING_DEFLATE: &str = "deflate";
+/// Close the connection.
+pub const CLOSE: &str = "close";
 
-/// The value for the `Content-Encoding` header indicating Brotli compression.
-/// The response body is compressed using the Brotli algorithm, a more modern compression algorithm.
-pub const CONTENT_ENCODING_BROTLI: &str = "br";
-
-/// The value for the `Content-Encoding` header indicating no encoding (identity).
-/// The response body is not compressed or encoded.
-pub const CONTENT_ENCODING_IDENTITY: &str = "identity";
-
-/// The value for the `Accept-Language` header indicating any language is acceptable.
-pub const ACCEPT_LANGUAGE_ANY: &str = "*";
-
-/// Any
-pub const ANY: &str = "*";
-
-/// The value for the `Accept-Language` header indicating English as the preferred language.
-pub const ACCEPT_LANGUAGE_ENGLISH: &str = "en";
-
-/// The value for the `Authorization` header indicating Bearer token authentication.
-pub const AUTHORIZATION_BEARER: &str = "Bearer";
-
-/// The value for the `Cache-Control` header indicating that the response should not be cached.
-pub const CACHE_CONTROL_PRIVATE: &str = "private";
-
-/// The value for the `Cache-Control` header indicating that the response is cacheable by any cache.
-pub const CACHE_CONTROL_PUBLIC: &str = "public";
-
-/// The value for the `Connection` header indicating a close connection.
-pub const CONNECTION_CLOSE: &str = "close";
-
-/// The value for the `X-Frame-Options` header to allow the page to be framed only by the same origin.
-pub const X_FRAME_OPTIONS_SAMEORIGIN: &str = "SAMEORIGIN";
+/// Allow framing only by same origin.
+pub const SAMEORIGIN: &str = "SAMEORIGIN";
 
 /// Charset
 pub const CHARSET: &str = "charset";

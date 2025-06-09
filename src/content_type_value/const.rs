@@ -830,3 +830,4 @@ pub const APPLICATION_ZIP: &str = "application/zip";
 pub const APPLICATION_VND_ZUL: &str = "application/vnd.zul";
 pub const APPLICATION_VND_HANDHELD_ENTERTAINMENT_XML: &str =
     "application/vnd.handheld-entertainment+xml";
+pub const MULTIPART_X_MIXED_REPLACE: &str = "multipart/x-mixed-replace";
