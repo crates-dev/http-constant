@@ -50,19 +50,19 @@ pub const TRANSFER_ENCODING: &str = "transfer-encoding";
 pub const UPGRADE: &str = "upgrade";
 
 /// The HTTP header field name `sec-websocket-accept`.
-pub const SEC_WEB_SOCKET_ACCEPT: &str = "sec-websocket-accept";
+pub const SEC_WEBSOCKET_ACCEPT: &str = "sec-websocket-accept";
 
 /// The HTTP header field name `sec-websocket-key`.
 pub const SEC_WEBSOCKET_KEY: &str = "sec-websocket-key";
 
 /// The HTTP header field name `sec-websocket-protocol`.
-pub const SEC_WEB_SOCKET_VERSION: &str = "sec-websocket-version";
+pub const SEC_WEBSOCKET_VERSION: &str = "sec-websocket-version";
 
 /// The HTTP header field name `sec-websocket-protocol`.
-pub const SEC_WEB_SOCKET_PROTOCOL: &str = "sec-websocket-protocol";
+pub const SEC_WEBSOCKET_PROTOCOL: &str = "sec-websocket-protocol";
 
 /// The HTTP header field name `sec-websocket-extensions`.
-pub const SEC_WEB_SOCKET_EXTENSIONS: &str = "sec-websocket-extensions";
+pub const SEC_WEBSOCKET_EXTENSIONS: &str = "sec-websocket-extensions";
 
 /// The HTTP header field name `vary`, used to specify that the response may vary based on certain request headers.
 pub const VARY: &str = "vary";
