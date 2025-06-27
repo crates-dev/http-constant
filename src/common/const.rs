@@ -145,6 +145,9 @@ pub const BASE64_CHARSET_TABLE: &[u8] =
 /// MAX_FRAME_SIZE
 pub const MAX_FRAME_SIZE: usize = 65535;
 
+/// MAX_UTF8_ATTEMPTS
+pub const MAX_UTF8_ATTEMPTS: usize = 4;
+
 /// DEFAULT_SOCKET_ADDR
 pub const DEFAULT_SOCKET_ADDR: SocketAddr =
     SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 0));
