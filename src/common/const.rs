@@ -194,3 +194,9 @@ pub const INFO: &str = "info";
 
 /// debug
 pub const DEBUG: &str = "debug";
+
+/// plain
+pub const PLAIN: &str = "plain";
+
+/// binary
+pub const BINARY: &str = "binary";
