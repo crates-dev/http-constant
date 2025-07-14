@@ -321,3 +321,155 @@ pub const TLS_1_2: &str = "TLS/1.2";
 
 /// TLS/1.3
 pub const TLS_1_3: &str = "TLS/1.3";
+
+/// Bytes
+pub const BYTES: &str = "bytes";
+
+/// Cache control directive: max-age
+pub const MAX_AGE: &str = "max-age";
+
+/// Cache control directive: must-revalidate
+pub const MUST_REVALIDATE: &str = "must-revalidate";
+
+/// Cache control directive: no-store
+pub const NO_STORE: &str = "no-store";
+
+/// Cache control directive: no-transform
+pub const NO_TRANSFORM: &str = "no-transform";
+
+/// Cache control directive: proxy-revalidate
+pub const PROXY_REVALIDATE: &str = "proxy-revalidate";
+
+/// Cache control directive: s-maxage
+pub const S_MAXAGE: &str = "s-maxage";
+
+/// Cache control directive: immutable
+pub const IMMUTABLE: &str = "immutable";
+
+/// Cache control directive: stale-while-revalidate
+pub const STALE_WHILE_REVALIDATE: &str = "stale-while-revalidate";
+
+/// Cache control directive: stale-if-error
+pub const STALE_IF_ERROR: &str = "stale-if-error";
+
+/// Content disposition: inline
+pub const INLINE: &str = "inline";
+
+/// Content disposition: attachment
+pub const ATTACHMENT: &str = "attachment";
+
+/// Content disposition: form-data
+pub const FORM_DATA: &str = "form-data";
+
+/// X-Frame-Options: ALLOWALL
+pub const ALLOWALL: &str = "ALLOWALL";
+
+/// X-Content-Type-Options: nosniff (already exists as NOSNIFF)
+
+/// Referrer Policy: no-referrer
+pub const NO_REFERRER: &str = "no-referrer";
+
+/// Referrer Policy: no-referrer-when-downgrade
+pub const NO_REFERRER_WHEN_DOWNGRADE: &str = "no-referrer-when-downgrade";
+
+/// Referrer Policy: origin
+pub const ORIGIN_ONLY: &str = "origin";
+
+/// Referrer Policy: origin-when-cross-origin
+pub const ORIGIN_WHEN_CROSS_ORIGIN: &str = "origin-when-cross-origin";
+
+/// Referrer Policy: same-origin
+pub const SAME_ORIGIN: &str = "same-origin";
+
+/// Referrer Policy: strict-origin
+pub const STRICT_ORIGIN: &str = "strict-origin";
+
+/// Referrer Policy: strict-origin-when-cross-origin
+pub const STRICT_ORIGIN_WHEN_CROSS_ORIGIN: &str = "strict-origin-when-cross-origin";
+
+/// Referrer Policy: unsafe-url
+pub const UNSAFE_URL: &str = "unsafe-url";
+
+/// Cross-Origin-Embedder-Policy: require-corp
+pub const REQUIRE_CORP: &str = "require-corp";
+
+/// Cross-Origin-Embedder-Policy: credentialless
+pub const CREDENTIALLESS: &str = "credentialless";
+
+/// Cross-Origin-Opener-Policy: same-origin
+pub const SAME_ORIGIN_COOP: &str = "same-origin";
+
+/// Cross-Origin-Opener-Policy: same-origin-allow-popups
+pub const SAME_ORIGIN_ALLOW_POPUPS: &str = "same-origin-allow-popups";
+
+/// Cross-Origin-Opener-Policy: unsafe-none
+pub const UNSAFE_NONE: &str = "unsafe-none";
+
+/// Cross-Origin-Resource-Policy: same-site
+pub const SAME_SITE: &str = "same-site";
+
+/// Cross-Origin-Resource-Policy: cross-origin
+pub const CROSS_ORIGIN: &str = "cross-origin";
+
+/// X-XSS-Protection: 1; mode=block
+pub const XSS_PROTECTION_BLOCK: &str = "1; mode=block";
+
+/// X-XSS-Protection: 0
+pub const XSS_PROTECTION_DISABLED: &str = "0";
+
+/// X-DNS-Prefetch-Control: on
+pub const DNS_PREFETCH_ON: &str = "on";
+
+/// X-DNS-Prefetch-Control: off
+pub const DNS_PREFETCH_OFF: &str = "off";
+
+/// X-Download-Options: noopen
+pub const NOOPEN: &str = "noopen";
+
+/// X-Permitted-Cross-Domain-Policies: none
+pub const NONE: &str = "none";
+
+/// X-Permitted-Cross-Domain-Policies: master-only
+pub const MASTER_ONLY: &str = "master-only";
+
+/// X-Permitted-Cross-Domain-Policies: by-content-type
+pub const BY_CONTENT_TYPE: &str = "by-content-type";
+
+/// X-Permitted-Cross-Domain-Policies: all
+pub const ALL: &str = "all";
+
+/// X-Robots-Tag: noindex
+pub const NOINDEX: &str = "noindex";
+
+/// X-Robots-Tag: nofollow
+pub const NOFOLLOW: &str = "nofollow";
+
+/// X-Robots-Tag: noarchive
+pub const NOARCHIVE: &str = "noarchive";
+
+/// X-Robots-Tag: nosnippet
+pub const NOSNIPPET: &str = "nosnippet";
+
+/// X-Robots-Tag: noimageindex
+pub const NOIMAGEINDEX: &str = "noimageindex";
+
+/// X-UA-Compatible: IE=edge
+pub const IE_EDGE: &str = "IE=edge";
+
+/// Expect: 100-continue
+pub const CONTINUE_EXPECT: &str = "100-continue";
+
+/// Transfer-Encoding: compress
+pub const COMPRESS: &str = "compress";
+
+/// Accept-Ranges: none
+pub const NONE_RANGES: &str = "none";
+
+/// Vary: accept-encoding
+pub const VARY_ACCEPT_ENCODING: &str = "accept-encoding";
+
+/// Vary: user-agent
+pub const VARY_USER_AGENT: &str = "user-agent";
+
+/// Vary: origin
+pub const VARY_ORIGIN: &str = "origin";

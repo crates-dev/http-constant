@@ -231,3 +231,114 @@ pub const DNT: &str = "dnt";
 
 /// The HTTP header field `sec-fetch-user`, used to indicate whether the request was triggered by a user activation.
 pub const SEC_FETCH_USER: &str = "sec-fetch-user";
+
+/// The HTTP header field `accept-ranges`, used to specify the range units that can be accepted.
+pub const ACCEPT_RANGES: &str = "accept-ranges";
+
+/// The HTTP header field `content-md5`, used to specify the MD5 checksum of the entity-body.
+pub const CONTENT_MD5: &str = "content-md5";
+
+/// The HTTP header field `content-location`, used to specify the location of the resource.
+pub const CONTENT_LOCATION: &str = "content-location";
+
+/// The HTTP header field `content-security-policy`, used to specify the security policy of the resource.
+pub const CONTENT_SECURITY_POLICY: &str = "content-security-policy";
+
+/// The HTTP header field `content-security-policy-report-only`, used to specify the security policy of the resource.
+pub const CONTENT_SECURITY_POLICY_REPORT_ONLY: &str = "content-security-policy-report-only";
+
+/// The HTTP header field `content-security-policy-report`, used to specify the security policy of the resource.
+pub const CONTENT_SECURITY_POLICY_REPORT: &str = "content-security-policy-report";
+
+/// The HTTP header field `content-security-policy-report-to`, used to specify the security policy of the resource.
+pub const CONTENT_SECURITY_POLICY_REPORT_TO: &str = "content-security-policy-report-to";
+
+/// The HTTP header field `content-security-policy-report-uri`, used to specify the security policy of the resource.
+pub const CONTENT_SECURITY_POLICY_REPORT_URI: &str = "content-security-policy-report-uri";
+
+/// The HTTP header field `x-forwarded-for`, used to identify the originating IP address of a client connecting through a proxy.
+pub const X_FORWARDED_FOR: &str = "x-forwarded-for";
+
+/// The HTTP header field `x-forwarded-host`, used to identify the original host requested by the client.
+pub const X_FORWARDED_HOST: &str = "x-forwarded-host";
+
+/// The HTTP header field `x-forwarded-proto`, used to identify the protocol used by the client to connect to the proxy.
+pub const X_FORWARDED_PROTO: &str = "x-forwarded-proto";
+
+/// The HTTP header field `x-forwarded-port`, used to identify the port used by the client to connect to the proxy.
+pub const X_FORWARDED_PORT: &str = "x-forwarded-port";
+
+/// The HTTP header field `x-real-ip`, used to identify the real IP address of the client.
+pub const X_REAL_IP: &str = "x-real-ip";
+
+/// The HTTP header field `accept-patch`, used to specify which patch document formats are accepted.
+pub const ACCEPT_PATCH: &str = "accept-patch";
+
+/// The HTTP header field `if-range`, used to make a range request conditional.
+pub const IF_RANGE: &str = "if-range";
+
+/// The HTTP header field `warning`, used to carry additional information about the status of a response.
+pub const WARNING_HEADER: &str = "warning";
+
+/// The HTTP header field `upgrade-insecure-requests`, used to signal the server that the client prefers encrypted responses.
+pub const UPGRADE_INSECURE_REQUESTS: &str = "upgrade-insecure-requests";
+
+/// The HTTP header field `x-xss-protection`, used to enable XSS filtering in browsers.
+pub const X_XSS_PROTECTION: &str = "x-xss-protection";
+
+/// The HTTP header field `referrer-policy`, used to control how much referrer information is included with requests.
+pub const REFERRER_POLICY: &str = "referrer-policy";
+
+/// The HTTP header field `feature-policy`, used to control which browser features can be used.
+pub const FEATURE_POLICY: &str = "feature-policy";
+
+/// The HTTP header field `permissions-policy`, used to control which browser features can be used.
+pub const PERMISSIONS_POLICY: &str = "permissions-policy";
+
+/// The HTTP header field `cross-origin-embedder-policy`, used to prevent a document from loading cross-origin resources.
+pub const CROSS_ORIGIN_EMBEDDER_POLICY: &str = "cross-origin-embedder-policy";
+
+/// The HTTP header field `cross-origin-opener-policy`, used to ensure a top-level document does not share a browsing context group.
+pub const CROSS_ORIGIN_OPENER_POLICY: &str = "cross-origin-opener-policy";
+
+/// The HTTP header field `cross-origin-resource-policy`, used to convey a desire that the browser blocks no-cors cross-origin requests.
+pub const CROSS_ORIGIN_RESOURCE_POLICY: &str = "cross-origin-resource-policy";
+
+/// The HTTP header field `timing-allow-origin`, used to specify origins that are allowed to see timing information.
+pub const TIMING_ALLOW_ORIGIN: &str = "timing-allow-origin";
+
+/// The HTTP header field `server-timing`, used to communicate performance metrics about the request-response cycle.
+pub const SERVER_TIMING: &str = "server-timing";
+
+/// The HTTP header field `clear-site-data`, used to clear browsing data associated with the requesting website.
+pub const CLEAR_SITE_DATA: &str = "clear-site-data";
+
+/// The HTTP header field `early-data`, used to indicate that the request was sent in TLS early data.
+pub const EARLY_DATA: &str = "early-data";
+
+/// The HTTP header field `accept-post`, used to specify which media types are accepted for POST requests.
+pub const ACCEPT_POST: &str = "accept-post";
+
+/// The HTTP header field `access-control-allow-credentials`, used to indicate whether credentials can be exposed.
+pub const ACCESS_CONTROL_ALLOW_CREDENTIALS: &str = "access-control-allow-credentials";
+
+/// The HTTP header field `nel`, used to define a network error logging policy.
+pub const NEL: &str = "nel";
+
+/// The HTTP header field `report-to`, used to specify endpoints for reporting.
+pub const REPORT_TO: &str = "report-to";
+
+/// The HTTP header field `x-dns-prefetch-control`, used to control DNS prefetching.
+pub const X_DNS_PREFETCH_CONTROL: &str = "x-dns-prefetch-control";
+
+/// The HTTP header field `x-download-options`, used to prevent file downloads from being executed.
+pub const X_DOWNLOAD_OPTIONS: &str = "x-download-options";
+
+/// The HTTP header field `x-permitted-cross-domain-policies`, used to control cross-domain policy files.
+pub const X_PERMITTED_CROSS_DOMAIN_POLICIES: &str = "x-permitted-cross-domain-policies";
+
+/// The HTTP header field `x-robots-tag`, used to control how search engines index content.
+pub const X_ROBOTS_TAG: &str = "x-robots-tag";
+
+/// The HTTP header field `x-ua-compatible`, used to specify which version of Internet Explorer the page should be rendered as.
+pub const X_UA_COMPATIBLE: &str = "x-ua-compatible";
