@@ -473,3 +473,30 @@ pub const VARY_USER_AGENT: &str = "user-agent";
 
 /// Vary: origin
 pub const VARY_ORIGIN: &str = "origin";
+
+/// domain
+pub const COOKIE_DOMAIN: &str = "domain";
+
+/// path
+pub const COOKIE_PATH: &str = "path";
+
+/// secure
+pub const COOKIE_SECURE: &str = "secure";
+
+/// HttpOnly
+pub const COOKIE_HTTP_ONLY: &str = "httponly";
+
+/// SameSite
+pub const COOKIE_SAME_SITE: &str = "samesite";
+
+/// max-age
+pub const COOKIE_MAX_AGE: &str = "max-age";
+
+/// expires
+pub const COOKIE_EXPIRES: &str = "expires";
+
+/// priority
+pub const COOKIE_PRIORITY: &str = "priority";
+
+/// preload
+pub const COOKIE_PRELOAD: &str = "preload";

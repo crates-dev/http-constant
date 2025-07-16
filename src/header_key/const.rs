@@ -164,16 +164,16 @@ pub const STRICT_TRANSPORT_SECURITY: &str = "strict-transport-security";
 pub const WWW_AUTHENTICATE: &str = "www-authenticate";
 
 /// The HTTP/2 pseudo-header field `:authority`, used to specify the authority portion of the target URI.
-pub const AUTHORITY: &str = ":authority";
+pub const COLON_AUTHORITY: &str = ":authority";
 
 /// The HTTP/2 pseudo-header field `:method`, used to specify the HTTP method.
-pub const METHOD: &str = ":method";
+pub const COLON_METHOD: &str = ":method";
 
 /// The HTTP/2 pseudo-header field `:path`, used to specify the path and query parts of the target URI.
-pub const PATH: &str = ":path";
+pub const COLON_PATH: &str = ":path";
 
 /// The HTTP/2 pseudo-header field `:scheme`, used to specify the scheme portion of the target URI.
-pub const SCHEME: &str = ":scheme";
+pub const COLON_SCHEME: &str = ":scheme";
 
 /// The HTTP header field `priority`, used to indicate the priority of the request.
 pub const PRIORITY: &str = "priority";
