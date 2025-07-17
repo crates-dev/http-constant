@@ -6,6 +6,7 @@ pub(crate) mod header_value;
 pub(crate) mod http_version;
 pub(crate) mod method;
 pub(crate) mod protocol;
+pub(crate) mod session;
 
 pub(crate) use std::{
     net::{Ipv4Addr, SocketAddr, SocketAddrV4},
@@ -20,3 +21,4 @@ pub use header_value::*;
 pub use http_version::*;
 pub use method::*;
 pub use protocol::*;
+pub use session::*;
