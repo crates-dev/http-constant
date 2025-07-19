@@ -166,7 +166,7 @@ pub const DEFAULT_INNER_PRINT: bool = true;
 pub const DEFAULT_INNER_LOG: bool = true;
 
 /// DEFAULT_NODELAY
-pub const DEFAULT_NODELAY: bool = false;
+pub const DEFAULT_NODELAY: Option<bool> = None;
 
 /// DEFAULT_LINGER
 pub const DEFAULT_LINGER: Option<Duration> = None;
