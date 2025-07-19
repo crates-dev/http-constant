@@ -123,9 +123,6 @@ pub const SEMICOLON: &str = ";";
 /// Semicolon and space
 pub const SEMICOLON_SPACE: &str = "; ";
 
-/// OK
-pub const OK: &str = "OK";
-
 /// GUID
 pub const GUID: &[u8; 36] = b"258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
 
