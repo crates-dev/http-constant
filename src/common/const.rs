@@ -51,82 +51,156 @@ pub const COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
 /// headers or key-value pairs, where a colon and a space are needed.
 pub const COLON_SPACE_SYMBOL: &str = ":";
 
-/// Query symbols
+/// A query symbol (`?`).
+///
+/// This constant represents the question mark character, which is
+/// commonly used to denote the beginning of a query string in a URL.
 pub const QUERY_SYMBOL: &str = "?";
 
-/// Hash symbols
+/// A hash symbol (`#`).
+///
+/// This constant represents the hash character, which is used to
+/// identify a fragment or anchor in a URL.
 pub const HASH_SYMBOL: &str = "#";
 
-/// Empty str
+/// An empty string.
+///
+/// This constant represents an empty string, which can be used as a
+/// default or placeholder value.
 pub const EMPTY_STR: &str = "";
 
-/// Default host
+/// The default host address.
+///
+/// This constant represents the default host address, which is typically
+/// used to bind a server to all available network interfaces.
 pub const DEFAULT_HOST: &str = "0.0.0.0";
 
-/// Default web port
+/// The default web port.
+///
+/// This constant represents the default port for HTTP traffic.
 pub const DEFAULT_WEB_PORT: usize = 80;
 
-/// Http br
+/// An HTTP line break (`\r\n`).
+///
+/// This constant represents the standard line break sequence used in
+/// the HTTP protocol.
 pub const HTTP_BR: &str = "\r\n";
 
-/// Http br bytes
+/// The byte representation of an HTTP line break.
+///
+/// This constant provides the byte equivalent of the HTTP line break
+/// for use in low-level network operations.
 pub const HTTP_BR_BYTES: &[u8] = HTTP_BR.as_bytes();
 
-/// Http double br
+/// A double HTTP line break (`\r\n\r\n`).
+///
+/// This constant represents the sequence used to separate headers
+/// from the body in an HTTP message.
 pub const HTTP_DOUBLE_BR: &str = "\r\n\r\n";
 
-/// Http double br bytes
+/// The byte representation of a double HTTP line break.
+///
+/// This constant provides the byte equivalent of the double HTTP line
+/// break for use in parsing and constructing HTTP messages.
 pub const HTTP_DOUBLE_BR_BYTES: &[u8] = HTTP_DOUBLE_BR.as_bytes();
 
-/// Default http path
+/// The default HTTP path.
+///
+/// This constant represents the root path of a URL, which is used
+/// when no specific path is provided.
 pub const DEFAULT_HTTP_PATH: &str = "/";
 
-/// Default http path bytes
+/// The byte representation of the default HTTP path.
+///
+/// This constant provides the byte equivalent of the default HTTP path
+/// for use in low-level operations.
 pub const DEFAULT_HTTP_PATH_BYTES: &[u8] = DEFAULT_HTTP_PATH.as_bytes();
 
-/// And
+/// An ampersand character (`&`).
+///
+/// This constant represents the ampersand character, which is used
+/// to separate query parameters in a URL.
 pub const AND: &str = "&";
 
-/// And bytes
+/// The byte representation of an ampersand character.
+///
+/// This constant provides the byte equivalent of the ampersand character
+/// for use in URL parsing and construction.
 pub const AND_BYTES: &[u8] = AND.as_bytes();
 
-/// Equal
+/// An equal sign (`=`).
+///
+/// This constant represents the equal sign, which is used to separate
+/// keys and values in query parameters.
 pub const EQUAL: &str = "=";
 
-/// Equal bytes
+/// The byte representation of an equal sign.
+///
+/// This constant provides the byte equivalent of the equal sign for
+/// use in URL parsing and construction.
 pub const EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
 
-/// Zero str
+/// The string representation of the number zero.
+///
+/// This constant represents the character '0' as a string.
 pub const ZERO_STR: &str = "0";
 
-/// Zero str bytes
+/// The byte representation of the number zero.
+///
+/// This constant provides the byte equivalent of the character '0'.
 pub const ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
 
-/// Default buffer size
+/// The default buffer size.
+///
+/// This constant defines the default size for buffers used in I/O
+/// operations, such as reading from a network stream.
 pub const DEFAULT_BUFFER_SIZE: usize = 4096;
 
-/// Default max redirect times
+/// The default maximum number of redirect times.
+///
+/// This constant specifies the default limit for the number of times
+/// an HTTP client should follow a redirect.
 pub const DEFAULT_MAX_REDIRECT_TIMES: usize = 8;
 
-/// Default timeout
+/// The default timeout value.
+///
+/// This constant represents the default timeout for operations, which
+/// is set to the maximum value of `u64` to indicate no timeout.
 pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
 
-/// Point
+/// A point character (`.`).
+///
+/// This constant represents the period or dot character, which is
+/// often used as a separator in file names or domain names.
 pub const POINT: &str = ".";
 
-/// Root path
+/// The root path.
+///
+/// This constant represents the root path in a file system or URL.
 pub const ROOT_PATH: &str = "/";
 
-/// Semicolon
+/// A semicolon character (`;`).
+///
+/// This constant represents the semicolon character, which is used
+/// as a separator in various contexts.
 pub const SEMICOLON: &str = ";";
 
-/// Semicolon and space
+/// A semicolon followed by a space (`; `).
+///
+/// This constant represents a semicolon followed by a space, which is
+/// commonly used as a separator in formatted text.
 pub const SEMICOLON_SPACE: &str = "; ";
 
-/// GUID
+/// A globally unique identifier (GUID) for WebSocket connections.
+///
+/// This constant is used in the WebSocket handshake process to create
+/// the `Sec-WebSocket-Accept` header.
 pub const GUID: &[u8; 36] = b"258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
 
-/// HASH_STATE
+/// The initial hash state for SHA-1.
+///
+/// This constant represents the initial values used in the SHA-1
+/// hashing algorithm.
 pub const HASH_STATE: [u32; 5] = [
     0x67452301u32,
     0xEFCDAB89,
@@ -135,65 +209,118 @@ pub const HASH_STATE: [u32; 5] = [
     0xC3D2E1F0,
 ];
 
-/// BASE64_CHARSET_TABLE
+/// The Base64 character set table.
+///
+/// This constant contains the characters used for Base64 encoding.
 pub const BASE64_CHARSET_TABLE: &[u8] =
     b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
-/// MAX_FRAME_SIZE
+/// The maximum frame size for WebSockets.
+///
+/// This constant defines the maximum size of a WebSocket frame that
+/// can be processed.
 pub const MAX_FRAME_SIZE: usize = 65535;
 
-/// MAX_UTF8_ATTEMPTS
+/// The maximum number of attempts to decode a UTF-8 character.
+///
+/// This constant specifies the maximum number of bytes that can be
+/// part of a single UTF-8 character.
 pub const MAX_UTF8_ATTEMPTS: usize = 4;
 
-/// DEFAULT_SOCKET_ADDR
+/// The default socket address.
+///
+/// This constant represents a default, unspecified socket address.
 pub const DEFAULT_SOCKET_ADDR: SocketAddr =
     SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 0));
 
-/// SOCKET_ADDR_127_0_0_1
+/// The loopback socket address (127.0.0.1).
+///
+/// This constant represents the loopback address, which is used for
+/// local network communication.
 pub const SOCKET_ADDR_127_0_0_1: SocketAddr =
     SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(127, 0, 0, 1), 0));
 
-/// hyperlane
+/// The string "hyperlane".
+///
+/// This constant is used for identification or naming purposes.
 pub const HYPERLANE: &str = "hyperlane";
 
-/// Hyperlane
+/// The string "Hyperlane" in PascalCase.
+///
+/// This constant is a PascalCase version of the "hyperlane" string.
 pub const HYPERLANE_PASCAL_CASE: &str = "Hyperlane";
 
-/// DEFAULT_INNER_PRINT
+/// The string "Hyperlane" in UpperCase.
+///
+/// This constant is a UpperCase version of the "hyperlane" string.
+pub const HYPERLANE_UPPERCASE: &str = "HYPERLANE";
+
+/// The default setting for inner printing.
+///
+/// This constant determines whether internal printing is enabled by
+/// default.
 pub const DEFAULT_INNER_PRINT: bool = true;
 
-/// DEFAULT_NODELAY
+/// The default setting for inner logging.
+///
+/// This constant determines whether internal logging is enabled by
+/// default.
 pub const DEFAULT_INNER_LOG: bool = true;
 
-/// DEFAULT_NODELAY
+/// The default setting for TCP_NODELAY.
+///
+/// This constant specifies the default value for the `TCP_NODELAY`
+/// socket option.
 pub const DEFAULT_NODELAY: Option<bool> = None;
 
-/// DEFAULT_LINGER
+/// The default setting for socket linger.
+///
+/// This constant specifies the default value for the `SO_LINGER`
+/// socket option.
 pub const DEFAULT_LINGER: Option<Duration> = None;
 
-/// DEFAULT_TTI
+/// The default time-to-live (TTL) setting.
+///
+/// This constant specifies the default value for the IP_TTL socket
+/// option.
 pub const DEFAULT_TTI: Option<u32> = None;
 
-/// warning
+/// The string "warning".
+///
+/// This constant is used to represent a warning message type.
 pub const WARNING: &str = "warning";
 
-/// success
+/// The string "success".
+///
+/// This constant is used to represent a success message type.
 pub const SUCCESS: &str = "success";
 
-/// fail
+/// The string "fail".
+///
+/// This constant is used to represent a failure message type.
 pub const FAIL: &str = "fail";
 
-/// error
+/// The string "error".
+///
+/// This constant is used to represent an error message type.
 pub const ERROR: &str = "error";
 
-/// info
+/// The string "info".
+///
+/// This constant is used to represent an informational message type.
 pub const INFO: &str = "info";
 
-/// debug
+/// The string "debug".
+///
+/// This constant is used to represent a debug message type.
 pub const DEBUG: &str = "debug";
 
-/// plain
+/// The string "plain".
+///
+/// This constant is used to represent plain text content.
 pub const PLAIN: &str = "plain";
 
-/// binary
+/// The string "binary".
+///
+/// This constant is used to represent binary content.
 pub const BINARY: &str = "binary";

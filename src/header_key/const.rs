@@ -100,7 +100,7 @@ pub const ACCESS_CONTROL_ALLOW_METHODS: &str = "access-control-allow-methods";
 /// The HTTP header field `access-control-allow-headers`, used to specify which http headers can be used during the request.
 pub const ACCESS_CONTROL_ALLOW_HEADERS: &str = "access-control-allow-headers";
 
-/// Expires
+/// The HTTP header field `expires`, used to specify the date/time after which the response is considered stale.
 pub const EXPIRES: &str = "expires";
 
 /// The HTTP header field `if-match`, used to make a request conditional based on etag values.

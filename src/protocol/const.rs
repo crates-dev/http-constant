@@ -1,56 +1,56 @@
-/// A constant representing the "HTTP" protocol.
+/// Represents the uppercase "HTTP" protocol string.
 pub const HTTP_UPPERCASE: &str = "HTTP";
 
-/// A constant representing the "HTTPS" protocol.
+/// Represents the uppercase "HTTPS" protocol string.
 pub const HTTPS_UPPERCASE: &str = "HTTPS";
 
-/// A constant representing the "http" protocol.
+/// Represents the lowercase "http" protocol string.
 pub const HTTP_LOWERCASE: &str = "http";
 
-/// A constant representing the "https" protocol.
+/// Represents the lowercase "https" protocol string.
 pub const HTTPS_LOWERCASE: &str = "https";
 
-/// Websocket
+/// Represents the "websocket" protocol string.
 pub const WEBSOCKET: &str = "websocket";
 
-/// A constant representing the "ws" protocol.
+/// Represents the "ws" protocol string, commonly used for WebSockets.
 pub const WS: &str = "ws";
 
-/// A constant representing the "wss" protocol.
+/// Represents the "wss" protocol string, commonly used for secure WebSockets.
 pub const WSS: &str = "wss";
 
-/// A constant representing the "ftp" protocol.
+/// Represents the "ftp" protocol string.
 pub const FTP: &str = "ftp";
 
-/// A constant representing the "ftps" protocol.
+/// Represents the "ftps" protocol string, commonly used for secure FTP.
 pub const FTPS: &str = "ftps";
 
-/// A constant representing the "sftp" protocol.
+/// Represents the "sftp" protocol string, commonly used for SSH File Transfer Protocol.
 pub const SFTP: &str = "sftp";
 
-/// A constant representing the "file" protocol.
+/// Represents the "file" protocol string, used for local file access.
 pub const FILE: &str = "file";
 
-/// A constant representing the "mailto" protocol.
+/// Represents the "mailto" protocol string, used for email addresses.
 pub const MAILTO: &str = "mailto";
 
-/// A constant representing the "data" protocol.
+/// Represents the "data" protocol string, used for embedding small files inline.
 pub const DATA: &str = "data";
 
-/// A constant representing the "tel" protocol.
+/// Represents the "tel" protocol string, used for telephone numbers.
 pub const TEL: &str = "tel";
 
-/// A constant representing the "sms" protocol.
+/// Represents the "sms" protocol string, used for SMS messages.
 pub const SMS: &str = "sms";
 
-/// A constant representing the "gopher" protocol.
+/// Represents the "gopher" protocol string.
 pub const GOPHER: &str = "gopher";
 
-/// A constant representing the "ldap" protocol.
+/// Represents the "ldap" protocol string, used for Lightweight Directory Access Protocol.
 pub const LDAP: &str = "ldap";
 
-/// A constant representing the "ldaps" protocol.
+/// Represents the "ldaps" protocol string, used for secure LDAP.
 pub const LDAPS: &str = "ldaps";
 
-/// Unknown HTTP version
+/// Represents an unknown or unspecified HTTP version string.
 pub const UNKNOWN_HTTP_VERSION: &str = "";

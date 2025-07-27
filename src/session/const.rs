@@ -1,99 +1,102 @@
-/// Default session cookie name
+/// The default name for the session cookie.
 pub const SESSION_COOKIE_NAME: &str = "session_id";
 
-/// Default session ID length
+/// The default length of the session ID.
 pub const SESSION_ID_LENGTH: usize = 32;
 
-/// Default session timeout in seconds (30 minutes)
+/// The default session timeout duration in seconds (30 minutes).
 pub const SESSION_TIMEOUT_SECONDS: u64 = 1800;
 
-/// Default session timeout in milliseconds (30 minutes)
+/// The default session timeout duration in milliseconds (30 minutes).
 pub const SESSION_TIMEOUT_MILLISECONDS: u64 = 1800000;
 
-/// Session
+/// A string constant representing "session".
 pub const SESSION: &str = "session";
 
-/// Session data key for user ID
+/// The session data key used to store the user's ID.
 pub const SESSION_USER_ID_KEY: &str = "user_id";
 
-/// Session data key for username
+/// The session data key used to store the username.
 pub const SESSION_USERNAME_KEY: &str = "username";
 
-/// Session data key for user role
+/// The session data key used to store the user's role.
 pub const SESSION_USER_ROLE_KEY: &str = "user_role";
 
-/// Session data key for login time
+/// The session data key used to store the login timestamp.
 pub const SESSION_LOGIN_TIME_KEY: &str = "login_time";
 
-/// Session data key for last access time
+/// The session data key used to store the last access timestamp.
 pub const SESSION_LAST_ACCESS_TIME_KEY: &str = "last_access_time";
 
-/// Session data key for IP address
+/// The session data key used to store the client's IP address.
 pub const SESSION_IP_ADDRESS_KEY: &str = "ip_address";
 
-/// Session data key for user agent
+/// The session data key used to store the client's user agent string.
 pub const SESSION_USER_AGENT_KEY: &str = "user_agent";
 
-/// Session data key for CSRF token
+/// The session data key used to store the CSRF token.
 pub const SESSION_CSRF_TOKEN_KEY: &str = "csrf_token";
 
-/// Session data key for language preference
+/// The session data key used to store the user's language preference.
 pub const SESSION_LANGUAGE_KEY: &str = "language";
 
-/// Session data key for timezone
+/// The session data key used to store the user's timezone.
 pub const SESSION_TIMEZONE_KEY: &str = "timezone";
 
-/// Session state: active
+/// The string representing an active session state.
 pub const SESSION_STATE_ACTIVE: &str = "active";
 
-/// Session state: expired
+/// The string representing an expired session state.
 pub const SESSION_STATE_EXPIRED: &str = "expired";
 
-/// Session state: invalid
+/// The string representing an invalid session state.
 pub const SESSION_STATE_INVALID: &str = "invalid";
 
-/// Session state: destroyed
+/// The string representing a destroyed session state.
 pub const SESSION_STATE_DESTROYED: &str = "destroyed";
 
-/// Default session cleanup interval in seconds (5 minutes)
+/// The default interval in seconds for cleaning up expired sessions (5 minutes).
 pub const SESSION_CLEANUP_INTERVAL_SECONDS: u64 = 300;
 
-/// Maximum number of sessions per user
+/// The maximum number of concurrent sessions allowed per user.
 pub const MAX_SESSIONS_PER_USER: usize = 5;
 
-/// Session ID character set for generation
+/// The character set used for generating session IDs.
 pub const SESSION_ID_CHARSET: &str =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-/// Session ID character set bytes
+/// The byte representation of the session ID character set.
 pub const SESSION_ID_CHARSET_BYTES: &[u8] = SESSION_ID_CHARSET.as_bytes();
 
-/// Session regeneration threshold in seconds (15 minutes)
+/// The threshold in seconds after which a session should be regenerated (15 minutes).
 pub const SESSION_REGENERATION_THRESHOLD_SECONDS: u64 = 900;
 
-/// Session flash message key prefix
+/// The prefix used for session flash message keys.
 pub const SESSION_FLASH_MESSAGE_PREFIX: &str = "flash:";
 
-/// Session flash message types
+/// The type for a successful flash message.
 pub const SESSION_FLASH_SUCCESS: &str = "success";
+/// The type for an error flash message.
 pub const SESSION_FLASH_ERROR: &str = "error";
+/// The type for a warning flash message.
 pub const SESSION_FLASH_WARNING: &str = "warning";
+/// The type for an informational flash message.
 pub const SESSION_FLASH_INFO: &str = "info";
 
-/// Session remember me cookie name
+/// The name of the "remember me" cookie.
 pub const SESSION_REMEMBER_ME_COOKIE_NAME: &str = "remember_me";
 
-/// Session remember me token length
+/// The length of the "remember me" token.
 pub const SESSION_REMEMBER_ME_TOKEN_LENGTH: usize = 64;
 
-/// Session remember me timeout in seconds (30 days)
+/// The timeout duration in seconds for the "remember me" token (30 days).
 pub const SESSION_REMEMBER_ME_TIMEOUT_SECONDS: u64 = 2592000;
 
-/// Session fingerprint components separator
+/// The separator used between components of a session fingerprint.
 pub const SESSION_FINGERPRINT_SEPARATOR: &str = "|";
 
-/// Session lock timeout in milliseconds
+/// The timeout in milliseconds for acquiring a session lock.
 pub const SESSION_LOCK_TIMEOUT_MILLISECONDS: u64 = 5000;
 
-/// Session concurrent access limit
+/// The maximum number of concurrent accesses allowed for a single session.
 pub const SESSION_CONCURRENT_ACCESS_LIMIT: usize = 10;
