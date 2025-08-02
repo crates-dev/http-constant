@@ -1,6 +1,7 @@
 [package]
 name = "http-constant"
-version = "1.59.2"
+version = "1.59.3"
+readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
 license = "MIT"
