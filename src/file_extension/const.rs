@@ -2116,3 +2116,5 @@ pub const FILE_EXTENSION_BASH: &str = "bash";
 pub const FILE_EXTENSION_ZSH: &str = "zsh";
 /// The file extension for env.
 pub const FILE_EXTENSION_ENV: &str = "env";
+/// The file extension for cj.
+pub const FILE_EXTENSION_CJ: &str = "cj";
