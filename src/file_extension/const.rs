@@ -1394,8 +1394,6 @@ pub const FILE_EXTENSION_S3M: &str = "s3m";
 pub const FILE_EXTENSION_SAF: &str = "saf";
 /// The file extension for SBML XML.
 pub const FILE_EXTENSION_SBML: &str = "sbml";
-/// The file extension for IBM Secure Container.
-pub const FILE_EXTENSION_SC: &str = "sc";
 /// The file extension for Microsoft Schedule.
 pub const FILE_EXTENSION_SCD: &str = "scd";
 /// The file extension for Lotus ScreenCam.
@@ -2020,3 +2018,73 @@ pub const FILE_EXTENSION_ZIR: &str = "zir";
 pub const FILE_EXTENSION_ZIRZ: &str = "zirz";
 /// The file extension for Handheld Entertainment XML.
 pub const FILE_EXTENSION_ZMM: &str = "zmm";
+/// The file extension for markdown.
+pub const FILE_EXTENSION_MARKDOWN: &str = "md";
+/// The file extension for toml.
+pub const FILE_EXTENSION_TOML: &str = "toml";
+/// The file extension for yaml.
+pub const FILE_EXTENSION_YAML: &str = "yaml";
+/// The file extension for yaml.
+pub const FILE_EXTENSION_YML: &str = "yml";
+/// The file extension for ini.
+pub const FILE_EXTENSION_INI: &str = "ini";
+/// The file extension for cfg.
+pub const FILE_EXTENSION_CFG: &str = "cfg";
+/// The file extension for Python.
+pub const FILE_EXTENSION_PY: &str = "py";
+/// The file extension for Go.
+pub const FILE_EXTENSION_GO: &str = "go";
+/// The file extension for TypeScript.
+pub const FILE_EXTENSION_TS: &str = "ts";
+/// The file extension for C#.
+pub const FILE_EXTENSION_CS: &str = "cs";
+/// The file extension for PHP.
+pub const FILE_EXTENSION_PHP: &str = "php";
+/// The file extension for Ruby.
+pub const FILE_EXTENSION_RB: &str = "rb";
+/// The file extension for Swift.
+pub const FILE_EXTENSION_SWIFT: &str = "swift";
+/// The file extension for Kotlin.
+pub const FILE_EXTENSION_KT: &str = "kt";
+/// The file extension for Kotlin Script.
+pub const FILE_EXTENSION_KTS: &str = "kts";
+/// The file extension for Scala.
+pub const FILE_EXTENSION_SCALA: &str = "scala";
+/// The file extension for IBM Secure Container or Scala Script.
+pub const FILE_EXTENSION_SC: &str = "sc";
+/// The file extension for Perl.
+pub const FILE_EXTENSION_PL: &str = "pl";
+/// The file extension for Perl Module.
+pub const FILE_EXTENSION_PM: &str = "pm";
+/// The file extension for Lua.
+pub const FILE_EXTENSION_LUA: &str = "lua";
+/// The file extension for PowerShell.
+pub const FILE_EXTENSION_PS1: &str = "ps1";
+/// The file extension for C++ Header.
+pub const FILE_EXTENSION_HPP: &str = "hpp";
+/// The file extension for Objective-C.
+pub const FILE_EXTENSION_M: &str = "m";
+/// The file extension for Objective-C++.
+pub const FILE_EXTENSION_MM: &str = "mm";
+/// The file extension for Groovy.
+pub const FILE_EXTENSION_GROOVY: &str = "groovy";
+/// The file extension for R.
+pub const FILE_EXTENSION_R: &str = "r";
+/// The file extension for SCSS.
+pub const FILE_EXTENSION_SCSS: &str = "scss";
+/// The file extension for SASS.
+pub const FILE_EXTENSION_SASS: &str = "sass";
+/// The file extension for LESS.
+pub const FILE_EXTENSION_LESS: &str = "less";
+/// The file extension for Vue.
+pub const FILE_EXTENSION_VUE: &str = "vue";
+/// The file extension for JSX.
+pub const FILE_EXTENSION_JSX: &str = "jsx";
+/// The file extension for TSX.
+pub const FILE_EXTENSION_TSX: &str = "tsx";
+/// The file extension for Dockerfile.
+pub const FILE_EXTENSION_DOCKERFILE: &str = "dockerfile";
+/// The file extension for Makefile.
+pub const FILE_EXTENSION_MAKEFILE: &str = "makefile";
+/// The file extension for Gitignore.
+pub const FILE_EXTENSION_GITIGNORE: &str = "gitignore";
