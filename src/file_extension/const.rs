@@ -2086,8 +2086,6 @@ pub const FILE_EXTENSION_DOCKERFILE: &str = "dockerfile";
 pub const FILE_EXTENSION_MAKEFILE: &str = "makefile";
 /// The file extension for Gitignore.
 pub const FILE_EXTENSION_GITIGNORE: &str = "gitignore";
-/// The file extension for JavaScript.
-pub const FILE_EXTENSION_JAVASCRIPT: &str = "js";
 /// The file extension for RLS Services XML or Rust.
 pub const FILE_EXTENSION_RS: &str = "rs";
 /// The file extension for Haskell.
