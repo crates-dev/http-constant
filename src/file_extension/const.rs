@@ -1376,8 +1376,6 @@ pub const FILE_EXTENSION_RPSS: &str = "rpss";
 pub const FILE_EXTENSION_RPST: &str = "rpst";
 /// The file extension for SPARQL Query.
 pub const FILE_EXTENSION_RQ: &str = "rq";
-/// The file extension for RLS Services XML.
-pub const FILE_EXTENSION_RS: &str = "rs";
 /// The file extension for RSD XML.
 pub const FILE_EXTENSION_RSD: &str = "rsd";
 /// The file extension for RSS XML.
@@ -2088,3 +2086,35 @@ pub const FILE_EXTENSION_DOCKERFILE: &str = "dockerfile";
 pub const FILE_EXTENSION_MAKEFILE: &str = "makefile";
 /// The file extension for Gitignore.
 pub const FILE_EXTENSION_GITIGNORE: &str = "gitignore";
+/// The file extension for JavaScript.
+pub const FILE_EXTENSION_JAVASCRIPT: &str = "js";
+/// The file extension for RLS Services XML or Rust.
+pub const FILE_EXTENSION_RS: &str = "rs";
+/// The file extension for Haskell.
+pub const FILE_EXTENSION_HS: &str = "hs";
+/// The file extension for Erlang.
+pub const FILE_EXTENSION_ERL: &str = "erl";
+/// The file extension for Elixir.
+pub const FILE_EXTENSION_EX: &str = "ex";
+/// The file extension for Elixir Script.
+pub const FILE_EXTENSION_EXS: &str = "exs";
+/// The file extension for Clojure.
+pub const FILE_EXTENSION_CLJ: &str = "clj";
+/// The file extension for ClojureScript.
+pub const FILE_EXTENSION_CLJS: &str = "cljs";
+/// The file extension for Clojure Common.
+pub const FILE_EXTENSION_CLJC: &str = "cljc";
+/// The file extension for F#.
+pub const FILE_EXTENSION_FS: &str = "fs";
+/// The file extension for F# Script.
+pub const FILE_EXTENSION_FSX: &str = "fsx";
+/// The file extension for OCaml.
+pub const FILE_EXTENSION_ML: &str = "ml";
+/// The file extension for OCaml Interface.
+pub const FILE_EXTENSION_MLI: &str = "mli";
+/// The file extension for Bash.
+pub const FILE_EXTENSION_BASH: &str = "bash";
+/// The file extension for Zsh.
+pub const FILE_EXTENSION_ZSH: &str = "zsh";
+/// The file extension for env.
+pub const FILE_EXTENSION_ENV: &str = "env";
