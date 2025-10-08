@@ -4,7 +4,7 @@ use crate::*;
 ///
 /// This constant is used to represent a space character in string
 /// or byte operations.
-pub const SPACE: &str = " ";
+pub const SPACE: &'static str = " ";
 
 /// The byte representation of a single space character.
 ///
@@ -16,7 +16,7 @@ pub const SPACE_U8: u8 = SPACE.as_bytes()[0];
 ///
 /// This constant is used to represent a tab character in string
 /// or byte operations.
-pub const TAB: &str = "\t";
+pub const TAB: &'static str = "\t";
 
 /// The byte representation of a tab character.
 ///
@@ -28,52 +28,58 @@ pub const TAB_U8: u8 = TAB.as_bytes()[0];
 ///
 /// This constant is used to represent a line break character in
 /// string or byte operations.
-pub const BR: &str = "\n";
+pub const BR: &'static str = "\n";
+
+/// A double line break.
+pub const DOUBLE_BR: &'static str = "\n\n";
 
 /// A const byte slice representation of the string `BR`.
-pub const BR_BYTES: &[u8] = BR.as_bytes();
+pub const BR_BYTES: &'static [u8] = BR.as_bytes();
+
+/// A const byte slice representation of the string `DOUBLE_BR`.
+pub const DOUBLE_BR_BYTES: &'static [u8] = DOUBLE_BR.as_bytes();
 
 /// A colon followed by a space (`: `).
 ///
 /// This constant is commonly used in formatted strings, such as
 /// headers or key-value pairs, where a colon and a space are needed.
-pub const COLON_SPACE: &str = ": ";
+pub const COLON_SPACE: &'static str = ": ";
 
 /// The byte representation of the first character in the `COLON_SPACE`.
 ///
 /// This constant provides the byte equivalent of the colon character
 /// from the `COLON_SPACE` string.
-pub const COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
+pub const COLON_SPACE_BYTES: &'static [u8] = COLON_SPACE.as_bytes();
 
 /// A colon followed by a space symbol (`:`).
 ///
 /// This constant is commonly used in formatted strings, such as
 /// headers or key-value pairs, where a colon and a space are needed.
-pub const COLON_SPACE_SYMBOL: &str = ":";
+pub const COLON_SPACE_SYMBOL: &'static str = ":";
 
 /// A query symbol (`?`).
 ///
 /// This constant represents the question mark character, which is
 /// commonly used to denote the beginning of a query string in a URL.
-pub const QUERY_SYMBOL: &str = "?";
+pub const QUERY_SYMBOL: &'static str = "?";
 
 /// A hash symbol (`#`).
 ///
 /// This constant represents the hash character, which is used to
 /// identify a fragment or anchor in a URL.
-pub const HASH_SYMBOL: &str = "#";
+pub const HASH_SYMBOL: &'static str = "#";
 
 /// An empty string.
 ///
 /// This constant represents an empty string, which can be used as a
 /// default or placeholder value.
-pub const EMPTY_STR: &str = "";
+pub const EMPTY_STR: &'static str = "";
 
 /// The default host address.
 ///
 /// This constant represents the default host address, which is typically
 /// used to bind a server to all available network interfaces.
-pub const DEFAULT_HOST: &str = "0.0.0.0";
+pub const DEFAULT_HOST: &'static str = "0.0.0.0";
 
 /// The default web port.
 ///
@@ -84,71 +90,71 @@ pub const DEFAULT_WEB_PORT: usize = 80;
 ///
 /// This constant represents the standard line break sequence used in
 /// the HTTP protocol.
-pub const HTTP_BR: &str = "\r\n";
+pub const HTTP_BR: &'static str = "\r\n";
 
 /// The byte representation of an HTTP line break.
 ///
 /// This constant provides the byte equivalent of the HTTP line break
 /// for use in low-level network operations.
-pub const HTTP_BR_BYTES: &[u8] = HTTP_BR.as_bytes();
+pub const HTTP_BR_BYTES: &'static [u8] = HTTP_BR.as_bytes();
 
 /// A double HTTP line break (`\r\n\r\n`).
 ///
 /// This constant represents the sequence used to separate headers
 /// from the body in an HTTP message.
-pub const HTTP_DOUBLE_BR: &str = "\r\n\r\n";
+pub const HTTP_DOUBLE_BR: &'static str = "\r\n\r\n";
 
 /// The byte representation of a double HTTP line break.
 ///
 /// This constant provides the byte equivalent of the double HTTP line
 /// break for use in parsing and constructing HTTP messages.
-pub const HTTP_DOUBLE_BR_BYTES: &[u8] = HTTP_DOUBLE_BR.as_bytes();
+pub const HTTP_DOUBLE_BR_BYTES: &'static [u8] = HTTP_DOUBLE_BR.as_bytes();
 
 /// The default HTTP path.
 ///
 /// This constant represents the root path of a URL, which is used
 /// when no specific path is provided.
-pub const DEFAULT_HTTP_PATH: &str = "/";
+pub const DEFAULT_HTTP_PATH: &'static str = "/";
 
 /// The byte representation of the default HTTP path.
 ///
 /// This constant provides the byte equivalent of the default HTTP path
 /// for use in low-level operations.
-pub const DEFAULT_HTTP_PATH_BYTES: &[u8] = DEFAULT_HTTP_PATH.as_bytes();
+pub const DEFAULT_HTTP_PATH_BYTES: &'static [u8] = DEFAULT_HTTP_PATH.as_bytes();
 
 /// An ampersand character (`&`).
 ///
 /// This constant represents the ampersand character, which is used
 /// to separate query parameters in a URL.
-pub const AND: &str = "&";
+pub const AND: &'static str = "&";
 
 /// The byte representation of an ampersand character.
 ///
 /// This constant provides the byte equivalent of the ampersand character
 /// for use in URL parsing and construction.
-pub const AND_BYTES: &[u8] = AND.as_bytes();
+pub const AND_BYTES: &'static [u8] = AND.as_bytes();
 
 /// An equal sign (`=`).
 ///
 /// This constant represents the equal sign, which is used to separate
 /// keys and values in query parameters.
-pub const EQUAL: &str = "=";
+pub const EQUAL: &'static str = "=";
 
 /// The byte representation of an equal sign.
 ///
 /// This constant provides the byte equivalent of the equal sign for
 /// use in URL parsing and construction.
-pub const EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
+pub const EQUAL_BYTES: &'static [u8] = EQUAL.as_bytes();
 
 /// The string representation of the number zero.
 ///
 /// This constant represents the character '0' as a string.
-pub const ZERO_STR: &str = "0";
+pub const ZERO_STR: &'static str = "0";
 
 /// The byte representation of the number zero.
 ///
 /// This constant provides the byte equivalent of the character '0'.
-pub const ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
+pub const ZERO_STR_BYTES: &'static [u8] = ZERO_STR.as_bytes();
 
 /// The default buffer size.
 ///
@@ -172,24 +178,24 @@ pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
 ///
 /// This constant represents the period or dot character, which is
 /// often used as a separator in file names or domain names.
-pub const POINT: &str = ".";
+pub const POINT: &'static str = ".";
 
 /// The root path.
 ///
 /// This constant represents the root path in a file system or URL.
-pub const ROOT_PATH: &str = "/";
+pub const ROOT_PATH: &'static str = "/";
 
 /// A semicolon character (`;`).
 ///
 /// This constant represents the semicolon character, which is used
 /// as a separator in various contexts.
-pub const SEMICOLON: &str = ";";
+pub const SEMICOLON: &'static str = ";";
 
 /// A semicolon followed by a space (`; `).
 ///
 /// This constant represents a semicolon followed by a space, which is
 /// commonly used as a separator in formatted text.
-pub const SEMICOLON_SPACE: &str = "; ";
+pub const SEMICOLON_SPACE: &'static str = "; ";
 
 /// A globally unique identifier (GUID) for WebSocket connections.
 ///
@@ -212,7 +218,7 @@ pub const HASH_STATE: [u32; 5] = [
 /// The Base64 character set table.
 ///
 /// This constant contains the characters used for Base64 encoding.
-pub const BASE64_CHARSET_TABLE: &[u8] =
+pub const BASE64_CHARSET_TABLE: &'static [u8] =
     b"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
 /// The maximum frame size for WebSockets.
@@ -243,17 +249,17 @@ pub const SOCKET_ADDR_127_0_0_1: SocketAddr =
 /// The string "hyperlane".
 ///
 /// This constant is used for identification or naming purposes.
-pub const HYPERLANE: &str = "hyperlane";
+pub const HYPERLANE: &'static str = "hyperlane";
 
 /// The string "Hyperlane" in PascalCase.
 ///
 /// This constant is a PascalCase version of the "hyperlane" string.
-pub const HYPERLANE_PASCAL_CASE: &str = "Hyperlane";
+pub const HYPERLANE_PASCAL_CASE: &'static str = "Hyperlane";
 
 /// The string "Hyperlane" in UpperCase.
 ///
 /// This constant is a UpperCase version of the "hyperlane" string.
-pub const HYPERLANE_UPPERCASE: &str = "HYPERLANE";
+pub const HYPERLANE_UPPERCASE: &'static str = "HYPERLANE";
 
 /// The default setting for inner printing.
 ///
@@ -288,39 +294,39 @@ pub const DEFAULT_TTI: Option<u32> = None;
 /// The string "warning".
 ///
 /// This constant is used to represent a warning message type.
-pub const WARNING: &str = "warning";
+pub const WARNING: &'static str = "warning";
 
 /// The string "success".
 ///
 /// This constant is used to represent a success message type.
-pub const SUCCESS: &str = "success";
+pub const SUCCESS: &'static str = "success";
 
 /// The string "fail".
 ///
 /// This constant is used to represent a failure message type.
-pub const FAIL: &str = "fail";
+pub const FAIL: &'static str = "fail";
 
 /// The string "error".
 ///
 /// This constant is used to represent an error message type.
-pub const ERROR: &str = "error";
+pub const ERROR: &'static str = "error";
 
 /// The string "info".
 ///
 /// This constant is used to represent an informational message type.
-pub const INFO: &str = "info";
+pub const INFO: &'static str = "info";
 
 /// The string "debug".
 ///
 /// This constant is used to represent a debug message type.
-pub const DEBUG: &str = "debug";
+pub const DEBUG: &'static str = "debug";
 
 /// The string "plain".
 ///
 /// This constant is used to represent plain text content.
-pub const PLAIN: &str = "plain";
+pub const PLAIN: &'static str = "plain";
 
 /// The string "binary".
 ///
 /// This constant is used to represent binary content.
-pub const BINARY: &str = "binary";
+pub const BINARY: &'static str = "binary";
