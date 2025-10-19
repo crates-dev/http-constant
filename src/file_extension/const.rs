@@ -1,2120 +1,2120 @@
 /// The file extension for Lotus 1-2-3.
-pub const FILE_EXTENSION_123: &'static str = "123";
+pub const FILE_EXTENSION_123: &str = "123";
 /// The file extension for 3DML.
-pub const FILE_EXTENSION_3DML: &'static str = "3dml";
+pub const FILE_EXTENSION_3DML: &str = "3dml";
 /// The file extension for 3D Studio.
-pub const FILE_EXTENSION_3DS: &'static str = "3ds";
+pub const FILE_EXTENSION_3DS: &str = "3ds";
 /// The file extension for 3GPP2.
-pub const FILE_EXTENSION_3G2: &'static str = "3g2";
+pub const FILE_EXTENSION_3G2: &str = "3g2";
 /// The file extension for 3GPP.
-pub const FILE_EXTENSION_3GP: &'static str = "3gp";
+pub const FILE_EXTENSION_3GP: &str = "3gp";
 /// The file extension for 7-Zip.
-pub const FILE_EXTENSION_7Z: &'static str = "7z";
+pub const FILE_EXTENSION_7Z: &str = "7z";
 /// The file extension for Authorware.
-pub const FILE_EXTENSION_AAB: &'static str = "aab";
+pub const FILE_EXTENSION_AAB: &str = "aab";
 /// The file extension for AAC audio.
-pub const FILE_EXTENSION_AAC: &'static str = "aac";
+pub const FILE_EXTENSION_AAC: &str = "aac";
 /// The file extension for Authorware.
-pub const FILE_EXTENSION_AAM: &'static str = "aam";
+pub const FILE_EXTENSION_AAM: &str = "aam";
 /// The file extension for Authorware.
-pub const FILE_EXTENSION_AAS: &'static str = "aas";
+pub const FILE_EXTENSION_AAS: &str = "aas";
 /// The file extension for an absolute file.
-pub const FILE_EXTENSION_ABS: &'static str = "abs";
+pub const FILE_EXTENSION_ABS: &str = "abs";
 /// The file extension for AbiWord.
-pub const FILE_EXTENSION_ABW: &'static str = "abw";
+pub const FILE_EXTENSION_ABW: &str = "abw";
 /// The file extension for an AC file.
-pub const FILE_EXTENSION_AC: &'static str = "ac";
+pub const FILE_EXTENSION_AC: &str = "ac";
 /// The file extension for American Dynamics ACC.
-pub const FILE_EXTENSION_ACC: &'static str = "acc";
+pub const FILE_EXTENSION_ACC: &str = "acc";
 /// The file extension for ACE archive.
-pub const FILE_EXTENSION_ACE: &'static str = "ace";
+pub const FILE_EXTENSION_ACE: &str = "ace";
 /// The file extension for AcuCobol.
-pub const FILE_EXTENSION_ACU: &'static str = "acu";
+pub const FILE_EXTENSION_ACU: &str = "acu";
 /// The file extension for AcuCobol.
-pub const FILE_EXTENSION_ACUTC: &'static str = "acutc";
+pub const FILE_EXTENSION_ACUTC: &str = "acutc";
 /// The file extension for ADPCM audio.
-pub const FILE_EXTENSION_ADP: &'static str = "adp";
+pub const FILE_EXTENSION_ADP: &str = "adp";
 /// The file extension for Audiograph.
-pub const FILE_EXTENSION_AEP: &'static str = "aep";
+pub const FILE_EXTENSION_AEP: &str = "aep";
 /// The file extension for Adobe Font Metrics.
-pub const FILE_EXTENSION_AFM: &'static str = "afm";
+pub const FILE_EXTENSION_AFM: &str = "afm";
 /// The file extension for AFP.
-pub const FILE_EXTENSION_AFP: &'static str = "afp";
+pub const FILE_EXTENSION_AFP: &str = "afp";
 /// The file extension for Ahead AIR Application.
-pub const FILE_EXTENSION_AHEAD: &'static str = "ahead";
+pub const FILE_EXTENSION_AHEAD: &str = "ahead";
 /// The file extension for Adobe Illustrator.
-pub const FILE_EXTENSION_AI: &'static str = "ai";
+pub const FILE_EXTENSION_AI: &str = "ai";
 /// The file extension for AIFF audio.
-pub const FILE_EXTENSION_AIF: &'static str = "aif";
+pub const FILE_EXTENSION_AIF: &str = "aif";
 /// The file extension for AIFF audio.
-pub const FILE_EXTENSION_AIFC: &'static str = "aifc";
+pub const FILE_EXTENSION_AIFC: &str = "aifc";
 /// The file extension for AIFF audio.
-pub const FILE_EXTENSION_AIFF: &'static str = "aiff";
+pub const FILE_EXTENSION_AIFF: &str = "aiff";
 /// The file extension for AIM.
-pub const FILE_EXTENSION_AIM: &'static str = "aim";
+pub const FILE_EXTENSION_AIM: &str = "aim";
 /// The file extension for Adobe AIR Application.
-pub const FILE_EXTENSION_AIR: &'static str = "air";
+pub const FILE_EXTENSION_AIR: &str = "air";
 /// The file extension for DVB AIT.
-pub const FILE_EXTENSION_AIT: &'static str = "ait";
+pub const FILE_EXTENSION_AIT: &str = "ait";
 /// The file extension for Amiga AMI.
-pub const FILE_EXTENSION_AMI: &'static str = "ami";
+pub const FILE_EXTENSION_AMI: &str = "ami";
 /// The file extension for Annodex.
-pub const FILE_EXTENSION_ANX: &'static str = "anx";
+pub const FILE_EXTENSION_ANX: &str = "anx";
 /// The file extension for Android Package Archive.
-pub const FILE_EXTENSION_APK: &'static str = "apk";
+pub const FILE_EXTENSION_APK: &str = "apk";
 /// The file extension for Cache Manifest.
-pub const FILE_EXTENSION_APPCACHE: &'static str = "appcache";
+pub const FILE_EXTENSION_APPCACHE: &str = "appcache";
 /// The file extension for Microsoft Application.
-pub const FILE_EXTENSION_APPLICATION: &'static str = "application";
+pub const FILE_EXTENSION_APPLICATION: &str = "application";
 /// The file extension for Lotus Approach.
-pub const FILE_EXTENSION_APR: &'static str = "apr";
+pub const FILE_EXTENSION_APR: &str = "apr";
 /// The file extension for FreeArc archive.
-pub const FILE_EXTENSION_ARC: &'static str = "arc";
+pub const FILE_EXTENSION_ARC: &str = "arc";
 /// The file extension for ART image.
-pub const FILE_EXTENSION_ART: &'static str = "art";
+pub const FILE_EXTENSION_ART: &str = "art";
 /// The file extension for PGP signature.
-pub const FILE_EXTENSION_ASC: &'static str = "asc";
+pub const FILE_EXTENSION_ASC: &str = "asc";
 /// The file extension for ASF video.
-pub const FILE_EXTENSION_ASF: &'static str = "asf";
+pub const FILE_EXTENSION_ASF: &str = "asf";
 /// The file extension for Assembly source.
-pub const FILE_EXTENSION_ASM: &'static str = "asm";
+pub const FILE_EXTENSION_ASM: &str = "asm";
 /// The file extension for Accpac Simply ASO.
-pub const FILE_EXTENSION_ASO: &'static str = "aso";
+pub const FILE_EXTENSION_ASO: &str = "aso";
 /// The file extension for ASX video.
-pub const FILE_EXTENSION_ASX: &'static str = "asx";
+pub const FILE_EXTENSION_ASX: &str = "asx";
 /// The file extension for AcuCorp.
-pub const FILE_EXTENSION_ATC: &'static str = "atc";
+pub const FILE_EXTENSION_ATC: &str = "atc";
 /// The file extension for Atom feed.
-pub const FILE_EXTENSION_ATOM: &'static str = "atom";
+pub const FILE_EXTENSION_ATOM: &str = "atom";
 /// The file extension for Atom category document.
-pub const FILE_EXTENSION_ATOMCAT: &'static str = "atomcat";
+pub const FILE_EXTENSION_ATOMCAT: &str = "atomcat";
 /// The file extension for Atom service document.
-pub const FILE_EXTENSION_ATOMSVC: &'static str = "atomsvc";
+pub const FILE_EXTENSION_ATOMSVC: &str = "atomsvc";
 /// The file extension for Antix Game Component.
-pub const FILE_EXTENSION_ATX: &'static str = "atx";
+pub const FILE_EXTENSION_ATX: &str = "atx";
 /// The file extension for basic audio.
-pub const FILE_EXTENSION_AU: &'static str = "au";
+pub const FILE_EXTENSION_AU: &str = "au";
 /// The file extension for AVI video.
-pub const FILE_EXTENSION_AVI: &'static str = "avi";
+pub const FILE_EXTENSION_AVI: &str = "avi";
 /// The file extension for Rad ScreenPlay video.
-pub const FILE_EXTENSION_AVX: &'static str = "avx";
+pub const FILE_EXTENSION_AVX: &str = "avx";
 /// The file extension for Applixware.
-pub const FILE_EXTENSION_AW: &'static str = "aw";
+pub const FILE_EXTENSION_AW: &str = "aw";
 /// The file extension for Annodex audio.
-pub const FILE_EXTENSION_AXA: &'static str = "axa";
+pub const FILE_EXTENSION_AXA: &str = "axa";
 /// The file extension for Annodex video.
-pub const FILE_EXTENSION_AXV: &'static str = "axv";
+pub const FILE_EXTENSION_AXV: &str = "axv";
 /// The file extension for AirZip FileSecure AZF.
-pub const FILE_EXTENSION_AZF: &'static str = "azf";
+pub const FILE_EXTENSION_AZF: &str = "azf";
 /// The file extension for AirZip FileSecure AZS.
-pub const FILE_EXTENSION_AZS: &'static str = "azs";
+pub const FILE_EXTENSION_AZS: &str = "azs";
 /// The file extension for Amazon Kindle eBook.
-pub const FILE_EXTENSION_AZW: &'static str = "azw";
+pub const FILE_EXTENSION_AZW: &str = "azw";
 /// The file extension for Batch file.
-pub const FILE_EXTENSION_BAT: &'static str = "bat";
+pub const FILE_EXTENSION_BAT: &str = "bat";
 /// The file extension for BCPIO archive.
-pub const FILE_EXTENSION_BCPIO: &'static str = "bcpio";
+pub const FILE_EXTENSION_BCPIO: &str = "bcpio";
 /// The file extension for BDF font.
-pub const FILE_EXTENSION_BDF: &'static str = "bdf";
+pub const FILE_EXTENSION_BDF: &str = "bdf";
 /// The file extension for SyncML DM+WBXML.
-pub const FILE_EXTENSION_BDM: &'static str = "bdm";
+pub const FILE_EXTENSION_BDM: &str = "bdm";
 /// The file extension for RealVNC BED.
-pub const FILE_EXTENSION_BED: &'static str = "bed";
+pub const FILE_EXTENSION_BED: &str = "bed";
 /// The file extension for Fujitsu OasysPRS.
-pub const FILE_EXTENSION_BH2: &'static str = "bh2";
+pub const FILE_EXTENSION_BH2: &str = "bh2";
 /// The file extension for binary data.
-pub const FILE_EXTENSION_BIN: &'static str = "bin";
+pub const FILE_EXTENSION_BIN: &str = "bin";
 /// The file extension for Blorb interactive fiction.
-pub const FILE_EXTENSION_BLB: &'static str = "blb";
+pub const FILE_EXTENSION_BLB: &str = "blb";
 /// The file extension for Blorb interactive fiction.
-pub const FILE_EXTENSION_BLORB: &'static str = "blorb";
+pub const FILE_EXTENSION_BLORB: &str = "blorb";
 /// The file extension for BMI.
-pub const FILE_EXTENSION_BMI: &'static str = "bmi";
+pub const FILE_EXTENSION_BMI: &str = "bmi";
 /// The file extension for BMP image.
-pub const FILE_EXTENSION_BMP: &'static str = "bmp";
+pub const FILE_EXTENSION_BMP: &str = "bmp";
 /// The file extension for a body file.
-pub const FILE_EXTENSION_BODY: &'static str = "body";
+pub const FILE_EXTENSION_BODY: &str = "body";
 /// The file extension for a book file.
-pub const FILE_EXTENSION_BOOK: &'static str = "book";
+pub const FILE_EXTENSION_BOOK: &str = "book";
 /// The file extension for Preview Systems BOX.
-pub const FILE_EXTENSION_BOX: &'static str = "box";
+pub const FILE_EXTENSION_BOX: &str = "box";
 /// The file extension for BZip2 archive.
-pub const FILE_EXTENSION_BOZ: &'static str = "boz";
+pub const FILE_EXTENSION_BOZ: &str = "boz";
 /// The file extension for a package file.
-pub const FILE_EXTENSION_BPK: &'static str = "bpk";
+pub const FILE_EXTENSION_BPK: &str = "bpk";
 /// The file extension for BTIF image.
-pub const FILE_EXTENSION_BTIF: &'static str = "btif";
+pub const FILE_EXTENSION_BTIF: &str = "btif";
 /// The file extension for BZip archive.
-pub const FILE_EXTENSION_BZ: &'static str = "bz";
+pub const FILE_EXTENSION_BZ: &str = "bz";
 /// The file extension for BZip2 archive.
-pub const FILE_EXTENSION_BZ2: &'static str = "bz2";
+pub const FILE_EXTENSION_BZ2: &str = "bz2";
 /// The file extension for C source code.
-pub const FILE_EXTENSION_C: &'static str = "c";
+pub const FILE_EXTENSION_C: &str = "c";
 /// The file extension for ClueTrust CartoMobile Config.
-pub const FILE_EXTENSION_C11AMC: &'static str = "c11amc";
+pub const FILE_EXTENSION_C11AMC: &str = "c11amc";
 /// The file extension for ClueTrust CartoMobile Config Package.
-pub const FILE_EXTENSION_C11AMZ: &'static str = "c11amz";
+pub const FILE_EXTENSION_C11AMZ: &str = "c11amz";
 /// The file extension for Clonk C4Group.
-pub const FILE_EXTENSION_C4D: &'static str = "c4d";
+pub const FILE_EXTENSION_C4D: &str = "c4d";
 /// The file extension for Clonk C4Group.
-pub const FILE_EXTENSION_C4F: &'static str = "c4f";
+pub const FILE_EXTENSION_C4F: &str = "c4f";
 /// The file extension for Clonk C4Group.
-pub const FILE_EXTENSION_C4G: &'static str = "c4g";
+pub const FILE_EXTENSION_C4G: &str = "c4g";
 /// The file extension for Clonk C4Group.
-pub const FILE_EXTENSION_C4P: &'static str = "c4p";
+pub const FILE_EXTENSION_C4P: &str = "c4p";
 /// The file extension for Clonk C4Group.
-pub const FILE_EXTENSION_C4U: &'static str = "c4u";
+pub const FILE_EXTENSION_C4U: &str = "c4u";
 /// The file extension for Microsoft Cabinet file.
-pub const FILE_EXTENSION_CAB: &'static str = "cab";
+pub const FILE_EXTENSION_CAB: &str = "cab";
 /// The file extension for CAF audio.
-pub const FILE_EXTENSION_CAF: &'static str = "caf";
+pub const FILE_EXTENSION_CAF: &str = "caf";
 /// The file extension for TCPDump capture file.
-pub const FILE_EXTENSION_CAP: &'static str = "cap";
+pub const FILE_EXTENSION_CAP: &str = "cap";
 /// The file extension for cURL CAR file.
-pub const FILE_EXTENSION_CAR: &'static str = "car";
+pub const FILE_EXTENSION_CAR: &str = "car";
 /// The file extension for Microsoft PKI Security Catalog.
-pub const FILE_EXTENSION_CAT: &'static str = "cat";
+pub const FILE_EXTENSION_CAT: &str = "cat";
 /// The file extension for Comic Book archive.
-pub const FILE_EXTENSION_CB7: &'static str = "cb7";
+pub const FILE_EXTENSION_CB7: &str = "cb7";
 /// The file extension for Comic Book archive.
-pub const FILE_EXTENSION_CBA: &'static str = "cba";
+pub const FILE_EXTENSION_CBA: &str = "cba";
 /// The file extension for Comic Book RAR archive.
-pub const FILE_EXTENSION_CBR: &'static str = "cbr";
+pub const FILE_EXTENSION_CBR: &str = "cbr";
 /// The file extension for Comic Book archive.
-pub const FILE_EXTENSION_CBT: &'static str = "cbt";
+pub const FILE_EXTENSION_CBT: &str = "cbt";
 /// The file extension for Comic Book ZIP archive.
-pub const FILE_EXTENSION_CBZ: &'static str = "cbz";
+pub const FILE_EXTENSION_CBZ: &str = "cbz";
 /// The file extension for C++ source code.
-pub const FILE_EXTENSION_CC: &'static str = "cc";
+pub const FILE_EXTENSION_CC: &str = "cc";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_CCT: &'static str = "cct";
+pub const FILE_EXTENSION_CCT: &str = "cct";
 /// The file extension for CCXML.
-pub const FILE_EXTENSION_CCXML: &'static str = "ccxml";
+pub const FILE_EXTENSION_CCXML: &str = "ccxml";
 /// The file extension for Contact CMSG.
-pub const FILE_EXTENSION_CDBCMSG: &'static str = "cdbcmsg";
+pub const FILE_EXTENSION_CDBCMSG: &str = "cdbcmsg";
 /// The file extension for CDF.
-pub const FILE_EXTENSION_CDF: &'static str = "cdf";
+pub const FILE_EXTENSION_CDF: &str = "cdf";
 /// The file extension for MediaStation CDKey.
-pub const FILE_EXTENSION_CDKEY: &'static str = "cdkey";
+pub const FILE_EXTENSION_CDKEY: &str = "cdkey";
 /// The file extension for CDMI Capability.
-pub const FILE_EXTENSION_CDMIA: &'static str = "cdmia";
+pub const FILE_EXTENSION_CDMIA: &str = "cdmia";
 /// The file extension for CDMI Container.
-pub const FILE_EXTENSION_CDMIC: &'static str = "cdmic";
+pub const FILE_EXTENSION_CDMIC: &str = "cdmic";
 /// The file extension for CDMI Domain.
-pub const FILE_EXTENSION_CDMID: &'static str = "cdmid";
+pub const FILE_EXTENSION_CDMID: &str = "cdmid";
 /// The file extension for CDMI Object.
-pub const FILE_EXTENSION_CDMIO: &'static str = "cdmio";
+pub const FILE_EXTENSION_CDMIO: &str = "cdmio";
 /// The file extension for CDMI Queue.
-pub const FILE_EXTENSION_CDMIQ: &'static str = "cdmiq";
+pub const FILE_EXTENSION_CDMIQ: &str = "cdmiq";
 /// The file extension for ChemDraw CDX.
-pub const FILE_EXTENSION_CDX: &'static str = "cdx";
+pub const FILE_EXTENSION_CDX: &str = "cdx";
 /// The file extension for ChemDraw XML.
-pub const FILE_EXTENSION_CDXML: &'static str = "cdxml";
+pub const FILE_EXTENSION_CDXML: &str = "cdxml";
 /// The file extension for Cinderella.
-pub const FILE_EXTENSION_CDY: &'static str = "cdy";
+pub const FILE_EXTENSION_CDY: &str = "cdy";
 /// The file extension for PKIX Certificate.
-pub const FILE_EXTENSION_CER: &'static str = "cer";
+pub const FILE_EXTENSION_CER: &str = "cer";
 /// The file extension for CFS compressed file.
-pub const FILE_EXTENSION_CFS: &'static str = "cfs";
+pub const FILE_EXTENSION_CFS: &str = "cfs";
 /// The file extension for CGM image.
-pub const FILE_EXTENSION_CGM: &'static str = "cgm";
+pub const FILE_EXTENSION_CGM: &str = "cgm";
 /// The file extension for Chat file.
-pub const FILE_EXTENSION_CHAT: &'static str = "chat";
+pub const FILE_EXTENSION_CHAT: &str = "chat";
 /// The file extension for Microsoft HTML Help.
-pub const FILE_EXTENSION_CHM: &'static str = "chm";
+pub const FILE_EXTENSION_CHM: &str = "chm";
 /// The file extension for KDE KChart.
-pub const FILE_EXTENSION_CHRT: &'static str = "chrt";
+pub const FILE_EXTENSION_CHRT: &str = "chrt";
 /// The file extension for CIF.
-pub const FILE_EXTENSION_CIF: &'static str = "cif";
+pub const FILE_EXTENSION_CIF: &str = "cif";
 /// The file extension for Anser-Web Certificate Issue Initiation.
-pub const FILE_EXTENSION_CII: &'static str = "cii";
+pub const FILE_EXTENSION_CII: &str = "cii";
 /// The file extension for Microsoft ArtGalry.
-pub const FILE_EXTENSION_CIL: &'static str = "cil";
+pub const FILE_EXTENSION_CIL: &str = "cil";
 /// The file extension for Claymore.
-pub const FILE_EXTENSION_CLA: &'static str = "cla";
+pub const FILE_EXTENSION_CLA: &str = "cla";
 /// The file extension for Java class.
-pub const FILE_EXTENSION_CLASS: &'static str = "class";
+pub const FILE_EXTENSION_CLASS: &str = "class";
 /// The file extension for Crick Clicker Keyboard.
-pub const FILE_EXTENSION_CLKK: &'static str = "clkk";
+pub const FILE_EXTENSION_CLKK: &str = "clkk";
 /// The file extension for Crick Clicker Palette.
-pub const FILE_EXTENSION_CLKP: &'static str = "clkp";
+pub const FILE_EXTENSION_CLKP: &str = "clkp";
 /// The file extension for Crick Clicker Template.
-pub const FILE_EXTENSION_CLKT: &'static str = "clkt";
+pub const FILE_EXTENSION_CLKT: &str = "clkt";
 /// The file extension for Crick Clicker Wordbank.
-pub const FILE_EXTENSION_CLKW: &'static str = "clkw";
+pub const FILE_EXTENSION_CLKW: &str = "clkw";
 /// The file extension for Crick Clicker.
-pub const FILE_EXTENSION_CLKX: &'static str = "clkx";
+pub const FILE_EXTENSION_CLKX: &str = "clkx";
 /// The file extension for Microsoft Clipboard.
-pub const FILE_EXTENSION_CLP: &'static str = "clp";
+pub const FILE_EXTENSION_CLP: &str = "clp";
 /// The file extension for CosmoCaller.
-pub const FILE_EXTENSION_CMC: &'static str = "cmc";
+pub const FILE_EXTENSION_CMC: &str = "cmc";
 /// The file extension for CMDF.
-pub const FILE_EXTENSION_CMDF: &'static str = "cmdf";
+pub const FILE_EXTENSION_CMDF: &str = "cmdf";
 /// The file extension for CML.
-pub const FILE_EXTENSION_CML: &'static str = "cml";
+pub const FILE_EXTENSION_CML: &str = "cml";
 /// The file extension for a CMP file.
-pub const FILE_EXTENSION_CMP: &'static str = "cmp";
+pub const FILE_EXTENSION_CMP: &str = "cmp";
 /// The file extension for CMX image.
-pub const FILE_EXTENSION_CMX: &'static str = "cmx";
+pub const FILE_EXTENSION_CMX: &str = "cmx";
 /// The file extension for RIM COD.
-pub const FILE_EXTENSION_COD: &'static str = "cod";
+pub const FILE_EXTENSION_COD: &str = "cod";
 /// The file extension for a command file.
-pub const FILE_EXTENSION_COM: &'static str = "com";
+pub const FILE_EXTENSION_COM: &str = "com";
 /// The file extension for a configuration file.
-pub const FILE_EXTENSION_CONF: &'static str = "conf";
+pub const FILE_EXTENSION_CONF: &str = "conf";
 /// The file extension for CPIO archive.
-pub const FILE_EXTENSION_CPIO: &'static str = "cpio";
+pub const FILE_EXTENSION_CPIO: &str = "cpio";
 /// The file extension for C++ source code.
-pub const FILE_EXTENSION_CPP: &'static str = "cpp";
+pub const FILE_EXTENSION_CPP: &str = "cpp";
 /// The file extension for Mac CompactPro.
-pub const FILE_EXTENSION_CPT: &'static str = "cpt";
+pub const FILE_EXTENSION_CPT: &str = "cpt";
 /// The file extension for Microsoft CardFile.
-pub const FILE_EXTENSION_CRD: &'static str = "crd";
+pub const FILE_EXTENSION_CRD: &str = "crd";
 /// The file extension for PKIX CRL.
-pub const FILE_EXTENSION_CRL: &'static str = "crl";
+pub const FILE_EXTENSION_CRL: &str = "crl";
 /// The file extension for X.509 CA Certificate.
-pub const FILE_EXTENSION_CRT: &'static str = "crt";
+pub const FILE_EXTENSION_CRT: &str = "crt";
 /// The file extension for Rig Cryptonote.
-pub const FILE_EXTENSION_CRYPTONOTE: &'static str = "cryptonote";
+pub const FILE_EXTENSION_CRYPTONOTE: &str = "cryptonote";
 /// The file extension for C-Shell script.
-pub const FILE_EXTENSION_CSH: &'static str = "csh";
+pub const FILE_EXTENSION_CSH: &str = "csh";
 /// The file extension for CSML.
-pub const FILE_EXTENSION_CSML: &'static str = "csml";
+pub const FILE_EXTENSION_CSML: &str = "csml";
 /// The file extension for CommonSpace.
-pub const FILE_EXTENSION_CSP: &'static str = "csp";
+pub const FILE_EXTENSION_CSP: &str = "csp";
 /// The file extension for CSS.
-pub const FILE_EXTENSION_CSS: &'static str = "css";
+pub const FILE_EXTENSION_CSS: &str = "css";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_CST: &'static str = "cst";
+pub const FILE_EXTENSION_CST: &str = "cst";
 /// The file extension for CSV.
-pub const FILE_EXTENSION_CSV: &'static str = "csv";
+pub const FILE_EXTENSION_CSV: &str = "csv";
 /// The file extension for CU-SeeMe.
-pub const FILE_EXTENSION_CU: &'static str = "cu";
+pub const FILE_EXTENSION_CU: &str = "cu";
 /// The file extension for cURL text.
-pub const FILE_EXTENSION_CURL: &'static str = "curl";
+pub const FILE_EXTENSION_CURL: &str = "curl";
 /// The file extension for CWW.
-pub const FILE_EXTENSION_CWW: &'static str = "cww";
+pub const FILE_EXTENSION_CWW: &str = "cww";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_CXT: &'static str = "cxt";
+pub const FILE_EXTENSION_CXT: &str = "cxt";
 /// The file extension for C++ source code.
-pub const FILE_EXTENSION_CXX: &'static str = "cxx";
+pub const FILE_EXTENSION_CXX: &str = "cxx";
 /// The file extension for COLLADA XML.
-pub const FILE_EXTENSION_DAE: &'static str = "dae";
+pub const FILE_EXTENSION_DAE: &str = "dae";
 /// The file extension for Mobius DAF.
-pub const FILE_EXTENSION_DAF: &'static str = "daf";
+pub const FILE_EXTENSION_DAF: &str = "daf";
 /// The file extension for Dart.
-pub const FILE_EXTENSION_DART: &'static str = "dart";
+pub const FILE_EXTENSION_DART: &str = "dart";
 /// The file extension for FDSN SEED.
-pub const FILE_EXTENSION_DATALESS: &'static str = "dataless";
+pub const FILE_EXTENSION_DATALESS: &str = "dataless";
 /// The file extension for WebDAV Mount.
-pub const FILE_EXTENSION_DAVMOUNT: &'static str = "davmount";
+pub const FILE_EXTENSION_DAVMOUNT: &str = "davmount";
 /// The file extension for DocBook XML.
-pub const FILE_EXTENSION_DBK: &'static str = "dbk";
+pub const FILE_EXTENSION_DBK: &str = "dbk";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_DCR: &'static str = "dcr";
+pub const FILE_EXTENSION_DCR: &str = "dcr";
 /// The file extension for cURL DCURL.
-pub const FILE_EXTENSION_DCURL: &'static str = "dcurl";
+pub const FILE_EXTENSION_DCURL: &str = "dcurl";
 /// The file extension for OMA DD2 XML.
-pub const FILE_EXTENSION_DD2: &'static str = "dd2";
+pub const FILE_EXTENSION_DD2: &str = "dd2";
 /// The file extension for Fujixerox DDD.
-pub const FILE_EXTENSION_DDD: &'static str = "ddd";
+pub const FILE_EXTENSION_DDD: &str = "ddd";
 /// The file extension for Debian package.
-pub const FILE_EXTENSION_DEB: &'static str = "deb";
+pub const FILE_EXTENSION_DEB: &str = "deb";
 /// The file extension for a definition file.
-pub const FILE_EXTENSION_DEF: &'static str = "def";
+pub const FILE_EXTENSION_DEF: &str = "def";
 /// The file extension for a deployment file.
-pub const FILE_EXTENSION_DEPLOY: &'static str = "deploy";
+pub const FILE_EXTENSION_DEPLOY: &str = "deploy";
 /// The file extension for DER certificate.
-pub const FILE_EXTENSION_DER: &'static str = "der";
+pub const FILE_EXTENSION_DER: &str = "der";
 /// The file extension for DreamFactory.
-pub const FILE_EXTENSION_DFAC: &'static str = "dfac";
+pub const FILE_EXTENSION_DFAC: &str = "dfac";
 /// The file extension for DGC compressed.
-pub const FILE_EXTENSION_DGC: &'static str = "dgc";
+pub const FILE_EXTENSION_DGC: &str = "dgc";
 /// The file extension for DIB image.
-pub const FILE_EXTENSION_DIB: &'static str = "dib";
+pub const FILE_EXTENSION_DIB: &str = "dib";
 /// The file extension for Yamaha HV Dictionary.
-pub const FILE_EXTENSION_DIC: &'static str = "dic";
+pub const FILE_EXTENSION_DIC: &str = "dic";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_DIR: &'static str = "dir";
+pub const FILE_EXTENSION_DIR: &str = "dir";
 /// The file extension for Mobius DIS.
-pub const FILE_EXTENSION_DIS: &'static str = "dis";
+pub const FILE_EXTENSION_DIS: &str = "dis";
 /// The file extension for a distribution file.
-pub const FILE_EXTENSION_DIST: &'static str = "dist";
+pub const FILE_EXTENSION_DIST: &str = "dist";
 /// The file extension for a distribution file.
-pub const FILE_EXTENSION_DISTZ: &'static str = "distz";
+pub const FILE_EXTENSION_DISTZ: &str = "distz";
 /// The file extension for DjVu image.
-pub const FILE_EXTENSION_DJV: &'static str = "djv";
+pub const FILE_EXTENSION_DJV: &str = "djv";
 /// The file extension for DjVu image.
-pub const FILE_EXTENSION_DJVU: &'static str = "djvu";
+pub const FILE_EXTENSION_DJVU: &str = "djvu";
 /// The file extension for Dynamic Link Library.
-pub const FILE_EXTENSION_DLL: &'static str = "dll";
+pub const FILE_EXTENSION_DLL: &str = "dll";
 /// The file extension for Apple Disk Image.
-pub const FILE_EXTENSION_DMG: &'static str = "dmg";
+pub const FILE_EXTENSION_DMG: &str = "dmg";
 /// The file extension for TCPDump capture file.
-pub const FILE_EXTENSION_DMP: &'static str = "dmp";
+pub const FILE_EXTENSION_DMP: &str = "dmp";
 /// The file extension for a DMS file.
-pub const FILE_EXTENSION_DMS: &'static str = "dms";
+pub const FILE_EXTENSION_DMS: &str = "dms";
 /// The file extension for DNA.
-pub const FILE_EXTENSION_DNA: &'static str = "dna";
+pub const FILE_EXTENSION_DNA: &str = "dna";
 /// The file extension for Microsoft Word.
-pub const FILE_EXTENSION_DOC: &'static str = "doc";
+pub const FILE_EXTENSION_DOC: &str = "doc";
 /// The file extension for Microsoft Word (Macro-Enabled).
-pub const FILE_EXTENSION_DOCM: &'static str = "docm";
+pub const FILE_EXTENSION_DOCM: &str = "docm";
 /// The file extension for Office Open XML Word Document.
-pub const FILE_EXTENSION_DOCX: &'static str = "docx";
+pub const FILE_EXTENSION_DOCX: &str = "docx";
 /// The file extension for Microsoft Word Template.
-pub const FILE_EXTENSION_DOT: &'static str = "dot";
+pub const FILE_EXTENSION_DOT: &str = "dot";
 /// The file extension for Microsoft Word Template (Macro-Enabled).
-pub const FILE_EXTENSION_DOTM: &'static str = "dotm";
+pub const FILE_EXTENSION_DOTM: &str = "dotm";
 /// The file extension for Office Open XML Word Template.
-pub const FILE_EXTENSION_DOTX: &'static str = "dotx";
+pub const FILE_EXTENSION_DOTX: &str = "dotx";
 /// The file extension for OSGi Deployment Package.
-pub const FILE_EXTENSION_DP: &'static str = "dp";
+pub const FILE_EXTENSION_DP: &str = "dp";
 /// The file extension for DPGraph.
-pub const FILE_EXTENSION_DPG: &'static str = "dpg";
+pub const FILE_EXTENSION_DPG: &str = "dpg";
 /// The file extension for DRA audio.
-pub const FILE_EXTENSION_DRA: &'static str = "dra";
+pub const FILE_EXTENSION_DRA: &str = "dra";
 /// The file extension for PRS Lines Tag.
-pub const FILE_EXTENSION_DSC: &'static str = "dsc";
+pub const FILE_EXTENSION_DSC: &str = "dsc";
 /// The file extension for DSSC DER.
-pub const FILE_EXTENSION_DSSC: &'static str = "dssc";
+pub const FILE_EXTENSION_DSSC: &str = "dssc";
 /// The file extension for DTBook XML.
-pub const FILE_EXTENSION_DTB: &'static str = "dtb";
+pub const FILE_EXTENSION_DTB: &str = "dtb";
 /// The file extension for XML DTD.
-pub const FILE_EXTENSION_DTD: &'static str = "dtd";
+pub const FILE_EXTENSION_DTD: &str = "dtd";
 /// The file extension for DTS audio.
-pub const FILE_EXTENSION_DTS: &'static str = "dts";
+pub const FILE_EXTENSION_DTS: &str = "dts";
 /// The file extension for DTS HD audio.
-pub const FILE_EXTENSION_DTSHD: &'static str = "dtshd";
+pub const FILE_EXTENSION_DTSHD: &str = "dtshd";
 /// The file extension for a dump file.
-pub const FILE_EXTENSION_DUMP: &'static str = "dump";
+pub const FILE_EXTENSION_DUMP: &str = "dump";
 /// The file extension for DV video.
-pub const FILE_EXTENSION_DV: &'static str = "dv";
+pub const FILE_EXTENSION_DV: &str = "dv";
 /// The file extension for DVB file.
-pub const FILE_EXTENSION_DVB: &'static str = "dvb";
+pub const FILE_EXTENSION_DVB: &str = "dvb";
 /// The file extension for DVI file.
-pub const FILE_EXTENSION_DVI: &'static str = "dvi";
+pub const FILE_EXTENSION_DVI: &str = "dvi";
 /// The file extension for DWF model.
-pub const FILE_EXTENSION_DWF: &'static str = "dwf";
+pub const FILE_EXTENSION_DWF: &str = "dwf";
 /// The file extension for DWG image.
-pub const FILE_EXTENSION_DWG: &'static str = "dwg";
+pub const FILE_EXTENSION_DWG: &str = "dwg";
 /// The file extension for DXF image.
-pub const FILE_EXTENSION_DXF: &'static str = "dxf";
+pub const FILE_EXTENSION_DXF: &str = "dxf";
 /// The file extension for Spotfire DXP.
-pub const FILE_EXTENSION_DXP: &'static str = "dxp";
+pub const FILE_EXTENSION_DXP: &str = "dxp";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_DXR: &'static str = "dxr";
+pub const FILE_EXTENSION_DXR: &str = "dxr";
 /// The file extension for Nuera ECELP 4800 audio.
-pub const FILE_EXTENSION_ECELP4800: &'static str = "ecelp4800";
+pub const FILE_EXTENSION_ECELP4800: &str = "ecelp4800";
 /// The file extension for Nuera ECELP 7470 audio.
-pub const FILE_EXTENSION_ECELP7470: &'static str = "ecelp7470";
+pub const FILE_EXTENSION_ECELP7470: &str = "ecelp7470";
 /// The file extension for Nuera ECELP 9600 audio.
-pub const FILE_EXTENSION_ECELP9600: &'static str = "ecelp9600";
+pub const FILE_EXTENSION_ECELP9600: &str = "ecelp9600";
 /// The file extension for ECMAScript.
-pub const FILE_EXTENSION_ECMA: &'static str = "ecma";
+pub const FILE_EXTENSION_ECMA: &str = "ecma";
 /// The file extension for Novadigm EDM.
-pub const FILE_EXTENSION_EDM: &'static str = "edm";
+pub const FILE_EXTENSION_EDM: &str = "edm";
 /// The file extension for Novadigm EDX.
-pub const FILE_EXTENSION_EDX: &'static str = "edx";
+pub const FILE_EXTENSION_EDX: &str = "edx";
 /// The file extension for Picsel.
-pub const FILE_EXTENSION_EFIF: &'static str = "efif";
+pub const FILE_EXTENSION_EFIF: &str = "efif";
 /// The file extension for PG OSASLI.
-pub const FILE_EXTENSION_EI6: &'static str = "ei6";
+pub const FILE_EXTENSION_EI6: &str = "ei6";
 /// The file extension for an ELC file.
-pub const FILE_EXTENSION_ELC: &'static str = "elc";
+pub const FILE_EXTENSION_ELC: &str = "elc";
 /// The file extension for Microsoft Metafile.
-pub const FILE_EXTENSION_EMF: &'static str = "emf";
+pub const FILE_EXTENSION_EMF: &str = "emf";
 /// The file extension for RFC 822 message.
-pub const FILE_EXTENSION_EML: &'static str = "eml";
+pub const FILE_EXTENSION_EML: &str = "eml";
 /// The file extension for EMMA XML.
-pub const FILE_EXTENSION_EMMA: &'static str = "emma";
+pub const FILE_EXTENSION_EMMA: &str = "emma";
 /// The file extension for Microsoft Metafile.
-pub const FILE_EXTENSION_EMZ: &'static str = "emz";
+pub const FILE_EXTENSION_EMZ: &str = "emz";
 /// The file extension for Digital Winds audio.
-pub const FILE_EXTENSION_EOL: &'static str = "eol";
+pub const FILE_EXTENSION_EOL: &str = "eol";
 /// The file extension for Microsoft Font Object.
-pub const FILE_EXTENSION_EOT: &'static str = "eot";
+pub const FILE_EXTENSION_EOT: &str = "eot";
 /// The file extension for PostScript.
-pub const FILE_EXTENSION_EPS: &'static str = "eps";
+pub const FILE_EXTENSION_EPS: &str = "eps";
 /// The file extension for EPUB.
-pub const FILE_EXTENSION_EPUB: &'static str = "epub";
+pub const FILE_EXTENSION_EPUB: &str = "epub";
 /// The file extension for E-Szigno XML.
-pub const FILE_EXTENSION_ES3: &'static str = "es3";
+pub const FILE_EXTENSION_ES3: &str = "es3";
 /// The file extension for OSGi Subsystem.
-pub const FILE_EXTENSION_ESA: &'static str = "esa";
+pub const FILE_EXTENSION_ESA: &str = "esa";
 /// The file extension for Epson ESF.
-pub const FILE_EXTENSION_ESF: &'static str = "esf";
+pub const FILE_EXTENSION_ESF: &str = "esf";
 /// The file extension for E-Szigno XML.
-pub const FILE_EXTENSION_ET3: &'static str = "et3";
+pub const FILE_EXTENSION_ET3: &str = "et3";
 /// The file extension for Setext.
-pub const FILE_EXTENSION_ETX: &'static str = "etx";
+pub const FILE_EXTENSION_ETX: &str = "etx";
 /// The file extension for EVA.
-pub const FILE_EXTENSION_EVA: &'static str = "eva";
+pub const FILE_EXTENSION_EVA: &str = "eva";
 /// The file extension for Envoy.
-pub const FILE_EXTENSION_EVY: &'static str = "evy";
+pub const FILE_EXTENSION_EVY: &str = "evy";
 /// The file extension for an executable file.
-pub const FILE_EXTENSION_EXE: &'static str = "exe";
+pub const FILE_EXTENSION_EXE: &str = "exe";
 /// The file extension for EXI.
-pub const FILE_EXTENSION_EXI: &'static str = "exi";
+pub const FILE_EXTENSION_EXI: &str = "exi";
 /// The file extension for Novadigm EXT.
-pub const FILE_EXTENSION_EXT: &'static str = "ext";
+pub const FILE_EXTENSION_EXT: &str = "ext";
 /// The file extension for Andrew Inset.
-pub const FILE_EXTENSION_EZ: &'static str = "ez";
+pub const FILE_EXTENSION_EZ: &str = "ez";
 /// The file extension for EZPix Album.
-pub const FILE_EXTENSION_EZ2: &'static str = "ez2";
+pub const FILE_EXTENSION_EZ2: &str = "ez2";
 /// The file extension for EZPix Package.
-pub const FILE_EXTENSION_EZ3: &'static str = "ez3";
+pub const FILE_EXTENSION_EZ3: &str = "ez3";
 /// The file extension for Fortran source.
-pub const FILE_EXTENSION_F: &'static str = "f";
+pub const FILE_EXTENSION_F: &str = "f";
 /// The file extension for F4V video.
-pub const FILE_EXTENSION_F4V: &'static str = "f4v";
+pub const FILE_EXTENSION_F4V: &str = "f4v";
 /// The file extension for Fortran source.
-pub const FILE_EXTENSION_F77: &'static str = "f77";
+pub const FILE_EXTENSION_F77: &str = "f77";
 /// The file extension for Fortran source.
-pub const FILE_EXTENSION_F90: &'static str = "f90";
+pub const FILE_EXTENSION_F90: &str = "f90";
 /// The file extension for FastBidSheet.
-pub const FILE_EXTENSION_FBS: &'static str = "fbs";
+pub const FILE_EXTENSION_FBS: &str = "fbs";
 /// The file extension for Adobe FormsCentral FCDT.
-pub const FILE_EXTENSION_FCDT: &'static str = "fcdt";
+pub const FILE_EXTENSION_FCDT: &str = "fcdt";
 /// The file extension for ISAC FCS.
-pub const FILE_EXTENSION_FCS: &'static str = "fcs";
+pub const FILE_EXTENSION_FCS: &str = "fcs";
 /// The file extension for FDF.
-pub const FILE_EXTENSION_FDF: &'static str = "fdf";
+pub const FILE_EXTENSION_FDF: &str = "fdf";
 /// The file extension for deNovo FCSELAYOUT-LINK.
-pub const FILE_EXTENSION_FE_LAUNCH: &'static str = "fe_launch";
+pub const FILE_EXTENSION_FE_LAUNCH: &str = "fe_launch";
 /// The file extension for Fujitsu OasysGP.
-pub const FILE_EXTENSION_FG5: &'static str = "fg5";
+pub const FILE_EXTENSION_FG5: &str = "fg5";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_FGD: &'static str = "fgd";
+pub const FILE_EXTENSION_FGD: &str = "fgd";
 /// The file extension for FreeHand image.
-pub const FILE_EXTENSION_FH: &'static str = "fh";
+pub const FILE_EXTENSION_FH: &str = "fh";
 /// The file extension for FreeHand image.
-pub const FILE_EXTENSION_FH4: &'static str = "fh4";
+pub const FILE_EXTENSION_FH4: &str = "fh4";
 /// The file extension for FreeHand image.
-pub const FILE_EXTENSION_FH5: &'static str = "fh5";
+pub const FILE_EXTENSION_FH5: &str = "fh5";
 /// The file extension for FreeHand image.
-pub const FILE_EXTENSION_FH7: &'static str = "fh7";
+pub const FILE_EXTENSION_FH7: &str = "fh7";
 /// The file extension for FreeHand image.
-pub const FILE_EXTENSION_FHC: &'static str = "fhc";
+pub const FILE_EXTENSION_FHC: &str = "fhc";
 /// The file extension for Xfig image.
-pub const FILE_EXTENSION_FIG: &'static str = "fig";
+pub const FILE_EXTENSION_FIG: &str = "fig";
 /// The file extension for FLAC audio.
-pub const FILE_EXTENSION_FLAC: &'static str = "flac";
+pub const FILE_EXTENSION_FLAC: &str = "flac";
 /// The file extension for FLI video.
-pub const FILE_EXTENSION_FLI: &'static str = "fli";
+pub const FILE_EXTENSION_FLI: &str = "fli";
 /// The file extension for Micrografx FLO.
-pub const FILE_EXTENSION_FLO: &'static str = "flo";
+pub const FILE_EXTENSION_FLO: &str = "flo";
 /// The file extension for FLV video.
-pub const FILE_EXTENSION_FLV: &'static str = "flv";
+pub const FILE_EXTENSION_FLV: &str = "flv";
 /// The file extension for KDE Kivio.
-pub const FILE_EXTENSION_FLW: &'static str = "flw";
+pub const FILE_EXTENSION_FLW: &str = "flw";
 /// The file extension for FMI Flexstor.
-pub const FILE_EXTENSION_FLX: &'static str = "flx";
+pub const FILE_EXTENSION_FLX: &str = "flx";
 /// The file extension for FLY text.
-pub const FILE_EXTENSION_FLY: &'static str = "fly";
+pub const FILE_EXTENSION_FLY: &str = "fly";
 /// The file extension for Adobe FrameMaker.
-pub const FILE_EXTENSION_FM: &'static str = "fm";
+pub const FILE_EXTENSION_FM: &str = "fm";
 /// The file extension for Frogans FNC.
-pub const FILE_EXTENSION_FNC: &'static str = "fnc";
+pub const FILE_EXTENSION_FNC: &str = "fnc";
 /// The file extension for Fortran source.
-pub const FILE_EXTENSION_FOR: &'static str = "for";
+pub const FILE_EXTENSION_FOR: &str = "for";
 /// The file extension for FPX image.
-pub const FILE_EXTENSION_FPX: &'static str = "fpx";
+pub const FILE_EXTENSION_FPX: &str = "fpx";
 /// The file extension for Adobe FrameMaker.
-pub const FILE_EXTENSION_FRAME: &'static str = "frame";
+pub const FILE_EXTENSION_FRAME: &str = "frame";
 /// The file extension for FSC WebLaunch.
-pub const FILE_EXTENSION_FSC: &'static str = "fsc";
+pub const FILE_EXTENSION_FSC: &str = "fsc";
 /// The file extension for FST image.
-pub const FILE_EXTENSION_FST: &'static str = "fst";
+pub const FILE_EXTENSION_FST: &str = "fst";
 /// The file extension for FluxTime Clip.
-pub const FILE_EXTENSION_FTC: &'static str = "ftc";
+pub const FILE_EXTENSION_FTC: &str = "ftc";
 /// The file extension for Anser-Web Funds Transfer Initiation.
-pub const FILE_EXTENSION_FTI: &'static str = "fti";
+pub const FILE_EXTENSION_FTI: &str = "fti";
 /// The file extension for FVT video.
-pub const FILE_EXTENSION_FVT: &'static str = "fvt";
+pub const FILE_EXTENSION_FVT: &str = "fvt";
 /// The file extension for Adobe FXP.
-pub const FILE_EXTENSION_FXP: &'static str = "fxp";
+pub const FILE_EXTENSION_FXP: &str = "fxp";
 /// The file extension for Adobe FXP.
-pub const FILE_EXTENSION_FXPL: &'static str = "fxpl";
+pub const FILE_EXTENSION_FXPL: &str = "fxpl";
 /// The file extension for Fuzzysheet.
-pub const FILE_EXTENSION_FZS: &'static str = "fzs";
+pub const FILE_EXTENSION_FZS: &str = "fzs";
 /// The file extension for GeoPlan.
-pub const FILE_EXTENSION_G2W: &'static str = "g2w";
+pub const FILE_EXTENSION_G2W: &str = "g2w";
 /// The file extension for G3 fax image.
-pub const FILE_EXTENSION_G3: &'static str = "g3";
+pub const FILE_EXTENSION_G3: &str = "g3";
 /// The file extension for GeoSpace.
-pub const FILE_EXTENSION_G3W: &'static str = "g3w";
+pub const FILE_EXTENSION_G3W: &str = "g3w";
 /// The file extension for Groove Account.
-pub const FILE_EXTENSION_GAC: &'static str = "gac";
+pub const FILE_EXTENSION_GAC: &str = "gac";
 /// The file extension for TADS game.
-pub const FILE_EXTENSION_GAM: &'static str = "gam";
+pub const FILE_EXTENSION_GAM: &str = "gam";
 /// The file extension for RPKI Ghostbusters.
-pub const FILE_EXTENSION_GBR: &'static str = "gbr";
+pub const FILE_EXTENSION_GBR: &str = "gbr";
 /// The file extension for GCA compressed archive.
-pub const FILE_EXTENSION_GCA: &'static str = "gca";
+pub const FILE_EXTENSION_GCA: &str = "gca";
 /// The file extension for GDL model.
-pub const FILE_EXTENSION_GDL: &'static str = "gdl";
+pub const FILE_EXTENSION_GDL: &str = "gdl";
 /// The file extension for DynaGeo.
-pub const FILE_EXTENSION_GEO: &'static str = "geo";
+pub const FILE_EXTENSION_GEO: &str = "geo";
 /// The file extension for Geometry Explorer.
-pub const FILE_EXTENSION_GEX: &'static str = "gex";
+pub const FILE_EXTENSION_GEX: &str = "gex";
 /// The file extension for GeoGebra File.
-pub const FILE_EXTENSION_GGB: &'static str = "ggb";
+pub const FILE_EXTENSION_GGB: &str = "ggb";
 /// The file extension for GeoGebra Tool.
-pub const FILE_EXTENSION_GGT: &'static str = "ggt";
+pub const FILE_EXTENSION_GGT: &str = "ggt";
 /// The file extension for Groove Help.
-pub const FILE_EXTENSION_GHF: &'static str = "ghf";
+pub const FILE_EXTENSION_GHF: &str = "ghf";
 /// The file extension for GIF image.
-pub const FILE_EXTENSION_GIF: &'static str = "gif";
+pub const FILE_EXTENSION_GIF: &str = "gif";
 /// The file extension for Groove Identity Message.
-pub const FILE_EXTENSION_GIM: &'static str = "gim";
+pub const FILE_EXTENSION_GIM: &str = "gim";
 /// The file extension for GML XML.
-pub const FILE_EXTENSION_GML: &'static str = "gml";
+pub const FILE_EXTENSION_GML: &str = "gml";
 /// The file extension for GMX.
-pub const FILE_EXTENSION_GMX: &'static str = "gmx";
+pub const FILE_EXTENSION_GMX: &str = "gmx";
 /// The file extension for Gnumeric.
-pub const FILE_EXTENSION_GNUMERIC: &'static str = "gnumeric";
+pub const FILE_EXTENSION_GNUMERIC: &str = "gnumeric";
 /// The file extension for FlographIt.
-pub const FILE_EXTENSION_GPH: &'static str = "gph";
+pub const FILE_EXTENSION_GPH: &str = "gph";
 /// The file extension for GPX XML.
-pub const FILE_EXTENSION_GPX: &'static str = "gpx";
+pub const FILE_EXTENSION_GPX: &str = "gpx";
 /// The file extension for Grafeq.
-pub const FILE_EXTENSION_GQF: &'static str = "gqf";
+pub const FILE_EXTENSION_GQF: &str = "gqf";
 /// The file extension for Grafeq.
-pub const FILE_EXTENSION_GQS: &'static str = "gqs";
+pub const FILE_EXTENSION_GQS: &str = "gqs";
 /// The file extension for SRGS.
-pub const FILE_EXTENSION_GRAM: &'static str = "gram";
+pub const FILE_EXTENSION_GRAM: &str = "gram";
 /// The file extension for Gramps XML.
-pub const FILE_EXTENSION_GRAMPS: &'static str = "gramps";
+pub const FILE_EXTENSION_GRAMPS: &str = "gramps";
 /// The file extension for Groove Injector.
-pub const FILE_EXTENSION_GRE: &'static str = "gre";
+pub const FILE_EXTENSION_GRE: &str = "gre";
 /// The file extension for SRGS XML.
-pub const FILE_EXTENSION_GRV: &'static str = "grv";
+pub const FILE_EXTENSION_GRV: &str = "grv";
 /// The file extension for SRGS XML.
-pub const FILE_EXTENSION_GRXML: &'static str = "grxml";
+pub const FILE_EXTENSION_GRXML: &str = "grxml";
 /// The file extension for Ghostscript font.
-pub const FILE_EXTENSION_GSF: &'static str = "gsf";
+pub const FILE_EXTENSION_GSF: &str = "gsf";
 /// The file extension for GTAR archive.
-pub const FILE_EXTENSION_GTAR: &'static str = "gtar";
+pub const FILE_EXTENSION_GTAR: &str = "gtar";
 /// The file extension for Groove Tool Message.
-pub const FILE_EXTENSION_GTM: &'static str = "gtm";
+pub const FILE_EXTENSION_GTM: &str = "gtm";
 /// The file extension for GTW model.
-pub const FILE_EXTENSION_GTW: &'static str = "gtw";
+pub const FILE_EXTENSION_GTW: &str = "gtw";
 /// The file extension for Graphviz.
-pub const FILE_EXTENSION_GV: &'static str = "gv";
+pub const FILE_EXTENSION_GV: &str = "gv";
 /// The file extension for GXF.
-pub const FILE_EXTENSION_GXF: &'static str = "gxf";
+pub const FILE_EXTENSION_GXF: &str = "gxf";
 /// The file extension for GeoNext.
-pub const FILE_EXTENSION_GXT: &'static str = "gxt";
+pub const FILE_EXTENSION_GXT: &str = "gxt";
 /// The file extension for Gzip archive.
-pub const FILE_EXTENSION_GZ: &'static str = "gz";
+pub const FILE_EXTENSION_GZ: &str = "gz";
 /// The file extension for C header.
-pub const FILE_EXTENSION_H: &'static str = "h";
+pub const FILE_EXTENSION_H: &str = "h";
 /// The file extension for H.261 video.
-pub const FILE_EXTENSION_H261: &'static str = "h261";
+pub const FILE_EXTENSION_H261: &str = "h261";
 /// The file extension for H.263 video.
-pub const FILE_EXTENSION_H263: &'static str = "h263";
+pub const FILE_EXTENSION_H263: &str = "h263";
 /// The file extension for H.264 video.
-pub const FILE_EXTENSION_H264: &'static str = "h264";
+pub const FILE_EXTENSION_H264: &str = "h264";
 /// The file extension for HAL XML.
-pub const FILE_EXTENSION_HAL: &'static str = "hal";
+pub const FILE_EXTENSION_HAL: &str = "hal";
 /// The file extension for HBCI.
-pub const FILE_EXTENSION_HBCI: &'static str = "hbci";
+pub const FILE_EXTENSION_HBCI: &str = "hbci";
 /// The file extension for HDF.
-pub const FILE_EXTENSION_HDF: &'static str = "hdf";
+pub const FILE_EXTENSION_HDF: &str = "hdf";
 /// The file extension for C++ header.
-pub const FILE_EXTENSION_HH: &'static str = "hh";
+pub const FILE_EXTENSION_HH: &str = "hh";
 /// The file extension for WinHelp.
-pub const FILE_EXTENSION_HLP: &'static str = "hlp";
+pub const FILE_EXTENSION_HLP: &str = "hlp";
 /// The file extension for HP-GL.
-pub const FILE_EXTENSION_HPGL: &'static str = "hpgl";
+pub const FILE_EXTENSION_HPGL: &str = "hpgl";
 /// The file extension for HP-HPID.
-pub const FILE_EXTENSION_HPID: &'static str = "hpid";
+pub const FILE_EXTENSION_HPID: &str = "hpid";
 /// The file extension for HP-HPS.
-pub const FILE_EXTENSION_HPS: &'static str = "hps";
+pub const FILE_EXTENSION_HPS: &str = "hps";
 /// The file extension for Mac BinHex40.
-pub const FILE_EXTENSION_HQX: &'static str = "hqx";
+pub const FILE_EXTENSION_HQX: &str = "hqx";
 /// The file extension for HTC component.
-pub const FILE_EXTENSION_HTC: &'static str = "htc";
+pub const FILE_EXTENSION_HTC: &str = "htc";
 /// The file extension for Kenamea App.
-pub const FILE_EXTENSION_HTKE: &'static str = "htke";
+pub const FILE_EXTENSION_HTKE: &str = "htke";
 /// The file extension for HTML.
-pub const FILE_EXTENSION_HTM: &'static str = "htm";
+pub const FILE_EXTENSION_HTM: &str = "htm";
 /// The file extension for HTML.
-pub const FILE_EXTENSION_HTML: &'static str = "html";
+pub const FILE_EXTENSION_HTML: &str = "html";
 /// The file extension for Yamaha HV Dictionary.
-pub const FILE_EXTENSION_HVD: &'static str = "hvd";
+pub const FILE_EXTENSION_HVD: &str = "hvd";
 /// The file extension for Yamaha HV Voice.
-pub const FILE_EXTENSION_HVP: &'static str = "hvp";
+pub const FILE_EXTENSION_HVP: &str = "hvp";
 /// The file extension for Yamaha HV Script.
-pub const FILE_EXTENSION_HVS: &'static str = "hvs";
+pub const FILE_EXTENSION_HVS: &str = "hvs";
 /// The file extension for Intergeo.
-pub const FILE_EXTENSION_I2G: &'static str = "i2g";
+pub const FILE_EXTENSION_I2G: &str = "i2g";
 /// The file extension for ICC Profile.
-pub const FILE_EXTENSION_ICC: &'static str = "icc";
+pub const FILE_EXTENSION_ICC: &str = "icc";
 /// The file extension for CoolTalk.
-pub const FILE_EXTENSION_ICE: &'static str = "ice";
+pub const FILE_EXTENSION_ICE: &str = "ice";
 /// The file extension for ICC Profile.
-pub const FILE_EXTENSION_ICM: &'static str = "icm";
+pub const FILE_EXTENSION_ICM: &str = "icm";
 /// The file extension for icon.
-pub const FILE_EXTENSION_ICO: &'static str = "ico";
+pub const FILE_EXTENSION_ICO: &str = "ico";
 /// The file extension for iCalendar.
-pub const FILE_EXTENSION_ICS: &'static str = "ics";
+pub const FILE_EXTENSION_ICS: &str = "ics";
 /// The file extension for IEF image.
-pub const FILE_EXTENSION_IEF: &'static str = "ief";
+pub const FILE_EXTENSION_IEF: &str = "ief";
 /// The file extension for iCalendar.
-pub const FILE_EXTENSION_IFB: &'static str = "ifb";
+pub const FILE_EXTENSION_IFB: &str = "ifb";
 /// The file extension for Shana Informed Formdata.
-pub const FILE_EXTENSION_IFM: &'static str = "ifm";
+pub const FILE_EXTENSION_IFM: &str = "ifm";
 /// The file extension for IGES model.
-pub const FILE_EXTENSION_IGES: &'static str = "iges";
+pub const FILE_EXTENSION_IGES: &str = "iges";
 /// The file extension for IGLoader.
-pub const FILE_EXTENSION_IGL: &'static str = "igl";
+pub const FILE_EXTENSION_IGL: &str = "igl";
 /// The file extension for Insors IGM.
-pub const FILE_EXTENSION_IGM: &'static str = "igm";
+pub const FILE_EXTENSION_IGM: &str = "igm";
 /// The file extension for IGES model.
-pub const FILE_EXTENSION_IGS: &'static str = "igs";
+pub const FILE_EXTENSION_IGS: &str = "igs";
 /// The file extension for Micrografx IGX.
-pub const FILE_EXTENSION_IGX: &'static str = "igx";
+pub const FILE_EXTENSION_IGX: &str = "igx";
 /// The file extension for Shana Informed Interchange.
-pub const FILE_EXTENSION_IIF: &'static str = "iif";
+pub const FILE_EXTENSION_IIF: &str = "iif";
 /// The file extension for Accpac Simply IMP.
-pub const FILE_EXTENSION_IMP: &'static str = "imp";
+pub const FILE_EXTENSION_IMP: &str = "imp";
 /// The file extension for Microsoft IMS.
-pub const FILE_EXTENSION_IMS: &'static str = "ims";
+pub const FILE_EXTENSION_IMS: &str = "ims";
 /// The file extension for an input file.
-pub const FILE_EXTENSION_IN: &'static str = "in";
+pub const FILE_EXTENSION_IN: &str = "in";
 /// The file extension for InkML.
-pub const FILE_EXTENSION_INK: &'static str = "ink";
+pub const FILE_EXTENSION_INK: &str = "ink";
 /// The file extension for InkML.
-pub const FILE_EXTENSION_INKML: &'static str = "inkml";
+pub const FILE_EXTENSION_INKML: &str = "inkml";
 /// The file extension for Install Instructions.
-pub const FILE_EXTENSION_INSTALL: &'static str = "install";
+pub const FILE_EXTENSION_INSTALL: &str = "install";
 /// The file extension for Astraea Software Iota.
-pub const FILE_EXTENSION_IOTA: &'static str = "iota";
+pub const FILE_EXTENSION_IOTA: &str = "iota";
 /// The file extension for IPFIX.
-pub const FILE_EXTENSION_IPFIX: &'static str = "ipfix";
+pub const FILE_EXTENSION_IPFIX: &str = "ipfix";
 /// The file extension for Shana Informed Package.
-pub const FILE_EXTENSION_IPK: &'static str = "ipk";
+pub const FILE_EXTENSION_IPK: &str = "ipk";
 /// The file extension for IBM Rights Management.
-pub const FILE_EXTENSION_IRM: &'static str = "irm";
+pub const FILE_EXTENSION_IRM: &str = "irm";
 /// The file extension for iRepository Package XML.
-pub const FILE_EXTENSION_IRP: &'static str = "irp";
+pub const FILE_EXTENSION_IRP: &str = "irp";
 /// The file extension for ISO 9660 Image.
-pub const FILE_EXTENSION_ISO: &'static str = "iso";
+pub const FILE_EXTENSION_ISO: &str = "iso";
 /// The file extension for Shana Informed Formtemplate.
-pub const FILE_EXTENSION_ITP: &'static str = "itp";
+pub const FILE_EXTENSION_ITP: &str = "itp";
 /// The file extension for Immervision IVP.
-pub const FILE_EXTENSION_IVP: &'static str = "ivp";
+pub const FILE_EXTENSION_IVP: &str = "ivp";
 /// The file extension for Immervision IVU.
-pub const FILE_EXTENSION_IVU: &'static str = "ivu";
+pub const FILE_EXTENSION_IVU: &str = "ivu";
 /// The file extension for J2ME App Descriptor.
-pub const FILE_EXTENSION_JAD: &'static str = "jad";
+pub const FILE_EXTENSION_JAD: &str = "jad";
 /// The file extension for JAM.
-pub const FILE_EXTENSION_JAM: &'static str = "jam";
+pub const FILE_EXTENSION_JAM: &str = "jam";
 /// The file extension for Java Archive.
-pub const FILE_EXTENSION_JAR: &'static str = "jar";
+pub const FILE_EXTENSION_JAR: &str = "jar";
 /// The file extension for Java source.
-pub const FILE_EXTENSION_JAVA: &'static str = "java";
+pub const FILE_EXTENSION_JAVA: &str = "java";
 /// The file extension for JISP.
-pub const FILE_EXTENSION_JISP: &'static str = "jisp";
+pub const FILE_EXTENSION_JISP: &str = "jisp";
 /// The file extension for HP JLYT.
-pub const FILE_EXTENSION_JLT: &'static str = "jlt";
+pub const FILE_EXTENSION_JLT: &str = "jlt";
 /// The file extension for Java JNLP.
-pub const FILE_EXTENSION_JNLP: &'static str = "jnlp";
+pub const FILE_EXTENSION_JNLP: &str = "jnlp";
 /// The file extension for Joost Joda Archive.
-pub const FILE_EXTENSION_JODA: &'static str = "joda";
+pub const FILE_EXTENSION_JODA: &str = "joda";
 /// The file extension for JPEG image.
-pub const FILE_EXTENSION_JPE: &'static str = "jpe";
+pub const FILE_EXTENSION_JPE: &str = "jpe";
 /// The file extension for JPEG image.
-pub const FILE_EXTENSION_JPEG: &'static str = "jpeg";
+pub const FILE_EXTENSION_JPEG: &str = "jpeg";
 /// The file extension for JPEG image.
-pub const FILE_EXTENSION_JPG: &'static str = "jpg";
+pub const FILE_EXTENSION_JPG: &str = "jpg";
 /// The file extension for JPM video.
-pub const FILE_EXTENSION_JPGM: &'static str = "jpgm";
+pub const FILE_EXTENSION_JPGM: &str = "jpgm";
 /// The file extension for JPEG video.
-pub const FILE_EXTENSION_JPGV: &'static str = "jpgv";
+pub const FILE_EXTENSION_JPGV: &str = "jpgv";
 /// The file extension for JPM video.
-pub const FILE_EXTENSION_JPM: &'static str = "jpm";
+pub const FILE_EXTENSION_JPM: &str = "jpm";
 /// The file extension for JavaScript.
-pub const FILE_EXTENSION_JS: &'static str = "js";
+pub const FILE_EXTENSION_JS: &str = "js";
 /// The file extension for JSF.
-pub const FILE_EXTENSION_JSF: &'static str = "jsf";
+pub const FILE_EXTENSION_JSF: &str = "jsf";
 /// The file extension for JSON.
-pub const FILE_EXTENSION_JSON: &'static str = "json";
+pub const FILE_EXTENSION_JSON: &str = "json";
 /// The file extension for JSONML.
-pub const FILE_EXTENSION_JSONML: &'static str = "jsonml";
+pub const FILE_EXTENSION_JSONML: &str = "jsonml";
 /// The file extension for JSPF.
-pub const FILE_EXTENSION_JSPF: &'static str = "jspf";
+pub const FILE_EXTENSION_JSPF: &str = "jspf";
 /// The file extension for MIDI audio.
-pub const FILE_EXTENSION_KAR: &'static str = "kar";
+pub const FILE_EXTENSION_KAR: &str = "kar";
 /// The file extension for KDE Karbon.
-pub const FILE_EXTENSION_KARBON: &'static str = "karbon";
+pub const FILE_EXTENSION_KARBON: &str = "karbon";
 /// The file extension for KDE KFormula.
-pub const FILE_EXTENSION_KFO: &'static str = "kfo";
+pub const FILE_EXTENSION_KFO: &str = "kfo";
 /// The file extension for Kidspiration.
-pub const FILE_EXTENSION_KIA: &'static str = "kia";
+pub const FILE_EXTENSION_KIA: &str = "kia";
 /// The file extension for Google Earth KML.
-pub const FILE_EXTENSION_KML: &'static str = "kml";
+pub const FILE_EXTENSION_KML: &str = "kml";
 /// The file extension for Google Earth KMZ.
-pub const FILE_EXTENSION_KMZ: &'static str = "kmz";
+pub const FILE_EXTENSION_KMZ: &str = "kmz";
 /// The file extension for Kinar.
-pub const FILE_EXTENSION_KNE: &'static str = "kne";
+pub const FILE_EXTENSION_KNE: &str = "kne";
 /// The file extension for Kinar.
-pub const FILE_EXTENSION_KNP: &'static str = "knp";
+pub const FILE_EXTENSION_KNP: &str = "knp";
 /// The file extension for KDE Kontour.
-pub const FILE_EXTENSION_KON: &'static str = "kon";
+pub const FILE_EXTENSION_KON: &str = "kon";
 /// The file extension for KDE KPresenter.
-pub const FILE_EXTENSION_KPR: &'static str = "kpr";
+pub const FILE_EXTENSION_KPR: &str = "kpr";
 /// The file extension for KDE KPresenter.
-pub const FILE_EXTENSION_KPT: &'static str = "kpt";
+pub const FILE_EXTENSION_KPT: &str = "kpt";
 /// The file extension for DS-Keypoint.
-pub const FILE_EXTENSION_KPXX: &'static str = "kpxx";
+pub const FILE_EXTENSION_KPXX: &str = "kpxx";
 /// The file extension for KDE KSpread.
-pub const FILE_EXTENSION_KSP: &'static str = "ksp";
+pub const FILE_EXTENSION_KSP: &str = "ksp";
 /// The file extension for Kahootz.
-pub const FILE_EXTENSION_KTR: &'static str = "ktr";
+pub const FILE_EXTENSION_KTR: &str = "ktr";
 /// The file extension for KTX image.
-pub const FILE_EXTENSION_KTX: &'static str = "ktx";
+pub const FILE_EXTENSION_KTX: &str = "ktx";
 /// The file extension for Kahootz.
-pub const FILE_EXTENSION_KTZ: &'static str = "ktz";
+pub const FILE_EXTENSION_KTZ: &str = "ktz";
 /// The file extension for KDE KWord.
-pub const FILE_EXTENSION_KWD: &'static str = "kwd";
+pub const FILE_EXTENSION_KWD: &str = "kwd";
 /// The file extension for KDE KWord.
-pub const FILE_EXTENSION_KWT: &'static str = "kwt";
+pub const FILE_EXTENSION_KWT: &str = "kwt";
 /// The file extension for LAS LAS XML.
-pub const FILE_EXTENSION_LASXML: &'static str = "lasxml";
+pub const FILE_EXTENSION_LASXML: &str = "lasxml";
 /// The file extension for LaTeX.
-pub const FILE_EXTENSION_LATEX: &'static str = "latex";
+pub const FILE_EXTENSION_LATEX: &str = "latex";
 /// The file extension for LlamaGraphics Life-Balance Desktop.
-pub const FILE_EXTENSION_LBD: &'static str = "lbd";
+pub const FILE_EXTENSION_LBD: &str = "lbd";
 /// The file extension for LlamaGraphics Life-Balance Exchange XML.
-pub const FILE_EXTENSION_LBE: &'static str = "lbe";
+pub const FILE_EXTENSION_LBE: &str = "lbe";
 /// The file extension for HHE Lesson Player.
-pub const FILE_EXTENSION_LES: &'static str = "les";
+pub const FILE_EXTENSION_LES: &str = "les";
 /// The file extension for LZH compressed archive.
-pub const FILE_EXTENSION_LHA: &'static str = "lha";
+pub const FILE_EXTENSION_LHA: &str = "lha";
 /// The file extension for Route 66 Link66 XML.
-pub const FILE_EXTENSION_LINK66: &'static str = "link66";
+pub const FILE_EXTENSION_LINK66: &str = "link66";
 /// The file extension for a list file.
-pub const FILE_EXTENSION_LIST: &'static str = "list";
+pub const FILE_EXTENSION_LIST: &str = "list";
 /// The file extension for a list file.
-pub const FILE_EXTENSION_LIST3820: &'static str = "list3820";
+pub const FILE_EXTENSION_LIST3820: &str = "list3820";
 /// The file extension for a list file.
-pub const FILE_EXTENSION_LISTAFP: &'static str = "listafp";
+pub const FILE_EXTENSION_LISTAFP: &str = "listafp";
 /// The file extension for Microsoft Shortcut.
-pub const FILE_EXTENSION_LNK: &'static str = "lnk";
+pub const FILE_EXTENSION_LNK: &str = "lnk";
 /// The file extension for a log file.
-pub const FILE_EXTENSION_LOG: &'static str = "log";
+pub const FILE_EXTENSION_LOG: &str = "log";
 /// The file extension for Lost XML.
-pub const FILE_EXTENSION_LOSTXML: &'static str = "lostxml";
+pub const FILE_EXTENSION_LOSTXML: &str = "lostxml";
 /// The file extension for a LRF file.
-pub const FILE_EXTENSION_LRF: &'static str = "lrf";
+pub const FILE_EXTENSION_LRF: &str = "lrf";
 /// The file extension for Microsoft LRM.
-pub const FILE_EXTENSION_LRM: &'static str = "lrm";
+pub const FILE_EXTENSION_LRM: &str = "lrm";
 /// The file extension for Frogans LTF.
-pub const FILE_EXTENSION_LTF: &'static str = "ltf";
+pub const FILE_EXTENSION_LTF: &str = "ltf";
 /// The file extension for Lucent Voice.
-pub const FILE_EXTENSION_LVP: &'static str = "lvp";
+pub const FILE_EXTENSION_LVP: &str = "lvp";
 /// The file extension for Lotus WordPro.
-pub const FILE_EXTENSION_LWP: &'static str = "lwp";
+pub const FILE_EXTENSION_LWP: &str = "lwp";
 /// The file extension for LZH compressed archive.
-pub const FILE_EXTENSION_LZH: &'static str = "lzh";
+pub const FILE_EXTENSION_LZH: &str = "lzh";
 /// The file extension for a M13 file.
-pub const FILE_EXTENSION_M13: &'static str = "m13";
+pub const FILE_EXTENSION_M13: &str = "m13";
 /// The file extension for a M14 file.
-pub const FILE_EXTENSION_M14: &'static str = "m14";
+pub const FILE_EXTENSION_M14: &str = "m14";
 /// The file extension for MPEG video.
-pub const FILE_EXTENSION_M1V: &'static str = "m1v";
+pub const FILE_EXTENSION_M1V: &str = "m1v";
 /// The file extension for MP21.
-pub const FILE_EXTENSION_M21: &'static str = "m21";
+pub const FILE_EXTENSION_M21: &str = "m21";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_M2A: &'static str = "m2a";
+pub const FILE_EXTENSION_M2A: &str = "m2a";
 /// The file extension for MPEG video.
-pub const FILE_EXTENSION_M2V: &'static str = "m2v";
+pub const FILE_EXTENSION_M2V: &str = "m2v";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_M3A: &'static str = "m3a";
+pub const FILE_EXTENSION_M3A: &str = "m3a";
 /// The file extension for M3U playlist.
-pub const FILE_EXTENSION_M3U: &'static str = "m3u";
+pub const FILE_EXTENSION_M3U: &str = "m3u";
 /// The file extension for M3U8 playlist.
-pub const FILE_EXTENSION_M3U8: &'static str = "m3u8";
+pub const FILE_EXTENSION_M3U8: &str = "m3u8";
 /// The file extension for MP4 audio.
-pub const FILE_EXTENSION_M4A: &'static str = "m4a";
+pub const FILE_EXTENSION_M4A: &str = "m4a";
 /// The file extension for MP4 audio.
-pub const FILE_EXTENSION_M4B: &'static str = "m4b";
+pub const FILE_EXTENSION_M4B: &str = "m4b";
 /// The file extension for MP4 audio.
-pub const FILE_EXTENSION_M4R: &'static str = "m4r";
+pub const FILE_EXTENSION_M4R: &str = "m4r";
 /// The file extension for M4U playlist.
-pub const FILE_EXTENSION_M4U: &'static str = "m4u";
+pub const FILE_EXTENSION_M4U: &str = "m4u";
 /// The file extension for MP4 video.
-pub const FILE_EXTENSION_M4V: &'static str = "m4v";
+pub const FILE_EXTENSION_M4V: &str = "m4v";
 /// The file extension for Mathematica.
-pub const FILE_EXTENSION_MA: &'static str = "ma";
+pub const FILE_EXTENSION_MA: &str = "ma";
 /// The file extension for MacPaint image.
-pub const FILE_EXTENSION_MAC: &'static str = "mac";
+pub const FILE_EXTENSION_MAC: &str = "mac";
 /// The file extension for MADS XML.
-pub const FILE_EXTENSION_MADS: &'static str = "mads";
+pub const FILE_EXTENSION_MADS: &str = "mads";
 /// The file extension for EcoWin Chart.
-pub const FILE_EXTENSION_MAG: &'static str = "mag";
+pub const FILE_EXTENSION_MAG: &str = "mag";
 /// The file extension for Adobe FrameMaker.
-pub const FILE_EXTENSION_MAKER: &'static str = "maker";
+pub const FILE_EXTENSION_MAKER: &str = "maker";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_MAN: &'static str = "man";
+pub const FILE_EXTENSION_MAN: &str = "man";
 /// The file extension for a MAR file.
-pub const FILE_EXTENSION_MAR: &'static str = "mar";
+pub const FILE_EXTENSION_MAR: &str = "mar";
 /// The file extension for MathML XML.
-pub const FILE_EXTENSION_MATHML: &'static str = "mathml";
+pub const FILE_EXTENSION_MATHML: &str = "mathml";
 /// The file extension for Mathematica.
-pub const FILE_EXTENSION_MB: &'static str = "mb";
+pub const FILE_EXTENSION_MB: &str = "mb";
 /// The file extension for Mobius MBK.
-pub const FILE_EXTENSION_MBK: &'static str = "mbk";
+pub const FILE_EXTENSION_MBK: &str = "mbk";
 /// The file extension for Mbox.
-pub const FILE_EXTENSION_MBOX: &'static str = "mbox";
+pub const FILE_EXTENSION_MBOX: &str = "mbox";
 /// The file extension for MedCalcData.
-pub const FILE_EXTENSION_MC1: &'static str = "mc1";
+pub const FILE_EXTENSION_MC1: &str = "mc1";
 /// The file extension for MCD.
-pub const FILE_EXTENSION_MCD: &'static str = "mcd";
+pub const FILE_EXTENSION_MCD: &str = "mcd";
 /// The file extension for cURL MCURL.
-pub const FILE_EXTENSION_MCURL: &'static str = "mcurl";
+pub const FILE_EXTENSION_MCURL: &str = "mcurl";
 /// The file extension for Microsoft Access.
-pub const FILE_EXTENSION_MDB: &'static str = "mdb";
+pub const FILE_EXTENSION_MDB: &str = "mdb";
 /// The file extension for Microsoft MODI.
-pub const FILE_EXTENSION_MDI: &'static str = "mdi";
+pub const FILE_EXTENSION_MDI: &str = "mdi";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_ME: &'static str = "me";
+pub const FILE_EXTENSION_ME: &str = "me";
 /// The file extension for Mesh model.
-pub const FILE_EXTENSION_MESH: &'static str = "mesh";
+pub const FILE_EXTENSION_MESH: &str = "mesh";
 /// The file extension for Metalink4 XML.
-pub const FILE_EXTENSION_META4: &'static str = "meta4";
+pub const FILE_EXTENSION_META4: &str = "meta4";
 /// The file extension for Metalink XML.
-pub const FILE_EXTENSION_METALINK: &'static str = "metalink";
+pub const FILE_EXTENSION_METALINK: &str = "metalink";
 /// The file extension for METS XML.
-pub const FILE_EXTENSION_METS: &'static str = "mets";
+pub const FILE_EXTENSION_METS: &str = "mets";
 /// The file extension for MFMP.
-pub const FILE_EXTENSION_MFM: &'static str = "mfm";
+pub const FILE_EXTENSION_MFM: &str = "mfm";
 /// The file extension for RPKI Manifest.
-pub const FILE_EXTENSION_MFT: &'static str = "mft";
+pub const FILE_EXTENSION_MFT: &str = "mft";
 /// The file extension for OSGeo MapGuide Package.
-pub const FILE_EXTENSION_MGP: &'static str = "mgp";
+pub const FILE_EXTENSION_MGP: &str = "mgp";
 /// The file extension for Proteus Magazine.
-pub const FILE_EXTENSION_MGZ: &'static str = "mgz";
+pub const FILE_EXTENSION_MGZ: &str = "mgz";
 /// The file extension for MIDI audio.
-pub const FILE_EXTENSION_MID: &'static str = "mid";
+pub const FILE_EXTENSION_MID: &str = "mid";
 /// The file extension for MIDI audio.
-pub const FILE_EXTENSION_MIDI: &'static str = "midi";
+pub const FILE_EXTENSION_MIDI: &str = "midi";
 /// The file extension for MIE.
-pub const FILE_EXTENSION_MIE: &'static str = "mie";
+pub const FILE_EXTENSION_MIE: &str = "mie";
 /// The file extension for MIF.
-pub const FILE_EXTENSION_MIF: &'static str = "mif";
+pub const FILE_EXTENSION_MIF: &str = "mif";
 /// The file extension for a MIME file.
-pub const FILE_EXTENSION_MIME: &'static str = "mime";
+pub const FILE_EXTENSION_MIME: &str = "mime";
 /// The file extension for MJ2 video.
-pub const FILE_EXTENSION_MJ2: &'static str = "mj2";
+pub const FILE_EXTENSION_MJ2: &str = "mj2";
 /// The file extension for MJ2 video.
-pub const FILE_EXTENSION_MJP2: &'static str = "mjp2";
+pub const FILE_EXTENSION_MJP2: &str = "mjp2";
 /// The file extension for Matroska video.
-pub const FILE_EXTENSION_MK3D: &'static str = "mk3d";
+pub const FILE_EXTENSION_MK3D: &str = "mk3d";
 /// The file extension for Matroska audio.
-pub const FILE_EXTENSION_MKA: &'static str = "mka";
+pub const FILE_EXTENSION_MKA: &str = "mka";
 /// The file extension for Matroska video.
-pub const FILE_EXTENSION_MKS: &'static str = "mks";
+pub const FILE_EXTENSION_MKS: &str = "mks";
 /// The file extension for Matroska video.
-pub const FILE_EXTENSION_MKV: &'static str = "mkv";
+pub const FILE_EXTENSION_MKV: &str = "mkv";
 /// The file extension for Dolby MLP.
-pub const FILE_EXTENSION_MLP: &'static str = "mlp";
+pub const FILE_EXTENSION_MLP: &str = "mlp";
 /// The file extension for Chipnuts Karaoke MMD.
-pub const FILE_EXTENSION_MMD: &'static str = "mmd";
+pub const FILE_EXTENSION_MMD: &str = "mmd";
 /// The file extension for SMAF.
-pub const FILE_EXTENSION_MMF: &'static str = "mmf";
+pub const FILE_EXTENSION_MMF: &str = "mmf";
 /// The file extension for Fujixerox EDMICS MMR.
-pub const FILE_EXTENSION_MMR: &'static str = "mmr";
+pub const FILE_EXTENSION_MMR: &str = "mmr";
 /// The file extension for MNG video.
-pub const FILE_EXTENSION_MNG: &'static str = "mng";
+pub const FILE_EXTENSION_MNG: &str = "mng";
 /// The file extension for Microsoft Money.
-pub const FILE_EXTENSION_MNY: &'static str = "mny";
+pub const FILE_EXTENSION_MNY: &str = "mny";
 /// The file extension for Mobipocket eBook.
-pub const FILE_EXTENSION_MOBI: &'static str = "mobi";
+pub const FILE_EXTENSION_MOBI: &str = "mobi";
 /// The file extension for MODS XML.
-pub const FILE_EXTENSION_MODS: &'static str = "mods";
+pub const FILE_EXTENSION_MODS: &str = "mods";
 /// The file extension for QuickTime video.
-pub const FILE_EXTENSION_MOV: &'static str = "mov";
+pub const FILE_EXTENSION_MOV: &str = "mov";
 /// The file extension for SGI movie.
-pub const FILE_EXTENSION_MOVIE: &'static str = "movie";
+pub const FILE_EXTENSION_MOVIE: &str = "movie";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MP1: &'static str = "mp1";
+pub const FILE_EXTENSION_MP1: &str = "mp1";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MP2: &'static str = "mp2";
+pub const FILE_EXTENSION_MP2: &str = "mp2";
 /// The file extension for MP21.
-pub const FILE_EXTENSION_MP21: &'static str = "mp21";
+pub const FILE_EXTENSION_MP21: &str = "mp21";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MP2A: &'static str = "mp2a";
+pub const FILE_EXTENSION_MP2A: &str = "mp2a";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MP3: &'static str = "mp3";
+pub const FILE_EXTENSION_MP3: &str = "mp3";
 /// The file extension for MP4.
-pub const FILE_EXTENSION_MP4: &'static str = "mp4";
+pub const FILE_EXTENSION_MP4: &str = "mp4";
 /// The file extension for MP4 audio.
-pub const FILE_EXTENSION_MP4A: &'static str = "mp4a";
+pub const FILE_EXTENSION_MP4A: &str = "mp4a";
 /// The file extension for MP4.
-pub const FILE_EXTENSION_MP4S: &'static str = "mp4s";
+pub const FILE_EXTENSION_MP4S: &str = "mp4s";
 /// The file extension for MP4 video.
-pub const FILE_EXTENSION_MP4V: &'static str = "mp4v";
+pub const FILE_EXTENSION_MP4V: &str = "mp4v";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MPA: &'static str = "mpa";
+pub const FILE_EXTENSION_MPA: &str = "mpa";
 /// The file extension for Mophun Certificate.
-pub const FILE_EXTENSION_MPC: &'static str = "mpc";
+pub const FILE_EXTENSION_MPC: &str = "mpc";
 /// The file extension for MPEG video.
-pub const FILE_EXTENSION_MPE: &'static str = "mpe";
+pub const FILE_EXTENSION_MPE: &str = "mpe";
 /// The file extension for MPEG video.
-pub const FILE_EXTENSION_MPEG: &'static str = "mpeg";
+pub const FILE_EXTENSION_MPEG: &str = "mpeg";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MPEGA: &'static str = "mpega";
+pub const FILE_EXTENSION_MPEGA: &str = "mpega";
 /// The file extension for MPEG video.
-pub const FILE_EXTENSION_MPG: &'static str = "mpg";
+pub const FILE_EXTENSION_MPG: &str = "mpg";
 /// The file extension for MPEG-4 video.
-pub const FILE_EXTENSION_MPG4: &'static str = "mpg4";
+pub const FILE_EXTENSION_MPG4: &str = "mpg4";
 /// The file extension for MPEG audio.
-pub const FILE_EXTENSION_MPGA: &'static str = "mpga";
+pub const FILE_EXTENSION_MPGA: &str = "mpga";
 /// The file extension for Apple Installer XML.
-pub const FILE_EXTENSION_MPKG: &'static str = "mpkg";
+pub const FILE_EXTENSION_MPKG: &str = "mpkg";
 /// The file extension for Blueice Multipass.
-pub const FILE_EXTENSION_MPM: &'static str = "mpm";
+pub const FILE_EXTENSION_MPM: &str = "mpm";
 /// The file extension for Mophun Application.
-pub const FILE_EXTENSION_MPN: &'static str = "mpn";
+pub const FILE_EXTENSION_MPN: &str = "mpn";
 /// The file extension for Microsoft Project.
-pub const FILE_EXTENSION_MPP: &'static str = "mpp";
+pub const FILE_EXTENSION_MPP: &str = "mpp";
 /// The file extension for Microsoft Project.
-pub const FILE_EXTENSION_MPT: &'static str = "mpt";
+pub const FILE_EXTENSION_MPT: &str = "mpt";
 /// The file extension for MPEG-2 video.
-pub const FILE_EXTENSION_MPV2: &'static str = "mpv2";
+pub const FILE_EXTENSION_MPV2: &str = "mpv2";
 /// The file extension for IBM MiniPay.
-pub const FILE_EXTENSION_MPY: &'static str = "mpy";
+pub const FILE_EXTENSION_MPY: &str = "mpy";
 /// The file extension for Mobius MQY.
-pub const FILE_EXTENSION_MQY: &'static str = "mqy";
+pub const FILE_EXTENSION_MQY: &str = "mqy";
 /// The file extension for MARC.
-pub const FILE_EXTENSION_MRC: &'static str = "mrc";
+pub const FILE_EXTENSION_MRC: &str = "mrc";
 /// The file extension for MARCXML.
-pub const FILE_EXTENSION_MRCX: &'static str = "mrcx";
+pub const FILE_EXTENSION_MRCX: &str = "mrcx";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_MS: &'static str = "ms";
+pub const FILE_EXTENSION_MS: &str = "ms";
 /// The file extension for Media Server Control XML.
-pub const FILE_EXTENSION_MSCML: &'static str = "mscml";
+pub const FILE_EXTENSION_MSCML: &str = "mscml";
 /// The file extension for FDSN mseed.
-pub const FILE_EXTENSION_MSEED: &'static str = "mseed";
+pub const FILE_EXTENSION_MSEED: &str = "mseed";
 /// The file extension for MSEQ.
-pub const FILE_EXTENSION_MSEQ: &'static str = "mseq";
+pub const FILE_EXTENSION_MSEQ: &str = "mseq";
 /// The file extension for Epson MSF.
-pub const FILE_EXTENSION_MSF: &'static str = "msf";
+pub const FILE_EXTENSION_MSF: &str = "msf";
 /// The file extension for Mesh model.
-pub const FILE_EXTENSION_MSH: &'static str = "msh";
+pub const FILE_EXTENSION_MSH: &str = "msh";
 /// The file extension for Microsoft Installer.
-pub const FILE_EXTENSION_MSI: &'static str = "msi";
+pub const FILE_EXTENSION_MSI: &str = "msi";
 /// The file extension for Mobius MSL.
-pub const FILE_EXTENSION_MSL: &'static str = "msl";
+pub const FILE_EXTENSION_MSL: &str = "msl";
 /// The file extension for Muvee Style.
-pub const FILE_EXTENSION_MSTY: &'static str = "msty";
+pub const FILE_EXTENSION_MSTY: &str = "msty";
 /// The file extension for MTS model.
-pub const FILE_EXTENSION_MTS: &'static str = "mts";
+pub const FILE_EXTENSION_MTS: &str = "mts";
 /// The file extension for Musician.
-pub const FILE_EXTENSION_MUS: &'static str = "mus";
+pub const FILE_EXTENSION_MUS: &str = "mus";
 /// The file extension for Recordare MusicXML.
-pub const FILE_EXTENSION_MUSICXML: &'static str = "musicxml";
+pub const FILE_EXTENSION_MUSICXML: &str = "musicxml";
 /// The file extension for a MVB file.
-pub const FILE_EXTENSION_MVB: &'static str = "mvb";
+pub const FILE_EXTENSION_MVB: &str = "mvb";
 /// The file extension for MFER.
-pub const FILE_EXTENSION_MWF: &'static str = "mwf";
+pub const FILE_EXTENSION_MWF: &str = "mwf";
 /// The file extension for MXF.
-pub const FILE_EXTENSION_MXF: &'static str = "mxf";
+pub const FILE_EXTENSION_MXF: &str = "mxf";
 /// The file extension for Recordare MusicXML.
-pub const FILE_EXTENSION_MXL: &'static str = "mxl";
+pub const FILE_EXTENSION_MXL: &str = "mxl";
 /// The file extension for XV XML.
-pub const FILE_EXTENSION_MXML: &'static str = "mxml";
+pub const FILE_EXTENSION_MXML: &str = "mxml";
 /// The file extension for Triscape MXS.
-pub const FILE_EXTENSION_MXS: &'static str = "mxs";
+pub const FILE_EXTENSION_MXS: &str = "mxs";
 /// The file extension for a MXU file.
-pub const FILE_EXTENSION_MXU: &'static str = "mxu";
+pub const FILE_EXTENSION_MXU: &str = "mxu";
 /// The file extension for Nokia N-Gage Symbian Install.
-pub const FILE_EXTENSION_N_GAGE: &'static str = "n-gage";
+pub const FILE_EXTENSION_N_GAGE: &str = "n-gage";
 /// The file extension for N3.
-pub const FILE_EXTENSION_N3: &'static str = "n3";
+pub const FILE_EXTENSION_N3: &str = "n3";
 /// The file extension for Mathematica.
-pub const FILE_EXTENSION_NB: &'static str = "nb";
+pub const FILE_EXTENSION_NB: &str = "nb";
 /// The file extension for Wolfram Player.
-pub const FILE_EXTENSION_NBP: &'static str = "nbp";
+pub const FILE_EXTENSION_NBP: &str = "nbp";
 /// The file extension for NetCDF.
-pub const FILE_EXTENSION_NC: &'static str = "nc";
+pub const FILE_EXTENSION_NC: &str = "nc";
 /// The file extension for DTBNCX XML.
-pub const FILE_EXTENSION_NCX: &'static str = "ncx";
+pub const FILE_EXTENSION_NCX: &str = "ncx";
 /// The file extension for NFO.
-pub const FILE_EXTENSION_NFO: &'static str = "nfo";
+pub const FILE_EXTENSION_NFO: &str = "nfo";
 /// The file extension for Nokia N-Gage Data.
-pub const FILE_EXTENSION_NGDAT: &'static str = "ngdat";
+pub const FILE_EXTENSION_NGDAT: &str = "ngdat";
 /// The file extension for NITF.
-pub const FILE_EXTENSION_NITF: &'static str = "nitf";
+pub const FILE_EXTENSION_NITF: &str = "nitf";
 /// The file extension for NeuroLanguage NLU.
-pub const FILE_EXTENSION_NLU: &'static str = "nlu";
+pub const FILE_EXTENSION_NLU: &str = "nlu";
 /// The file extension for Enliven.
-pub const FILE_EXTENSION_NML: &'static str = "nml";
+pub const FILE_EXTENSION_NML: &str = "nml";
 /// The file extension for NobleNet Directory.
-pub const FILE_EXTENSION_NND: &'static str = "nnd";
+pub const FILE_EXTENSION_NND: &str = "nnd";
 /// The file extension for NobleNet Sealer.
-pub const FILE_EXTENSION_NNS: &'static str = "nns";
+pub const FILE_EXTENSION_NNS: &str = "nns";
 /// The file extension for NobleNet Web.
-pub const FILE_EXTENSION_NNW: &'static str = "nnw";
+pub const FILE_EXTENSION_NNW: &str = "nnw";
 /// The file extension for Net-FPX image.
-pub const FILE_EXTENSION_NPX: &'static str = "npx";
+pub const FILE_EXTENSION_NPX: &str = "npx";
 /// The file extension for Conference.
-pub const FILE_EXTENSION_NSC: &'static str = "nsc";
+pub const FILE_EXTENSION_NSC: &str = "nsc";
 /// The file extension for Lotus Notes.
-pub const FILE_EXTENSION_NSF: &'static str = "nsf";
+pub const FILE_EXTENSION_NSF: &str = "nsf";
 /// The file extension for NITF.
-pub const FILE_EXTENSION_NTF: &'static str = "ntf";
+pub const FILE_EXTENSION_NTF: &str = "ntf";
 /// The file extension for NZB.
-pub const FILE_EXTENSION_NZB: &'static str = "nzb";
+pub const FILE_EXTENSION_NZB: &str = "nzb";
 /// The file extension for Fujitsu Oasys 2.
-pub const FILE_EXTENSION_OA2: &'static str = "oa2";
+pub const FILE_EXTENSION_OA2: &str = "oa2";
 /// The file extension for Fujitsu Oasys 3.
-pub const FILE_EXTENSION_OA3: &'static str = "oa3";
+pub const FILE_EXTENSION_OA3: &str = "oa3";
 /// The file extension for Fujitsu Oasys.
-pub const FILE_EXTENSION_OAS: &'static str = "oas";
+pub const FILE_EXTENSION_OAS: &str = "oas";
 /// The file extension for Microsoft Binder.
-pub const FILE_EXTENSION_OBD: &'static str = "obd";
+pub const FILE_EXTENSION_OBD: &str = "obd";
 /// The file extension for an object file.
-pub const FILE_EXTENSION_OBJ: &'static str = "obj";
+pub const FILE_EXTENSION_OBJ: &str = "obj";
 /// The file extension for ODA.
-pub const FILE_EXTENSION_ODA: &'static str = "oda";
+pub const FILE_EXTENSION_ODA: &str = "oda";
 /// The file extension for OpenDocument Database.
-pub const FILE_EXTENSION_ODB: &'static str = "odb";
+pub const FILE_EXTENSION_ODB: &str = "odb";
 /// The file extension for OpenDocument Chart.
-pub const FILE_EXTENSION_ODC: &'static str = "odc";
+pub const FILE_EXTENSION_ODC: &str = "odc";
 /// The file extension for OpenDocument Formula.
-pub const FILE_EXTENSION_ODF: &'static str = "odf";
+pub const FILE_EXTENSION_ODF: &str = "odf";
 /// The file extension for OpenDocument Formula Template.
-pub const FILE_EXTENSION_ODFT: &'static str = "odft";
+pub const FILE_EXTENSION_ODFT: &str = "odft";
 /// The file extension for OpenDocument Graphics.
-pub const FILE_EXTENSION_ODG: &'static str = "odg";
+pub const FILE_EXTENSION_ODG: &str = "odg";
 /// The file extension for OpenDocument Image.
-pub const FILE_EXTENSION_ODI: &'static str = "odi";
+pub const FILE_EXTENSION_ODI: &str = "odi";
 /// The file extension for OpenDocument Text Master.
-pub const FILE_EXTENSION_ODM: &'static str = "odm";
+pub const FILE_EXTENSION_ODM: &str = "odm";
 /// The file extension for OpenDocument Presentation.
-pub const FILE_EXTENSION_ODP: &'static str = "odp";
+pub const FILE_EXTENSION_ODP: &str = "odp";
 /// The file extension for OpenDocument Spreadsheet.
-pub const FILE_EXTENSION_ODS: &'static str = "ods";
+pub const FILE_EXTENSION_ODS: &str = "ods";
 /// The file extension for OpenDocument Text.
-pub const FILE_EXTENSION_ODT: &'static str = "odt";
+pub const FILE_EXTENSION_ODT: &str = "odt";
 /// The file extension for Ogg audio.
-pub const FILE_EXTENSION_OGA: &'static str = "oga";
+pub const FILE_EXTENSION_OGA: &str = "oga";
 /// The file extension for Ogg.
-pub const FILE_EXTENSION_OGG: &'static str = "ogg";
+pub const FILE_EXTENSION_OGG: &str = "ogg";
 /// The file extension for Ogg video.
-pub const FILE_EXTENSION_OGV: &'static str = "ogv";
+pub const FILE_EXTENSION_OGV: &str = "ogv";
 /// The file extension for Ogg.
-pub const FILE_EXTENSION_OGX: &'static str = "ogx";
+pub const FILE_EXTENSION_OGX: &str = "ogx";
 /// The file extension for OMDOC XML.
-pub const FILE_EXTENSION_OMDOC: &'static str = "omdoc";
+pub const FILE_EXTENSION_OMDOC: &str = "omdoc";
 /// The file extension for OneNote.
-pub const FILE_EXTENSION_ONEPKG: &'static str = "onepkg";
+pub const FILE_EXTENSION_ONEPKG: &str = "onepkg";
 /// The file extension for OneNote.
-pub const FILE_EXTENSION_ONETMP: &'static str = "onetmp";
+pub const FILE_EXTENSION_ONETMP: &str = "onetmp";
 /// The file extension for OneNote.
-pub const FILE_EXTENSION_ONETOC: &'static str = "onetoc";
+pub const FILE_EXTENSION_ONETOC: &str = "onetoc";
 /// The file extension for OneNote.
-pub const FILE_EXTENSION_ONETOC2: &'static str = "onetoc2";
+pub const FILE_EXTENSION_ONETOC2: &str = "onetoc2";
 /// The file extension for OEBPS Package XML.
-pub const FILE_EXTENSION_OPF: &'static str = "opf";
+pub const FILE_EXTENSION_OPF: &str = "opf";
 /// The file extension for OPML.
-pub const FILE_EXTENSION_OPML: &'static str = "opml";
+pub const FILE_EXTENSION_OPML: &str = "opml";
 /// The file extension for Palm.
-pub const FILE_EXTENSION_OPRC: &'static str = "oprc";
+pub const FILE_EXTENSION_OPRC: &str = "oprc";
 /// The file extension for Lotus Organizer.
-pub const FILE_EXTENSION_ORG: &'static str = "org";
+pub const FILE_EXTENSION_ORG: &str = "org";
 /// The file extension for Yamaha OpenScoreFormat.
-pub const FILE_EXTENSION_OSF: &'static str = "osf";
+pub const FILE_EXTENSION_OSF: &str = "osf";
 /// The file extension for Yamaha OpenScoreFormat OSFPVG XML.
-pub const FILE_EXTENSION_OSFPVG: &'static str = "osfpvg";
+pub const FILE_EXTENSION_OSFPVG: &str = "osfpvg";
 /// The file extension for OpenDocument Chart Template.
-pub const FILE_EXTENSION_OTC: &'static str = "otc";
+pub const FILE_EXTENSION_OTC: &str = "otc";
 /// The file extension for OpenType Font.
-pub const FILE_EXTENSION_OTF: &'static str = "otf";
+pub const FILE_EXTENSION_OTF: &str = "otf";
 /// The file extension for OpenDocument Graphics Template.
-pub const FILE_EXTENSION_OTG: &'static str = "otg";
+pub const FILE_EXTENSION_OTG: &str = "otg";
 /// The file extension for OpenDocument Text Web.
-pub const FILE_EXTENSION_OTH: &'static str = "oth";
+pub const FILE_EXTENSION_OTH: &str = "oth";
 /// The file extension for OpenDocument Image Template.
-pub const FILE_EXTENSION_OTI: &'static str = "oti";
+pub const FILE_EXTENSION_OTI: &str = "oti";
 /// The file extension for OpenDocument Presentation Template.
-pub const FILE_EXTENSION_OTP: &'static str = "otp";
+pub const FILE_EXTENSION_OTP: &str = "otp";
 /// The file extension for OpenDocument Spreadsheet Template.
-pub const FILE_EXTENSION_OTS: &'static str = "ots";
+pub const FILE_EXTENSION_OTS: &str = "ots";
 /// The file extension for OpenDocument Text Template.
-pub const FILE_EXTENSION_OTT: &'static str = "ott";
+pub const FILE_EXTENSION_OTT: &str = "ott";
 /// The file extension for OpenXPS.
-pub const FILE_EXTENSION_OXPS: &'static str = "oxps";
+pub const FILE_EXTENSION_OXPS: &str = "oxps";
 /// The file extension for OpenOffice Extension.
-pub const FILE_EXTENSION_OXT: &'static str = "oxt";
+pub const FILE_EXTENSION_OXT: &str = "oxt";
 /// The file extension for Pascal source.
-pub const FILE_EXTENSION_P: &'static str = "p";
+pub const FILE_EXTENSION_P: &str = "p";
 /// The file extension for PKCS #10.
-pub const FILE_EXTENSION_P10: &'static str = "p10";
+pub const FILE_EXTENSION_P10: &str = "p10";
 /// The file extension for PKCS #12.
-pub const FILE_EXTENSION_P12: &'static str = "p12";
+pub const FILE_EXTENSION_P12: &str = "p12";
 /// The file extension for PKCS #7 Certificates.
-pub const FILE_EXTENSION_P7B: &'static str = "p7b";
+pub const FILE_EXTENSION_P7B: &str = "p7b";
 /// The file extension for PKCS #7 MIME.
-pub const FILE_EXTENSION_P7C: &'static str = "p7c";
+pub const FILE_EXTENSION_P7C: &str = "p7c";
 /// The file extension for PKCS #7 MIME.
-pub const FILE_EXTENSION_P7M: &'static str = "p7m";
+pub const FILE_EXTENSION_P7M: &str = "p7m";
 /// The file extension for PKCS #7 Certificate Request/Response.
-pub const FILE_EXTENSION_P7R: &'static str = "p7r";
+pub const FILE_EXTENSION_P7R: &str = "p7r";
 /// The file extension for PKCS #7 Signature.
-pub const FILE_EXTENSION_P7S: &'static str = "p7s";
+pub const FILE_EXTENSION_P7S: &str = "p7s";
 /// The file extension for PKCS #8.
-pub const FILE_EXTENSION_P8: &'static str = "p8";
+pub const FILE_EXTENSION_P8: &str = "p8";
 /// The file extension for Pascal source.
-pub const FILE_EXTENSION_PAS: &'static str = "pas";
+pub const FILE_EXTENSION_PAS: &str = "pas";
 /// The file extension for Pawaafile.
-pub const FILE_EXTENSION_PAW: &'static str = "paw";
+pub const FILE_EXTENSION_PAW: &str = "paw";
 /// The file extension for PowerBuilder 6.
-pub const FILE_EXTENSION_PBD: &'static str = "pbd";
+pub const FILE_EXTENSION_PBD: &str = "pbd";
 /// The file extension for Portable Bitmap image.
-pub const FILE_EXTENSION_PBM: &'static str = "pbm";
+pub const FILE_EXTENSION_PBM: &str = "pbm";
 /// The file extension for TCPDump capture file.
-pub const FILE_EXTENSION_PCAP: &'static str = "pcap";
+pub const FILE_EXTENSION_PCAP: &str = "pcap";
 /// The file extension for PCF font.
-pub const FILE_EXTENSION_PCF: &'static str = "pcf";
+pub const FILE_EXTENSION_PCF: &str = "pcf";
 /// The file extension for HP PCL.
-pub const FILE_EXTENSION_PCL: &'static str = "pcl";
+pub const FILE_EXTENSION_PCL: &str = "pcl";
 /// The file extension for HP PCLXL.
-pub const FILE_EXTENSION_PCLXL: &'static str = "pclxl";
+pub const FILE_EXTENSION_PCLXL: &str = "pclxl";
 /// The file extension for PICT image.
-pub const FILE_EXTENSION_PCT: &'static str = "pct";
+pub const FILE_EXTENSION_PCT: &str = "pct";
 /// The file extension for cURL PCURL.
-pub const FILE_EXTENSION_PCURL: &'static str = "pcurl";
+pub const FILE_EXTENSION_PCURL: &str = "pcurl";
 /// The file extension for PCX image.
-pub const FILE_EXTENSION_PCX: &'static str = "pcx";
+pub const FILE_EXTENSION_PCX: &str = "pcx";
 /// The file extension for Palm.
-pub const FILE_EXTENSION_PDB: &'static str = "pdb";
+pub const FILE_EXTENSION_PDB: &str = "pdb";
 /// The file extension for PDF.
-pub const FILE_EXTENSION_PDF: &'static str = "pdf";
+pub const FILE_EXTENSION_PDF: &str = "pdf";
 /// The file extension for Adobe Font Metrics.
-pub const FILE_EXTENSION_PFA: &'static str = "pfa";
+pub const FILE_EXTENSION_PFA: &str = "pfa";
 /// The file extension for Adobe Font Metrics.
-pub const FILE_EXTENSION_PFB: &'static str = "pfb";
+pub const FILE_EXTENSION_PFB: &str = "pfb";
 /// The file extension for Adobe Font Metrics.
-pub const FILE_EXTENSION_PFM: &'static str = "pfm";
+pub const FILE_EXTENSION_PFM: &str = "pfm";
 /// The file extension for Font Tdpfr.
-pub const FILE_EXTENSION_PFR: &'static str = "pfr";
+pub const FILE_EXTENSION_PFR: &str = "pfr";
 /// The file extension for PKCS #12.
-pub const FILE_EXTENSION_PFX: &'static str = "pfx";
+pub const FILE_EXTENSION_PFX: &str = "pfx";
 /// The file extension for Portable Graymap image.
-pub const FILE_EXTENSION_PGM: &'static str = "pgm";
+pub const FILE_EXTENSION_PGM: &str = "pgm";
 /// The file extension for PGN chess notation.
-pub const FILE_EXTENSION_PGN: &'static str = "pgn";
+pub const FILE_EXTENSION_PGN: &str = "pgn";
 /// The file extension for PGP encrypted.
-pub const FILE_EXTENSION_PGP: &'static str = "pgp";
+pub const FILE_EXTENSION_PGP: &str = "pgp";
 /// The file extension for PICT image.
-pub const FILE_EXTENSION_PIC: &'static str = "pic";
+pub const FILE_EXTENSION_PIC: &str = "pic";
 /// The file extension for PICT image.
-pub const FILE_EXTENSION_PICT: &'static str = "pict";
+pub const FILE_EXTENSION_PICT: &str = "pict";
 /// The file extension for a package file.
-pub const FILE_EXTENSION_PKG: &'static str = "pkg";
+pub const FILE_EXTENSION_PKG: &str = "pkg";
 /// The file extension for PKIXCMP.
-pub const FILE_EXTENSION_PKI: &'static str = "pki";
+pub const FILE_EXTENSION_PKI: &str = "pki";
 /// The file extension for PKIX PKIPath.
-pub const FILE_EXTENSION_PKIPATH: &'static str = "pkipath";
+pub const FILE_EXTENSION_PKIPATH: &str = "pkipath";
 /// The file extension for 3GPP PIC BW Large.
-pub const FILE_EXTENSION_PLB: &'static str = "plb";
+pub const FILE_EXTENSION_PLB: &str = "plb";
 /// The file extension for Mobius PLC.
-pub const FILE_EXTENSION_PLC: &'static str = "plc";
+pub const FILE_EXTENSION_PLC: &str = "plc";
 /// The file extension for PocketLearn.
-pub const FILE_EXTENSION_PLF: &'static str = "plf";
+pub const FILE_EXTENSION_PLF: &str = "plf";
 /// The file extension for SCPLS playlist.
-pub const FILE_EXTENSION_PLS: &'static str = "pls";
+pub const FILE_EXTENSION_PLS: &str = "pls";
 /// The file extension for CTC POSML.
-pub const FILE_EXTENSION_PML: &'static str = "pml";
+pub const FILE_EXTENSION_PML: &str = "pml";
 /// The file extension for PNG image.
-pub const FILE_EXTENSION_PNG: &'static str = "png";
+pub const FILE_EXTENSION_PNG: &str = "png";
 /// The file extension for Portable Anymap image.
-pub const FILE_EXTENSION_PNM: &'static str = "pnm";
+pub const FILE_EXTENSION_PNM: &str = "pnm";
 /// The file extension for MacPaint image.
-pub const FILE_EXTENSION_PNT: &'static str = "pnt";
+pub const FILE_EXTENSION_PNT: &str = "pnt";
 /// The file extension for MacPorts Portpkg.
-pub const FILE_EXTENSION_PORTPKG: &'static str = "portpkg";
+pub const FILE_EXTENSION_PORTPKG: &str = "portpkg";
 /// The file extension for Microsoft PowerPoint.
-pub const FILE_EXTENSION_POT: &'static str = "pot";
+pub const FILE_EXTENSION_POT: &str = "pot";
 /// The file extension for Microsoft PowerPoint Template (Macro-Enabled).
-pub const FILE_EXTENSION_POTM: &'static str = "potm";
+pub const FILE_EXTENSION_POTM: &str = "potm";
 /// The file extension for Office Open XML Presentation Template.
-pub const FILE_EXTENSION_POTX: &'static str = "potx";
+pub const FILE_EXTENSION_POTX: &str = "potx";
 /// The file extension for Microsoft PowerPoint Add-in (Macro-Enabled).
-pub const FILE_EXTENSION_PPAM: &'static str = "ppam";
+pub const FILE_EXTENSION_PPAM: &str = "ppam";
 /// The file extension for CUPS PPD.
-pub const FILE_EXTENSION_PPD: &'static str = "ppd";
+pub const FILE_EXTENSION_PPD: &str = "ppd";
 /// The file extension for Portable Pixmap image.
-pub const FILE_EXTENSION_PPM: &'static str = "ppm";
+pub const FILE_EXTENSION_PPM: &str = "ppm";
 /// The file extension for Microsoft PowerPoint.
-pub const FILE_EXTENSION_PPS: &'static str = "pps";
+pub const FILE_EXTENSION_PPS: &str = "pps";
 /// The file extension for Microsoft PowerPoint Slideshow (Macro-Enabled).
-pub const FILE_EXTENSION_PPSM: &'static str = "ppsm";
+pub const FILE_EXTENSION_PPSM: &str = "ppsm";
 /// The file extension for Office Open XML Presentation Slideshow.
-pub const FILE_EXTENSION_PPSX: &'static str = "ppsx";
+pub const FILE_EXTENSION_PPSX: &str = "ppsx";
 /// The file extension for Microsoft PowerPoint.
-pub const FILE_EXTENSION_PPT: &'static str = "ppt";
+pub const FILE_EXTENSION_PPT: &str = "ppt";
 /// The file extension for Microsoft PowerPoint Presentation (Macro-Enabled).
-pub const FILE_EXTENSION_PPTM: &'static str = "pptm";
+pub const FILE_EXTENSION_PPTM: &str = "pptm";
 /// The file extension for Office Open XML Presentation.
-pub const FILE_EXTENSION_PPTX: &'static str = "pptx";
+pub const FILE_EXTENSION_PPTX: &str = "pptx";
 /// The file extension for Palm.
-pub const FILE_EXTENSION_PQA: &'static str = "pqa";
+pub const FILE_EXTENSION_PQA: &str = "pqa";
 /// The file extension for Palm.
-pub const FILE_EXTENSION_PRC: &'static str = "prc";
+pub const FILE_EXTENSION_PRC: &str = "prc";
 /// The file extension for Lotus Freelance.
-pub const FILE_EXTENSION_PRE: &'static str = "pre";
+pub const FILE_EXTENSION_PRE: &str = "pre";
 /// The file extension for a profile file.
-pub const FILE_EXTENSION_PRF: &'static str = "prf";
+pub const FILE_EXTENSION_PRF: &str = "prf";
 /// The file extension for PostScript.
-pub const FILE_EXTENSION_PS: &'static str = "ps";
+pub const FILE_EXTENSION_PS: &str = "ps";
 /// The file extension for 3GPP PIC BW Small.
-pub const FILE_EXTENSION_PSB: &'static str = "psb";
+pub const FILE_EXTENSION_PSB: &str = "psb";
 /// The file extension for Adobe Photoshop.
-pub const FILE_EXTENSION_PSD: &'static str = "psd";
+pub const FILE_EXTENSION_PSD: &str = "psd";
 /// The file extension for Linux PSF font.
-pub const FILE_EXTENSION_PSF: &'static str = "psf";
+pub const FILE_EXTENSION_PSF: &str = "psf";
 /// The file extension for PSKC XML.
-pub const FILE_EXTENSION_PSKCXML: &'static str = "pskcxml";
+pub const FILE_EXTENSION_PSKCXML: &str = "pskcxml";
 /// The file extension for PVI PTID1.
-pub const FILE_EXTENSION_PTID: &'static str = "ptid";
+pub const FILE_EXTENSION_PTID: &str = "ptid";
 /// The file extension for Microsoft Publisher.
-pub const FILE_EXTENSION_PUB: &'static str = "pub";
+pub const FILE_EXTENSION_PUB: &str = "pub";
 /// The file extension for 3GPP PIC BW Var.
-pub const FILE_EXTENSION_PVB: &'static str = "pvb";
+pub const FILE_EXTENSION_PVB: &str = "pvb";
 /// The file extension for 3M Post-It Notes.
-pub const FILE_EXTENSION_PWN: &'static str = "pwn";
+pub const FILE_EXTENSION_PWN: &str = "pwn";
 /// The file extension for Microsoft PlayReady Media PYA.
-pub const FILE_EXTENSION_PYA: &'static str = "pya";
+pub const FILE_EXTENSION_PYA: &str = "pya";
 /// The file extension for Microsoft PlayReady Media PYV.
-pub const FILE_EXTENSION_PYV: &'static str = "pyv";
+pub const FILE_EXTENSION_PYV: &str = "pyv";
 /// The file extension for Epson QuickAnime.
-pub const FILE_EXTENSION_QAM: &'static str = "qam";
+pub const FILE_EXTENSION_QAM: &str = "qam";
 /// The file extension for Intuit QBO.
-pub const FILE_EXTENSION_QBO: &'static str = "qbo";
+pub const FILE_EXTENSION_QBO: &str = "qbo";
 /// The file extension for Intuit QFX.
-pub const FILE_EXTENSION_QFX: &'static str = "qfx";
+pub const FILE_EXTENSION_QFX: &str = "qfx";
 /// The file extension for PubliShare Delta Tree.
-pub const FILE_EXTENSION_QPS: &'static str = "qps";
+pub const FILE_EXTENSION_QPS: &str = "qps";
 /// The file extension for QuickTime video.
-pub const FILE_EXTENSION_QT: &'static str = "qt";
+pub const FILE_EXTENSION_QT: &str = "qt";
 /// The file extension for QuickTime image.
-pub const FILE_EXTENSION_QTI: &'static str = "qti";
+pub const FILE_EXTENSION_QTI: &str = "qti";
 /// The file extension for QuickTime image.
-pub const FILE_EXTENSION_QTIF: &'static str = "qtif";
+pub const FILE_EXTENSION_QTIF: &str = "qtif";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QWD: &'static str = "qwd";
+pub const FILE_EXTENSION_QWD: &str = "qwd";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QWT: &'static str = "qwt";
+pub const FILE_EXTENSION_QWT: &str = "qwt";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QXB: &'static str = "qxb";
+pub const FILE_EXTENSION_QXB: &str = "qxb";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QXD: &'static str = "qxd";
+pub const FILE_EXTENSION_QXD: &str = "qxd";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QXL: &'static str = "qxl";
+pub const FILE_EXTENSION_QXL: &str = "qxl";
 /// The file extension for QuarkXPress.
-pub const FILE_EXTENSION_QXT: &'static str = "qxt";
+pub const FILE_EXTENSION_QXT: &str = "qxt";
 /// The file extension for RealAudio.
-pub const FILE_EXTENSION_RA: &'static str = "ra";
+pub const FILE_EXTENSION_RA: &str = "ra";
 /// The file extension for RealAudio.
-pub const FILE_EXTENSION_RAM: &'static str = "ram";
+pub const FILE_EXTENSION_RAM: &str = "ram";
 /// The file extension for RAR compressed archive.
-pub const FILE_EXTENSION_RAR: &'static str = "rar";
+pub const FILE_EXTENSION_RAR: &str = "rar";
 /// The file extension for CMU Raster image.
-pub const FILE_EXTENSION_RAS: &'static str = "ras";
+pub const FILE_EXTENSION_RAS: &str = "ras";
 /// The file extension for iPunplugged RCProfile.
-pub const FILE_EXTENSION_RCPROFILE: &'static str = "rcprofile";
+pub const FILE_EXTENSION_RCPROFILE: &str = "rcprofile";
 /// The file extension for RDF XML.
-pub const FILE_EXTENSION_RDF: &'static str = "rdf";
+pub const FILE_EXTENSION_RDF: &str = "rdf";
 /// The file extension for Data-Vision RDZ.
-pub const FILE_EXTENSION_RDZ: &'static str = "rdz";
+pub const FILE_EXTENSION_RDZ: &str = "rdz";
 /// The file extension for BusinessObjects.
-pub const FILE_EXTENSION_REP: &'static str = "rep";
+pub const FILE_EXTENSION_REP: &str = "rep";
 /// The file extension for DTBResource XML.
-pub const FILE_EXTENSION_RES: &'static str = "res";
+pub const FILE_EXTENSION_RES: &str = "res";
 /// The file extension for RGB image.
-pub const FILE_EXTENSION_RGB: &'static str = "rgb";
+pub const FILE_EXTENSION_RGB: &str = "rgb";
 /// The file extension for RegInfo XML.
-pub const FILE_EXTENSION_RIF: &'static str = "rif";
+pub const FILE_EXTENSION_RIF: &str = "rif";
 /// The file extension for RIP audio.
-pub const FILE_EXTENSION_RIP: &'static str = "rip";
+pub const FILE_EXTENSION_RIP: &str = "rip";
 /// The file extension for Research Info Systems.
-pub const FILE_EXTENSION_RIS: &'static str = "ris";
+pub const FILE_EXTENSION_RIS: &str = "ris";
 /// The file extension for Resource Lists XML.
-pub const FILE_EXTENSION_RL: &'static str = "rl";
+pub const FILE_EXTENSION_RL: &str = "rl";
 /// The file extension for Fujixerox EDMICS RLC.
-pub const FILE_EXTENSION_RLC: &'static str = "rlc";
+pub const FILE_EXTENSION_RLC: &str = "rlc";
 /// The file extension for Resource Lists Diff XML.
-pub const FILE_EXTENSION_RLD: &'static str = "rld";
+pub const FILE_EXTENSION_RLD: &str = "rld";
 /// The file extension for RealMedia.
-pub const FILE_EXTENSION_RM: &'static str = "rm";
+pub const FILE_EXTENSION_RM: &str = "rm";
 /// The file extension for MIDI audio.
-pub const FILE_EXTENSION_RMI: &'static str = "rmi";
+pub const FILE_EXTENSION_RMI: &str = "rmi";
 /// The file extension for RealAudio Plugin.
-pub const FILE_EXTENSION_RMP: &'static str = "rmp";
+pub const FILE_EXTENSION_RMP: &str = "rmp";
 /// The file extension for JCP J2ME Midlet RMS.
-pub const FILE_EXTENSION_RMS: &'static str = "rms";
+pub const FILE_EXTENSION_RMS: &str = "rms";
 /// The file extension for RealMedia VBR.
-pub const FILE_EXTENSION_RMVB: &'static str = "rmvb";
+pub const FILE_EXTENSION_RMVB: &str = "rmvb";
 /// The file extension for RELAX NG Compact Syntax.
-pub const FILE_EXTENSION_RNC: &'static str = "rnc";
+pub const FILE_EXTENSION_RNC: &str = "rnc";
 /// The file extension for RPKI ROA.
-pub const FILE_EXTENSION_ROA: &'static str = "roa";
+pub const FILE_EXTENSION_ROA: &str = "roa";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_ROFF: &'static str = "roff";
+pub const FILE_EXTENSION_ROFF: &str = "roff";
 /// The file extension for Cloanto RP9.
-pub const FILE_EXTENSION_RP9: &'static str = "rp9";
+pub const FILE_EXTENSION_RP9: &str = "rp9";
 /// The file extension for Nokia Radio Presets.
-pub const FILE_EXTENSION_RPSS: &'static str = "rpss";
+pub const FILE_EXTENSION_RPSS: &str = "rpss";
 /// The file extension for Nokia Radio Preset.
-pub const FILE_EXTENSION_RPST: &'static str = "rpst";
+pub const FILE_EXTENSION_RPST: &str = "rpst";
 /// The file extension for SPARQL Query.
-pub const FILE_EXTENSION_RQ: &'static str = "rq";
+pub const FILE_EXTENSION_RQ: &str = "rq";
 /// The file extension for RSD XML.
-pub const FILE_EXTENSION_RSD: &'static str = "rsd";
+pub const FILE_EXTENSION_RSD: &str = "rsd";
 /// The file extension for RSS XML.
-pub const FILE_EXTENSION_RSS: &'static str = "rss";
+pub const FILE_EXTENSION_RSS: &str = "rss";
 /// The file extension for RTF.
-pub const FILE_EXTENSION_RTF: &'static str = "rtf";
+pub const FILE_EXTENSION_RTF: &str = "rtf";
 /// The file extension for Rich Text.
-pub const FILE_EXTENSION_RTX: &'static str = "rtx";
+pub const FILE_EXTENSION_RTX: &str = "rtx";
 /// The file extension for Assembly source.
-pub const FILE_EXTENSION_S: &'static str = "s";
+pub const FILE_EXTENSION_S: &str = "s";
 /// The file extension for S3M audio.
-pub const FILE_EXTENSION_S3M: &'static str = "s3m";
+pub const FILE_EXTENSION_S3M: &str = "s3m";
 /// The file extension for Yamaha SMAF Audio.
-pub const FILE_EXTENSION_SAF: &'static str = "saf";
+pub const FILE_EXTENSION_SAF: &str = "saf";
 /// The file extension for SBML XML.
-pub const FILE_EXTENSION_SBML: &'static str = "sbml";
+pub const FILE_EXTENSION_SBML: &str = "sbml";
 /// The file extension for Microsoft Schedule.
-pub const FILE_EXTENSION_SCD: &'static str = "scd";
+pub const FILE_EXTENSION_SCD: &str = "scd";
 /// The file extension for Lotus ScreenCam.
-pub const FILE_EXTENSION_SCM: &'static str = "scm";
+pub const FILE_EXTENSION_SCM: &str = "scm";
 /// The file extension for SCVP CV Request.
-pub const FILE_EXTENSION_SCQ: &'static str = "scq";
+pub const FILE_EXTENSION_SCQ: &str = "scq";
 /// The file extension for SCVP CV Response.
-pub const FILE_EXTENSION_SCS: &'static str = "scs";
+pub const FILE_EXTENSION_SCS: &str = "scs";
 /// The file extension for cURL SCURL.
-pub const FILE_EXTENSION_SCURL: &'static str = "scurl";
+pub const FILE_EXTENSION_SCURL: &str = "scurl";
 /// The file extension for StarDivision Draw.
-pub const FILE_EXTENSION_SDA: &'static str = "sda";
+pub const FILE_EXTENSION_SDA: &str = "sda";
 /// The file extension for StarDivision Calc.
-pub const FILE_EXTENSION_SDC: &'static str = "sdc";
+pub const FILE_EXTENSION_SDC: &str = "sdc";
 /// The file extension for StarDivision Impress.
-pub const FILE_EXTENSION_SDD: &'static str = "sdd";
+pub const FILE_EXTENSION_SDD: &str = "sdd";
 /// The file extension for Solent SDKM XML.
-pub const FILE_EXTENSION_SDKD: &'static str = "sdkd";
+pub const FILE_EXTENSION_SDKD: &str = "sdkd";
 /// The file extension for Solent SDKM XML.
-pub const FILE_EXTENSION_SDKM: &'static str = "sdkm";
+pub const FILE_EXTENSION_SDKM: &str = "sdkm";
 /// The file extension for SDP.
-pub const FILE_EXTENSION_SDP: &'static str = "sdp";
+pub const FILE_EXTENSION_SDP: &str = "sdp";
 /// The file extension for StarDivision Writer.
-pub const FILE_EXTENSION_SDW: &'static str = "sdw";
+pub const FILE_EXTENSION_SDW: &str = "sdw";
 /// The file extension for SeeMail.
-pub const FILE_EXTENSION_SEE: &'static str = "see";
+pub const FILE_EXTENSION_SEE: &str = "see";
 /// The file extension for FDSN mseed.
-pub const FILE_EXTENSION_SEED: &'static str = "seed";
+pub const FILE_EXTENSION_SEED: &str = "seed";
 /// The file extension for SEMA.
-pub const FILE_EXTENSION_SEMA: &'static str = "sema";
+pub const FILE_EXTENSION_SEMA: &str = "sema";
 /// The file extension for SEMD.
-pub const FILE_EXTENSION_SEMD: &'static str = "semd";
+pub const FILE_EXTENSION_SEMD: &str = "semd";
 /// The file extension for SEMF.
-pub const FILE_EXTENSION_SEMF: &'static str = "semf";
+pub const FILE_EXTENSION_SEMF: &str = "semf";
 /// The file extension for Java Serialized Object.
-pub const FILE_EXTENSION_SER: &'static str = "ser";
+pub const FILE_EXTENSION_SER: &str = "ser";
 /// The file extension for Set Payment Initiation.
-pub const FILE_EXTENSION_SETPAY: &'static str = "setpay";
+pub const FILE_EXTENSION_SETPAY: &str = "setpay";
 /// The file extension for Set Registration Initiation.
-pub const FILE_EXTENSION_SETREG: &'static str = "setreg";
+pub const FILE_EXTENSION_SETREG: &str = "setreg";
 /// The file extension for Hydrostatix SOF-data.
-pub const FILE_EXTENSION_SFD_HDSTX: &'static str = "sfd-hdstx";
+pub const FILE_EXTENSION_SFD_HDSTX: &str = "sfd-hdstx";
 /// The file extension for Spotfire SFS.
-pub const FILE_EXTENSION_SFS: &'static str = "sfs";
+pub const FILE_EXTENSION_SFS: &str = "sfs";
 /// The file extension for SFV.
-pub const FILE_EXTENSION_SFV: &'static str = "sfv";
+pub const FILE_EXTENSION_SFV: &str = "sfv";
 /// The file extension for SGI image.
-pub const FILE_EXTENSION_SGI: &'static str = "sgi";
+pub const FILE_EXTENSION_SGI: &str = "sgi";
 /// The file extension for StarDivision Writer Global.
-pub const FILE_EXTENSION_SGL: &'static str = "sgl";
+pub const FILE_EXTENSION_SGL: &str = "sgl";
 /// The file extension for SGML.
-pub const FILE_EXTENSION_SGM: &'static str = "sgm";
+pub const FILE_EXTENSION_SGM: &str = "sgm";
 /// The file extension for SGML.
-pub const FILE_EXTENSION_SGML: &'static str = "sgml";
+pub const FILE_EXTENSION_SGML: &str = "sgml";
 /// The file extension for Shell script.
-pub const FILE_EXTENSION_SH: &'static str = "sh";
+pub const FILE_EXTENSION_SH: &str = "sh";
 /// The file extension for Shar archive.
-pub const FILE_EXTENSION_SHAR: &'static str = "shar";
+pub const FILE_EXTENSION_SHAR: &str = "shar";
 /// The file extension for SHF XML.
-pub const FILE_EXTENSION_SHF: &'static str = "shf";
+pub const FILE_EXTENSION_SHF: &str = "shf";
 /// The file extension for MrSID image.
-pub const FILE_EXTENSION_SID: &'static str = "sid";
+pub const FILE_EXTENSION_SID: &str = "sid";
 /// The file extension for a signature file.
-pub const FILE_EXTENSION_SIG: &'static str = "sig";
+pub const FILE_EXTENSION_SIG: &str = "sig";
 /// The file extension for Silk audio.
-pub const FILE_EXTENSION_SIL: &'static str = "sil";
+pub const FILE_EXTENSION_SIL: &str = "sil";
 /// The file extension for a SILO file.
-pub const FILE_EXTENSION_SILO: &'static str = "silo";
+pub const FILE_EXTENSION_SILO: &str = "silo";
 /// The file extension for Symbian Install.
-pub const FILE_EXTENSION_SIS: &'static str = "sis";
+pub const FILE_EXTENSION_SIS: &str = "sis";
 /// The file extension for Symbian Install.
-pub const FILE_EXTENSION_SISX: &'static str = "sisx";
+pub const FILE_EXTENSION_SISX: &str = "sisx";
 /// The file extension for StuffIt archive.
-pub const FILE_EXTENSION_SIT: &'static str = "sit";
+pub const FILE_EXTENSION_SIT: &str = "sit";
 /// The file extension for StuffItX archive.
-pub const FILE_EXTENSION_SITX: &'static str = "sitx";
+pub const FILE_EXTENSION_SITX: &str = "sitx";
 /// The file extension for Koan.
-pub const FILE_EXTENSION_SKD: &'static str = "skd";
+pub const FILE_EXTENSION_SKD: &str = "skd";
 /// The file extension for Koan.
-pub const FILE_EXTENSION_SKM: &'static str = "skm";
+pub const FILE_EXTENSION_SKM: &str = "skm";
 /// The file extension for Koan.
-pub const FILE_EXTENSION_SKP: &'static str = "skp";
+pub const FILE_EXTENSION_SKP: &str = "skp";
 /// The file extension for Koan.
-pub const FILE_EXTENSION_SKT: &'static str = "skt";
+pub const FILE_EXTENSION_SKT: &str = "skt";
 /// The file extension for Microsoft PowerPoint Slide (Macro-Enabled).
-pub const FILE_EXTENSION_SLDM: &'static str = "sldm";
+pub const FILE_EXTENSION_SLDM: &str = "sldm";
 /// The file extension for Office Open XML Presentation Slide.
-pub const FILE_EXTENSION_SLDX: &'static str = "sldx";
+pub const FILE_EXTENSION_SLDX: &str = "sldx";
 /// The file extension for Epson SALT.
-pub const FILE_EXTENSION_SLT: &'static str = "slt";
+pub const FILE_EXTENSION_SLT: &str = "slt";
 /// The file extension for StepMania Stepchart.
-pub const FILE_EXTENSION_SM: &'static str = "sm";
+pub const FILE_EXTENSION_SM: &str = "sm";
 /// The file extension for StarDivision Math.
-pub const FILE_EXTENSION_SMF: &'static str = "smf";
+pub const FILE_EXTENSION_SMF: &str = "smf";
 /// The file extension for SMIL XML.
-pub const FILE_EXTENSION_SMI: &'static str = "smi";
+pub const FILE_EXTENSION_SMI: &str = "smi";
 /// The file extension for SMIL XML.
-pub const FILE_EXTENSION_SMIL: &'static str = "smil";
+pub const FILE_EXTENSION_SMIL: &str = "smil";
 /// The file extension for SMV video.
-pub const FILE_EXTENSION_SMV: &'static str = "smv";
+pub const FILE_EXTENSION_SMV: &str = "smv";
 /// The file extension for StepMania Package.
-pub const FILE_EXTENSION_SMZIP: &'static str = "smzip";
+pub const FILE_EXTENSION_SMZIP: &str = "smzip";
 /// The file extension for basic audio.
-pub const FILE_EXTENSION_SND: &'static str = "snd";
+pub const FILE_EXTENSION_SND: &str = "snd";
 /// The file extension for SNF font.
-pub const FILE_EXTENSION_SNF: &'static str = "snf";
+pub const FILE_EXTENSION_SNF: &str = "snf";
 /// The file extension for a shared object file.
-pub const FILE_EXTENSION_SO: &'static str = "so";
+pub const FILE_EXTENSION_SO: &str = "so";
 /// The file extension for Yamaha SMAF Phrase.
-pub const FILE_EXTENSION_SPC: &'static str = "spc";
+pub const FILE_EXTENSION_SPC: &str = "spc";
 /// The file extension for FutureSplash.
-pub const FILE_EXTENSION_SPF: &'static str = "spf";
+pub const FILE_EXTENSION_SPF: &str = "spf";
 /// The file extension for FutureSplash.
-pub const FILE_EXTENSION_SPL: &'static str = "spl";
+pub const FILE_EXTENSION_SPL: &str = "spl";
 /// The file extension for In3D Spot.
-pub const FILE_EXTENSION_SPOT: &'static str = "spot";
+pub const FILE_EXTENSION_SPOT: &str = "spot";
 /// The file extension for SCVP VP Response.
-pub const FILE_EXTENSION_SPP: &'static str = "spp";
+pub const FILE_EXTENSION_SPP: &str = "spp";
 /// The file extension for SCVP VP Request.
-pub const FILE_EXTENSION_SPQ: &'static str = "spq";
+pub const FILE_EXTENSION_SPQ: &str = "spq";
 /// The file extension for Ogg audio.
-pub const FILE_EXTENSION_SPX: &'static str = "spx";
+pub const FILE_EXTENSION_SPX: &str = "spx";
 /// The file extension for SQL.
-pub const FILE_EXTENSION_SQL: &'static str = "sql";
+pub const FILE_EXTENSION_SQL: &str = "sql";
 /// The file extension for WAIS source.
-pub const FILE_EXTENSION_SRC: &'static str = "src";
+pub const FILE_EXTENSION_SRC: &str = "src";
 /// The file extension for SubRip subtitle.
-pub const FILE_EXTENSION_SRT: &'static str = "srt";
+pub const FILE_EXTENSION_SRT: &str = "srt";
 /// The file extension for SRU XML.
-pub const FILE_EXTENSION_SRU: &'static str = "sru";
+pub const FILE_EXTENSION_SRU: &str = "sru";
 /// The file extension for SPARQL Results XML.
-pub const FILE_EXTENSION_SRX: &'static str = "srx";
+pub const FILE_EXTENSION_SRX: &str = "srx";
 /// The file extension for SSDL XML.
-pub const FILE_EXTENSION_SSDL: &'static str = "ssdl";
+pub const FILE_EXTENSION_SSDL: &str = "ssdl";
 /// The file extension for Kodak Descriptor.
-pub const FILE_EXTENSION_SSE: &'static str = "sse";
+pub const FILE_EXTENSION_SSE: &str = "sse";
 /// The file extension for Epson SSF.
-pub const FILE_EXTENSION_SSF: &'static str = "ssf";
+pub const FILE_EXTENSION_SSF: &str = "ssf";
 /// The file extension for SSML XML.
-pub const FILE_EXTENSION_SSML: &'static str = "ssml";
+pub const FILE_EXTENSION_SSML: &str = "ssml";
 /// The file extension for SailingTracker Track.
-pub const FILE_EXTENSION_ST: &'static str = "st";
+pub const FILE_EXTENSION_ST: &str = "st";
 /// The file extension for Sun XML Calc Template.
-pub const FILE_EXTENSION_STC: &'static str = "stc";
+pub const FILE_EXTENSION_STC: &str = "stc";
 /// The file extension for Sun XML Draw Template.
-pub const FILE_EXTENSION_STD: &'static str = "std";
+pub const FILE_EXTENSION_STD: &str = "std";
 /// The file extension for WT STF.
-pub const FILE_EXTENSION_STF: &'static str = "stf";
+pub const FILE_EXTENSION_STF: &str = "stf";
 /// The file extension for Sun XML Impress Template.
-pub const FILE_EXTENSION_STI: &'static str = "sti";
+pub const FILE_EXTENSION_STI: &str = "sti";
 /// The file extension for HyperStudio.
-pub const FILE_EXTENSION_STK: &'static str = "stk";
+pub const FILE_EXTENSION_STK: &str = "stk";
 /// The file extension for Microsoft PKI STL.
-pub const FILE_EXTENSION_STL: &'static str = "stl";
+pub const FILE_EXTENSION_STL: &str = "stl";
 /// The file extension for PG Format.
-pub const FILE_EXTENSION_STR: &'static str = "str";
+pub const FILE_EXTENSION_STR: &str = "str";
 /// The file extension for Sun XML Writer Template.
-pub const FILE_EXTENSION_STW: &'static str = "stw";
+pub const FILE_EXTENSION_STW: &str = "stw";
 /// The file extension for DVB Subtitle.
-pub const FILE_EXTENSION_SUB: &'static str = "sub";
+pub const FILE_EXTENSION_SUB: &str = "sub";
 /// The file extension for SUS Calendar.
-pub const FILE_EXTENSION_SUS: &'static str = "sus";
+pub const FILE_EXTENSION_SUS: &str = "sus";
 /// The file extension for SUS Calendar.
-pub const FILE_EXTENSION_SUSP: &'static str = "susp";
+pub const FILE_EXTENSION_SUSP: &str = "susp";
 /// The file extension for SV4CPIO archive.
-pub const FILE_EXTENSION_SV4CPIO: &'static str = "sv4cpio";
+pub const FILE_EXTENSION_SV4CPIO: &str = "sv4cpio";
 /// The file extension for SV4CRC archive.
-pub const FILE_EXTENSION_SV4CRC: &'static str = "sv4crc";
+pub const FILE_EXTENSION_SV4CRC: &str = "sv4crc";
 /// The file extension for DVB Service.
-pub const FILE_EXTENSION_SVC: &'static str = "svc";
+pub const FILE_EXTENSION_SVC: &str = "svc";
 /// The file extension for SVD.
-pub const FILE_EXTENSION_SVD: &'static str = "svd";
+pub const FILE_EXTENSION_SVD: &str = "svd";
 /// The file extension for SVG image.
-pub const FILE_EXTENSION_SVG: &'static str = "svg";
+pub const FILE_EXTENSION_SVG: &str = "svg";
 /// The file extension for SVG image.
-pub const FILE_EXTENSION_SVGZ: &'static str = "svgz";
+pub const FILE_EXTENSION_SVGZ: &str = "svgz";
 /// The file extension for Shockwave Flash.
-pub const FILE_EXTENSION_SWA: &'static str = "swa";
+pub const FILE_EXTENSION_SWA: &str = "swa";
 /// The file extension for Shockwave Flash.
-pub const FILE_EXTENSION_SWF: &'static str = "swf";
+pub const FILE_EXTENSION_SWF: &str = "swf";
 /// The file extension for Arista Networks SWI.
-pub const FILE_EXTENSION_SWI: &'static str = "swi";
+pub const FILE_EXTENSION_SWI: &str = "swi";
 /// The file extension for Sun XML Calc.
-pub const FILE_EXTENSION_SXC: &'static str = "sxc";
+pub const FILE_EXTENSION_SXC: &str = "sxc";
 /// The file extension for Sun XML Draw.
-pub const FILE_EXTENSION_SXD: &'static str = "sxd";
+pub const FILE_EXTENSION_SXD: &str = "sxd";
 /// The file extension for Sun XML Writer Global.
-pub const FILE_EXTENSION_SXG: &'static str = "sxg";
+pub const FILE_EXTENSION_SXG: &str = "sxg";
 /// The file extension for Sun XML Impress.
-pub const FILE_EXTENSION_SXI: &'static str = "sxi";
+pub const FILE_EXTENSION_SXI: &str = "sxi";
 /// The file extension for Sun XML Math.
-pub const FILE_EXTENSION_SXM: &'static str = "sxm";
+pub const FILE_EXTENSION_SXM: &str = "sxm";
 /// The file extension for Sun XML Writer.
-pub const FILE_EXTENSION_SXW: &'static str = "sxw";
+pub const FILE_EXTENSION_SXW: &str = "sxw";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_T: &'static str = "t";
+pub const FILE_EXTENSION_T: &str = "t";
 /// The file extension for T3VM image.
-pub const FILE_EXTENSION_T3: &'static str = "t3";
+pub const FILE_EXTENSION_T3: &str = "t3";
 /// The file extension for MyNFC.
-pub const FILE_EXTENSION_TAGLET: &'static str = "taglet";
+pub const FILE_EXTENSION_TAGLET: &str = "taglet";
 /// The file extension for Tao Intent Module Archive.
-pub const FILE_EXTENSION_TAO: &'static str = "tao";
+pub const FILE_EXTENSION_TAO: &str = "tao";
 /// The file extension for TAR archive.
-pub const FILE_EXTENSION_TAR: &'static str = "tar";
+pub const FILE_EXTENSION_TAR: &str = "tar";
 /// The file extension for 3GPP2 TCAP.
-pub const FILE_EXTENSION_TCAP: &'static str = "tcap";
+pub const FILE_EXTENSION_TCAP: &str = "tcap";
 /// The file extension for Tcl script.
-pub const FILE_EXTENSION_TCL: &'static str = "tcl";
+pub const FILE_EXTENSION_TCL: &str = "tcl";
 /// The file extension for SMART Teacher.
-pub const FILE_EXTENSION_TEACHER: &'static str = "teacher";
+pub const FILE_EXTENSION_TEACHER: &str = "teacher";
 /// The file extension for TEI XML.
-pub const FILE_EXTENSION_TEI: &'static str = "tei";
+pub const FILE_EXTENSION_TEI: &str = "tei";
 /// The file extension for TEI XML.
-pub const FILE_EXTENSION_TEICORPUS: &'static str = "teicorpus";
+pub const FILE_EXTENSION_TEICORPUS: &str = "teicorpus";
 /// The file extension for TeX.
-pub const FILE_EXTENSION_TEX: &'static str = "tex";
+pub const FILE_EXTENSION_TEX: &str = "tex";
 /// The file extension for Texinfo.
-pub const FILE_EXTENSION_TEXI: &'static str = "texi";
+pub const FILE_EXTENSION_TEXI: &str = "texi";
 /// The file extension for Texinfo.
-pub const FILE_EXTENSION_TEXINFO: &'static str = "texinfo";
+pub const FILE_EXTENSION_TEXINFO: &str = "texinfo";
 /// The file extension for a text file.
-pub const FILE_EXTENSION_TEXT: &'static str = "text";
+pub const FILE_EXTENSION_TEXT: &str = "text";
 /// The file extension for Thraud XML.
-pub const FILE_EXTENSION_TFI: &'static str = "tfi";
+pub const FILE_EXTENSION_TFI: &str = "tfi";
 /// The file extension for TeX TFM.
-pub const FILE_EXTENSION_TFM: &'static str = "tfm";
+pub const FILE_EXTENSION_TFM: &str = "tfm";
 /// The file extension for TGA image.
-pub const FILE_EXTENSION_TGA: &'static str = "tga";
+pub const FILE_EXTENSION_TGA: &str = "tga";
 /// The file extension for Microsoft Office Theme.
-pub const FILE_EXTENSION_THMX: &'static str = "thmx";
+pub const FILE_EXTENSION_THMX: &str = "thmx";
 /// The file extension for TIFF image.
-pub const FILE_EXTENSION_TIF: &'static str = "tif";
+pub const FILE_EXTENSION_TIF: &str = "tif";
 /// The file extension for TIFF image.
-pub const FILE_EXTENSION_TIFF: &'static str = "tiff";
+pub const FILE_EXTENSION_TIFF: &str = "tiff";
 /// The file extension for T-Mobile LiveTV.
-pub const FILE_EXTENSION_TMO: &'static str = "tmo";
+pub const FILE_EXTENSION_TMO: &str = "tmo";
 /// The file extension for BitTorrent.
-pub const FILE_EXTENSION_TORRENT: &'static str = "torrent";
+pub const FILE_EXTENSION_TORRENT: &str = "torrent";
 /// The file extension for Groove Tool Template.
-pub const FILE_EXTENSION_TPL: &'static str = "tpl";
+pub const FILE_EXTENSION_TPL: &str = "tpl";
 /// The file extension for TRID TPT.
-pub const FILE_EXTENSION_TPT: &'static str = "tpt";
+pub const FILE_EXTENSION_TPT: &str = "tpt";
 /// The file extension for Troff.
-pub const FILE_EXTENSION_TR: &'static str = "tr";
+pub const FILE_EXTENSION_TR: &str = "tr";
 /// The file extension for TrueApp.
-pub const FILE_EXTENSION_TRA: &'static str = "tra";
+pub const FILE_EXTENSION_TRA: &str = "tra";
 /// The file extension for Microsoft Terminal.
-pub const FILE_EXTENSION_TRM: &'static str = "trm";
+pub const FILE_EXTENSION_TRM: &str = "trm";
 /// The file extension for Timestamped Data.
-pub const FILE_EXTENSION_TSD: &'static str = "tsd";
+pub const FILE_EXTENSION_TSD: &str = "tsd";
 /// The file extension for Tab-Separated Values.
-pub const FILE_EXTENSION_TSV: &'static str = "tsv";
+pub const FILE_EXTENSION_TSV: &str = "tsv";
 /// The file extension for Font Collection.
-pub const FILE_EXTENSION_TTC: &'static str = "ttc";
+pub const FILE_EXTENSION_TTC: &str = "ttc";
 /// The file extension for TrueType Font.
-pub const FILE_EXTENSION_TTF: &'static str = "ttf";
+pub const FILE_EXTENSION_TTF: &str = "ttf";
 /// The file extension for Turtle.
-pub const FILE_EXTENSION_TTL: &'static str = "ttl";
+pub const FILE_EXTENSION_TTL: &str = "ttl";
 /// The file extension for SimTech MindMapper.
-pub const FILE_EXTENSION_TWD: &'static str = "twd";
+pub const FILE_EXTENSION_TWD: &str = "twd";
 /// The file extension for SimTech MindMapper.
-pub const FILE_EXTENSION_TWDS: &'static str = "twds";
+pub const FILE_EXTENSION_TWDS: &str = "twds";
 /// The file extension for Genomatix Tuxedo.
-pub const FILE_EXTENSION_TXD: &'static str = "txd";
+pub const FILE_EXTENSION_TXD: &str = "txd";
 /// The file extension for Mobius TXF.
-pub const FILE_EXTENSION_TXF: &'static str = "txf";
+pub const FILE_EXTENSION_TXF: &str = "txf";
 /// The file extension for a text file.
-pub const FILE_EXTENSION_TXT: &'static str = "txt";
+pub const FILE_EXTENSION_TXT: &str = "txt";
 /// The file extension for UFDL.
-pub const FILE_EXTENSION_U32: &'static str = "u32";
+pub const FILE_EXTENSION_U32: &str = "u32";
 /// The file extension for a udeb file.
-pub const FILE_EXTENSION_UDEB: &'static str = "udeb";
+pub const FILE_EXTENSION_UDEB: &str = "udeb";
 /// The file extension for UFDL.
-pub const FILE_EXTENSION_UFD: &'static str = "ufd";
+pub const FILE_EXTENSION_UFD: &str = "ufd";
 /// The file extension for UFDL.
-pub const FILE_EXTENSION_UFDL: &'static str = "ufdl";
+pub const FILE_EXTENSION_UFDL: &str = "ufdl";
 /// The file extension for Glulx game.
-pub const FILE_EXTENSION_ULW: &'static str = "ulw";
+pub const FILE_EXTENSION_ULW: &str = "ulw";
 /// The file extension for Glulx game.
-pub const FILE_EXTENSION_ULX: &'static str = "ulx";
+pub const FILE_EXTENSION_ULX: &str = "ulx";
 /// The file extension for UMAJIN.
-pub const FILE_EXTENSION_UMJ: &'static str = "umj";
+pub const FILE_EXTENSION_UMJ: &str = "umj";
 /// The file extension for Unity.
-pub const FILE_EXTENSION_UNITYWEB: &'static str = "unityweb";
+pub const FILE_EXTENSION_UNITYWEB: &str = "unityweb";
 /// The file extension for UOML XML.
-pub const FILE_EXTENSION_UOML: &'static str = "uoml";
+pub const FILE_EXTENSION_UOML: &str = "uoml";
 /// The file extension for URI List.
-pub const FILE_EXTENSION_URI: &'static str = "uri";
+pub const FILE_EXTENSION_URI: &str = "uri";
 /// The file extension for URI List.
-pub const FILE_EXTENSION_URIS: &'static str = "uris";
+pub const FILE_EXTENSION_URIS: &str = "uris";
 /// The file extension for URI List.
-pub const FILE_EXTENSION_URLS: &'static str = "urls";
+pub const FILE_EXTENSION_URLS: &str = "urls";
 /// The file extension for USTAR archive.
-pub const FILE_EXTENSION_USTAR: &'static str = "ustar";
+pub const FILE_EXTENSION_USTAR: &str = "ustar";
 /// The file extension for UIQ Theme.
-pub const FILE_EXTENSION_UTZ: &'static str = "utz";
+pub const FILE_EXTENSION_UTZ: &str = "utz";
 /// The file extension for UUEncode.
-pub const FILE_EXTENSION_UU: &'static str = "uu";
+pub const FILE_EXTENSION_UU: &str = "uu";
 /// The file extension for DECE audio.
-pub const FILE_EXTENSION_UVA: &'static str = "uva";
+pub const FILE_EXTENSION_UVA: &str = "uva";
 /// The file extension for DECE data.
-pub const FILE_EXTENSION_UVD: &'static str = "uvd";
+pub const FILE_EXTENSION_UVD: &str = "uvd";
 /// The file extension for DECE data.
-pub const FILE_EXTENSION_UVF: &'static str = "uvf";
+pub const FILE_EXTENSION_UVF: &str = "uvf";
 /// The file extension for DECE graphic.
-pub const FILE_EXTENSION_UVG: &'static str = "uvg";
+pub const FILE_EXTENSION_UVG: &str = "uvg";
 /// The file extension for DECE HD video.
-pub const FILE_EXTENSION_UVH: &'static str = "uvh";
+pub const FILE_EXTENSION_UVH: &str = "uvh";
 /// The file extension for DECE graphic.
-pub const FILE_EXTENSION_UVI: &'static str = "uvi";
+pub const FILE_EXTENSION_UVI: &str = "uvi";
 /// The file extension for DECE mobile video.
-pub const FILE_EXTENSION_UVM: &'static str = "uvm";
+pub const FILE_EXTENSION_UVM: &str = "uvm";
 /// The file extension for DECE PD video.
-pub const FILE_EXTENSION_UVP: &'static str = "uvp";
+pub const FILE_EXTENSION_UVP: &str = "uvp";
 /// The file extension for DECE SD video.
-pub const FILE_EXTENSION_UVS: &'static str = "uvs";
+pub const FILE_EXTENSION_UVS: &str = "uvs";
 /// The file extension for DECE TTML XML.
-pub const FILE_EXTENSION_UVT: &'static str = "uvt";
+pub const FILE_EXTENSION_UVT: &str = "uvt";
 /// The file extension for UVVU MP4 video.
-pub const FILE_EXTENSION_UVU: &'static str = "uvu";
+pub const FILE_EXTENSION_UVU: &str = "uvu";
 /// The file extension for DECE video.
-pub const FILE_EXTENSION_UVV: &'static str = "uvv";
+pub const FILE_EXTENSION_UVV: &str = "uvv";
 /// The file extension for DECE audio.
-pub const FILE_EXTENSION_UVVA: &'static str = "uvva";
+pub const FILE_EXTENSION_UVVA: &str = "uvva";
 /// The file extension for DECE data.
-pub const FILE_EXTENSION_UVVD: &'static str = "uvvd";
+pub const FILE_EXTENSION_UVVD: &str = "uvvd";
 /// The file extension for DECE data.
-pub const FILE_EXTENSION_UVVF: &'static str = "uvvf";
+pub const FILE_EXTENSION_UVVF: &str = "uvvf";
 /// The file extension for DECE graphic.
-pub const FILE_EXTENSION_UVVG: &'static str = "uvvg";
+pub const FILE_EXTENSION_UVVG: &str = "uvvg";
 /// The file extension for DECE HD video.
-pub const FILE_EXTENSION_UVVH: &'static str = "uvvh";
+pub const FILE_EXTENSION_UVVH: &str = "uvvh";
 /// The file extension for DECE graphic.
-pub const FILE_EXTENSION_UVVI: &'static str = "uvvi";
+pub const FILE_EXTENSION_UVVI: &str = "uvvi";
 /// The file extension for DECE mobile video.
-pub const FILE_EXTENSION_UVVM: &'static str = "uvvm";
+pub const FILE_EXTENSION_UVVM: &str = "uvvm";
 /// The file extension for DECE PD video.
-pub const FILE_EXTENSION_UVVP: &'static str = "uvvp";
+pub const FILE_EXTENSION_UVVP: &str = "uvvp";
 /// The file extension for DECE SD video.
-pub const FILE_EXTENSION_UVVS: &'static str = "uvvs";
+pub const FILE_EXTENSION_UVVS: &str = "uvvs";
 /// The file extension for DECE TTML XML.
-pub const FILE_EXTENSION_UVVT: &'static str = "uvvt";
+pub const FILE_EXTENSION_UVVT: &str = "uvvt";
 /// The file extension for UVVU MP4 video.
-pub const FILE_EXTENSION_UVVU: &'static str = "uvvu";
+pub const FILE_EXTENSION_UVVU: &str = "uvvu";
 /// The file extension for DECE video.
-pub const FILE_EXTENSION_UVVV: &'static str = "uvvv";
+pub const FILE_EXTENSION_UVVV: &str = "uvvv";
 /// The file extension for DECE unspecified.
-pub const FILE_EXTENSION_UVVX: &'static str = "uvvx";
+pub const FILE_EXTENSION_UVVX: &str = "uvvx";
 /// The file extension for DECE ZIP.
-pub const FILE_EXTENSION_UVVZ: &'static str = "uvvz";
+pub const FILE_EXTENSION_UVVZ: &str = "uvvz";
 /// The file extension for DECE unspecified.
-pub const FILE_EXTENSION_UVX: &'static str = "uvx";
+pub const FILE_EXTENSION_UVX: &str = "uvx";
 /// The file extension for DECE ZIP.
-pub const FILE_EXTENSION_UVZ: &'static str = "uvz";
+pub const FILE_EXTENSION_UVZ: &str = "uvz";
 /// The file extension for vCard.
-pub const FILE_EXTENSION_VCARD: &'static str = "vcard";
+pub const FILE_EXTENSION_VCARD: &str = "vcard";
 /// The file extension for CDLink.
-pub const FILE_EXTENSION_VCD: &'static str = "vcd";
+pub const FILE_EXTENSION_VCD: &str = "vcd";
 /// The file extension for vCard.
-pub const FILE_EXTENSION_VCF: &'static str = "vcf";
+pub const FILE_EXTENSION_VCF: &str = "vcf";
 /// The file extension for Groove vCard.
-pub const FILE_EXTENSION_VCG: &'static str = "vcg";
+pub const FILE_EXTENSION_VCG: &str = "vcg";
 /// The file extension for vCalendar.
-pub const FILE_EXTENSION_VCS: &'static str = "vcs";
+pub const FILE_EXTENSION_VCS: &str = "vcs";
 /// The file extension for VCX.
-pub const FILE_EXTENSION_VCX: &'static str = "vcx";
+pub const FILE_EXTENSION_VCX: &str = "vcx";
 /// The file extension for Visionary.
-pub const FILE_EXTENSION_VIS: &'static str = "vis";
+pub const FILE_EXTENSION_VIS: &str = "vis";
 /// The file extension for Vivo video.
-pub const FILE_EXTENSION_VIV: &'static str = "viv";
+pub const FILE_EXTENSION_VIV: &str = "viv";
 /// The file extension for VOB video.
-pub const FILE_EXTENSION_VOB: &'static str = "vob";
+pub const FILE_EXTENSION_VOB: &str = "vob";
 /// The file extension for VRML model.
-pub const FILE_EXTENSION_VOR: &'static str = "vor";
+pub const FILE_EXTENSION_VOR: &str = "vor";
 /// The file extension for VSF.
-pub const FILE_EXTENSION_VOX: &'static str = "vox";
+pub const FILE_EXTENSION_VOX: &str = "vox";
 /// The file extension for VRML model.
-pub const FILE_EXTENSION_VRML: &'static str = "vrml";
+pub const FILE_EXTENSION_VRML: &str = "vrml";
 /// The file extension for Microsoft Visio.
-pub const FILE_EXTENSION_VSD: &'static str = "vsd";
+pub const FILE_EXTENSION_VSD: &str = "vsd";
 /// The file extension for VSF.
-pub const FILE_EXTENSION_VSF: &'static str = "vsf";
+pub const FILE_EXTENSION_VSF: &str = "vsf";
 /// The file extension for Microsoft Visio.
-pub const FILE_EXTENSION_VSS: &'static str = "vss";
+pub const FILE_EXTENSION_VSS: &str = "vss";
 /// The file extension for Microsoft Visio.
-pub const FILE_EXTENSION_VST: &'static str = "vst";
+pub const FILE_EXTENSION_VST: &str = "vst";
 /// The file extension for Microsoft Visio.
-pub const FILE_EXTENSION_VSW: &'static str = "vsw";
+pub const FILE_EXTENSION_VSW: &str = "vsw";
 /// The file extension for VTU model.
-pub const FILE_EXTENSION_VTU: &'static str = "vtu";
+pub const FILE_EXTENSION_VTU: &str = "vtu";
 /// The file extension for VoiceXML.
-pub const FILE_EXTENSION_VXML: &'static str = "vxml";
+pub const FILE_EXTENSION_VXML: &str = "vxml";
 /// The file extension for Adobe Director.
-pub const FILE_EXTENSION_W3D: &'static str = "w3d";
+pub const FILE_EXTENSION_W3D: &str = "w3d";
 /// The file extension for Doom WAD.
-pub const FILE_EXTENSION_WAD: &'static str = "wad";
+pub const FILE_EXTENSION_WAD: &str = "wad";
 /// The file extension for WAV audio.
-pub const FILE_EXTENSION_WAV: &'static str = "wav";
+pub const FILE_EXTENSION_WAV: &str = "wav";
 /// The file extension for WAX audio.
-pub const FILE_EXTENSION_WAX: &'static str = "wax";
+pub const FILE_EXTENSION_WAX: &str = "wax";
 /// The file extension for WAP WBMP image.
-pub const FILE_EXTENSION_WBMP: &'static str = "wbmp";
+pub const FILE_EXTENSION_WBMP: &str = "wbmp";
 /// The file extension for Critical Tools WBS XML.
-pub const FILE_EXTENSION_WBS: &'static str = "wbs";
+pub const FILE_EXTENSION_WBS: &str = "wbs";
 /// The file extension for WAP WBXML.
-pub const FILE_EXTENSION_WBXML: &'static str = "wbxml";
+pub const FILE_EXTENSION_WBXML: &str = "wbxml";
 /// The file extension for Microsoft Works.
-pub const FILE_EXTENSION_WCM: &'static str = "wcm";
+pub const FILE_EXTENSION_WCM: &str = "wcm";
 /// The file extension for Microsoft Works.
-pub const FILE_EXTENSION_WDB: &'static str = "wdb";
+pub const FILE_EXTENSION_WDB: &str = "wdb";
 /// The file extension for Microsoft Photo.
-pub const FILE_EXTENSION_WDP: &'static str = "wdp";
+pub const FILE_EXTENSION_WDP: &str = "wdp";
 /// The file extension for WebM audio.
-pub const FILE_EXTENSION_WEBA: &'static str = "weba";
+pub const FILE_EXTENSION_WEBA: &str = "weba";
 /// The file extension for WebM video.
-pub const FILE_EXTENSION_WEBM: &'static str = "webm";
+pub const FILE_EXTENSION_WEBM: &str = "webm";
 /// The file extension for WebP image.
-pub const FILE_EXTENSION_WEBP: &'static str = "webp";
+pub const FILE_EXTENSION_WEBP: &str = "webp";
 /// The file extension for PMI Widget.
-pub const FILE_EXTENSION_WG: &'static str = "wg";
+pub const FILE_EXTENSION_WG: &str = "wg";
 /// The file extension for Widget.
-pub const FILE_EXTENSION_WGT: &'static str = "wgt";
+pub const FILE_EXTENSION_WGT: &str = "wgt";
 /// The file extension for Microsoft Works.
-pub const FILE_EXTENSION_WKS: &'static str = "wks";
+pub const FILE_EXTENSION_WKS: &str = "wks";
 /// The file extension for WM video.
-pub const FILE_EXTENSION_WM: &'static str = "wm";
+pub const FILE_EXTENSION_WM: &str = "wm";
 /// The file extension for WMA audio.
-pub const FILE_EXTENSION_WMA: &'static str = "wma";
+pub const FILE_EXTENSION_WMA: &str = "wma";
 /// The file extension for WMD.
-pub const FILE_EXTENSION_WMD: &'static str = "wmd";
+pub const FILE_EXTENSION_WMD: &str = "wmd";
 /// The file extension for Microsoft Metafile.
-pub const FILE_EXTENSION_WMF: &'static str = "wmf";
+pub const FILE_EXTENSION_WMF: &str = "wmf";
 /// The file extension for WAP WML.
-pub const FILE_EXTENSION_WML: &'static str = "wml";
+pub const FILE_EXTENSION_WML: &str = "wml";
 /// The file extension for WAP WMLC.
-pub const FILE_EXTENSION_WMLC: &'static str = "wmlc";
+pub const FILE_EXTENSION_WMLC: &str = "wmlc";
 /// The file extension for WAP WMLScript.
-pub const FILE_EXTENSION_WMLS: &'static str = "wmls";
+pub const FILE_EXTENSION_WMLS: &str = "wmls";
 /// The file extension for WAP WMLScriptC.
-pub const FILE_EXTENSION_WMLSC: &'static str = "wmlsc";
+pub const FILE_EXTENSION_WMLSC: &str = "wmlsc";
 /// The file extension for WMV video.
-pub const FILE_EXTENSION_WMV: &'static str = "wmv";
+pub const FILE_EXTENSION_WMV: &str = "wmv";
 /// The file extension for WMX video.
-pub const FILE_EXTENSION_WMX: &'static str = "wmx";
+pub const FILE_EXTENSION_WMX: &str = "wmx";
 /// The file extension for Microsoft Metafile.
-pub const FILE_EXTENSION_WMZ: &'static str = "wmz";
+pub const FILE_EXTENSION_WMZ: &str = "wmz";
 /// The file extension for WOFF font.
-pub const FILE_EXTENSION_WOFF: &'static str = "woff";
+pub const FILE_EXTENSION_WOFF: &str = "woff";
 /// The file extension for WOFF2 font.
-pub const FILE_EXTENSION_WOFF2: &'static str = "woff2";
+pub const FILE_EXTENSION_WOFF2: &str = "woff2";
 /// The file extension for WordPerfect.
-pub const FILE_EXTENSION_WPD: &'static str = "wpd";
+pub const FILE_EXTENSION_WPD: &str = "wpd";
 /// The file extension for Microsoft WPL.
-pub const FILE_EXTENSION_WPL: &'static str = "wpl";
+pub const FILE_EXTENSION_WPL: &str = "wpl";
 /// The file extension for Microsoft Works.
-pub const FILE_EXTENSION_WPS: &'static str = "wps";
+pub const FILE_EXTENSION_WPS: &str = "wps";
 /// The file extension for WQD.
-pub const FILE_EXTENSION_WQD: &'static str = "wqd";
+pub const FILE_EXTENSION_WQD: &str = "wqd";
 /// The file extension for Microsoft Write.
-pub const FILE_EXTENSION_WRI: &'static str = "wri";
+pub const FILE_EXTENSION_WRI: &str = "wri";
 /// The file extension for VRML model.
-pub const FILE_EXTENSION_WRL: &'static str = "wrl";
+pub const FILE_EXTENSION_WRL: &str = "wrl";
 /// The file extension for WSDL XML.
-pub const FILE_EXTENSION_WSDL: &'static str = "wsdl";
+pub const FILE_EXTENSION_WSDL: &str = "wsdl";
 /// The file extension for WSPolicy XML.
-pub const FILE_EXTENSION_WSPOLICY: &'static str = "wspolicy";
+pub const FILE_EXTENSION_WSPOLICY: &str = "wspolicy";
 /// The file extension for WebTurbo.
-pub const FILE_EXTENSION_WTB: &'static str = "wtb";
+pub const FILE_EXTENSION_WTB: &str = "wtb";
 /// The file extension for WVX video.
-pub const FILE_EXTENSION_WVX: &'static str = "wvx";
+pub const FILE_EXTENSION_WVX: &str = "wvx";
 /// The file extension for X3D XML.
-pub const FILE_EXTENSION_X32: &'static str = "x32";
+pub const FILE_EXTENSION_X32: &str = "x32";
 /// The file extension for X3D XML.
-pub const FILE_EXTENSION_X3D: &'static str = "x3d";
+pub const FILE_EXTENSION_X3D: &str = "x3d";
 /// The file extension for X3D Binary.
-pub const FILE_EXTENSION_X3DB: &'static str = "x3db";
+pub const FILE_EXTENSION_X3DB: &str = "x3db";
 /// The file extension for X3D Binary.
-pub const FILE_EXTENSION_X3DBZ: &'static str = "x3dbz";
+pub const FILE_EXTENSION_X3DBZ: &str = "x3dbz";
 /// The file extension for X3D VRML.
-pub const FILE_EXTENSION_X3DV: &'static str = "x3dv";
+pub const FILE_EXTENSION_X3DV: &str = "x3dv";
 /// The file extension for X3D VRML.
-pub const FILE_EXTENSION_X3DVZ: &'static str = "x3dvz";
+pub const FILE_EXTENSION_X3DVZ: &str = "x3dvz";
 /// The file extension for X3D XML.
-pub const FILE_EXTENSION_X3DZ: &'static str = "x3dz";
+pub const FILE_EXTENSION_X3DZ: &str = "x3dz";
 /// The file extension for XAML XML.
-pub const FILE_EXTENSION_XAML: &'static str = "xaml";
+pub const FILE_EXTENSION_XAML: &str = "xaml";
 /// The file extension for Silverlight App.
-pub const FILE_EXTENSION_XAP: &'static str = "xap";
+pub const FILE_EXTENSION_XAP: &str = "xap";
 /// The file extension for Xara.
-pub const FILE_EXTENSION_XAR: &'static str = "xar";
+pub const FILE_EXTENSION_XAR: &str = "xar";
 /// The file extension for Microsoft XBAP.
-pub const FILE_EXTENSION_XBAP: &'static str = "xbap";
+pub const FILE_EXTENSION_XBAP: &str = "xbap";
 /// The file extension for Fujixerox DocuWorks Binder.
-pub const FILE_EXTENSION_XBD: &'static str = "xbd";
+pub const FILE_EXTENSION_XBD: &str = "xbd";
 /// The file extension for XBM image.
-pub const FILE_EXTENSION_XBM: &'static str = "xbm";
+pub const FILE_EXTENSION_XBM: &str = "xbm";
 /// The file extension for XCAP Diff XML.
-pub const FILE_EXTENSION_XDF: &'static str = "xdf";
+pub const FILE_EXTENSION_XDF: &str = "xdf";
 /// The file extension for SyncML DM XML.
-pub const FILE_EXTENSION_XDM: &'static str = "xdm";
+pub const FILE_EXTENSION_XDM: &str = "xdm";
 /// The file extension for Adobe XDP XML.
-pub const FILE_EXTENSION_XDP: &'static str = "xdp";
+pub const FILE_EXTENSION_XDP: &str = "xdp";
 /// The file extension for DSSC XML.
-pub const FILE_EXTENSION_XDSSC: &'static str = "xdssc";
+pub const FILE_EXTENSION_XDSSC: &str = "xdssc";
 /// The file extension for Fujixerox DocuWorks.
-pub const FILE_EXTENSION_XDW: &'static str = "xdw";
+pub const FILE_EXTENSION_XDW: &str = "xdw";
 /// The file extension for XENC XML.
-pub const FILE_EXTENSION_XENC: &'static str = "xenc";
+pub const FILE_EXTENSION_XENC: &str = "xenc";
 /// The file extension for Patch Ops Error XML.
-pub const FILE_EXTENSION_XER: &'static str = "xer";
+pub const FILE_EXTENSION_XER: &str = "xer";
 /// The file extension for Adobe XFDF.
-pub const FILE_EXTENSION_XFDF: &'static str = "xfdf";
+pub const FILE_EXTENSION_XFDF: &str = "xfdf";
 /// The file extension for XFDL.
-pub const FILE_EXTENSION_XFDL: &'static str = "xfdl";
+pub const FILE_EXTENSION_XFDL: &str = "xfdl";
 /// The file extension for XHTML XML.
-pub const FILE_EXTENSION_XHT: &'static str = "xht";
+pub const FILE_EXTENSION_XHT: &str = "xht";
 /// The file extension for XHTML XML.
-pub const FILE_EXTENSION_XHTML: &'static str = "xhtml";
+pub const FILE_EXTENSION_XHTML: &str = "xhtml";
 /// The file extension for XV XML.
-pub const FILE_EXTENSION_XHVML: &'static str = "xhvml";
+pub const FILE_EXTENSION_XHVML: &str = "xhvml";
 /// The file extension for XIFF image.
-pub const FILE_EXTENSION_XIF: &'static str = "xif";
+pub const FILE_EXTENSION_XIF: &str = "xif";
 /// The file extension for Microsoft Excel.
-pub const FILE_EXTENSION_XLA: &'static str = "xla";
+pub const FILE_EXTENSION_XLA: &str = "xla";
 /// The file extension for Microsoft Excel Add-in (Macro-Enabled).
-pub const FILE_EXTENSION_XLAM: &'static str = "xlam";
+pub const FILE_EXTENSION_XLAM: &str = "xlam";
 /// The file extension for Microsoft Excel.
-pub const FILE_EXTENSION_XLC: &'static str = "xlc";
+pub const FILE_EXTENSION_XLC: &str = "xlc";
 /// The file extension for XLIFF XML.
-pub const FILE_EXTENSION_XLF: &'static str = "xlf";
+pub const FILE_EXTENSION_XLF: &str = "xlf";
 /// The file extension for Microsoft Excel.
-pub const FILE_EXTENSION_XLM: &'static str = "xlm";
+pub const FILE_EXTENSION_XLM: &str = "xlm";
 /// The file extension for Microsoft Excel.
-pub const FILE_EXTENSION_XLS: &'static str = "xls";
+pub const FILE_EXTENSION_XLS: &str = "xls";
 /// The file extension for Microsoft Excel Sheet (Binary, Macro-Enabled).
-pub const FILE_EXTENSION_XLSB: &'static str = "xlsb";
+pub const FILE_EXTENSION_XLSB: &str = "xlsb";
 /// The file extension for Microsoft Excel Sheet (Macro-Enabled).
-pub const FILE_EXTENSION_XLSM: &'static str = "xlsm";
+pub const FILE_EXTENSION_XLSM: &str = "xlsm";
 /// The file extension for Office Open XML Spreadsheet.
-pub const FILE_EXTENSION_XLSX: &'static str = "xlsx";
+pub const FILE_EXTENSION_XLSX: &str = "xlsx";
 /// The file extension for Microsoft Excel Template.
-pub const FILE_EXTENSION_XLT: &'static str = "xlt";
+pub const FILE_EXTENSION_XLT: &str = "xlt";
 /// The file extension for Microsoft Excel Template (Macro-Enabled).
-pub const FILE_EXTENSION_XLTM: &'static str = "xltm";
+pub const FILE_EXTENSION_XLTM: &str = "xltm";
 /// The file extension for Office Open XML Spreadsheet Template.
-pub const FILE_EXTENSION_XLTX: &'static str = "xltx";
+pub const FILE_EXTENSION_XLTX: &str = "xltx";
 /// The file extension for Microsoft Excel.
-pub const FILE_EXTENSION_XLW: &'static str = "xlw";
+pub const FILE_EXTENSION_XLW: &str = "xlw";
 /// The file extension for XM audio.
-pub const FILE_EXTENSION_XM: &'static str = "xm";
+pub const FILE_EXTENSION_XM: &str = "xm";
 /// The file extension for XML.
-pub const FILE_EXTENSION_XML: &'static str = "xml";
+pub const FILE_EXTENSION_XML: &str = "xml";
 /// The file extension for OLPC Sugar.
-pub const FILE_EXTENSION_XO: &'static str = "xo";
+pub const FILE_EXTENSION_XO: &str = "xo";
 /// The file extension for XOP XML.
-pub const FILE_EXTENSION_XOP: &'static str = "xop";
+pub const FILE_EXTENSION_XOP: &str = "xop";
 /// The file extension for XPInstall.
-pub const FILE_EXTENSION_XPI: &'static str = "xpi";
+pub const FILE_EXTENSION_XPI: &str = "xpi";
 /// The file extension for XProc XML.
-pub const FILE_EXTENSION_XPL: &'static str = "xpl";
+pub const FILE_EXTENSION_XPL: &str = "xpl";
 /// The file extension for XPM image.
-pub const FILE_EXTENSION_XPM: &'static str = "xpm";
+pub const FILE_EXTENSION_XPM: &str = "xpm";
 /// The file extension for IS-XPR.
-pub const FILE_EXTENSION_XPR: &'static str = "xpr";
+pub const FILE_EXTENSION_XPR: &str = "xpr";
 /// The file extension for Microsoft XPS Document.
-pub const FILE_EXTENSION_XPS: &'static str = "xps";
+pub const FILE_EXTENSION_XPS: &str = "xps";
 /// The file extension for Intercon FormNet.
-pub const FILE_EXTENSION_XPW: &'static str = "xpw";
+pub const FILE_EXTENSION_XPW: &str = "xpw";
 /// The file extension for Intercon FormNet.
-pub const FILE_EXTENSION_XPX: &'static str = "xpx";
+pub const FILE_EXTENSION_XPX: &str = "xpx";
 /// The file extension for XSLT XML.
-pub const FILE_EXTENSION_XSL: &'static str = "xsl";
+pub const FILE_EXTENSION_XSL: &str = "xsl";
 /// The file extension for XSLT XML.
-pub const FILE_EXTENSION_XSLT: &'static str = "xslt";
+pub const FILE_EXTENSION_XSLT: &str = "xslt";
 /// The file extension for SyncML XML.
-pub const FILE_EXTENSION_XSM: &'static str = "xsm";
+pub const FILE_EXTENSION_XSM: &str = "xsm";
 /// The file extension for XSPF XML.
-pub const FILE_EXTENSION_XSPF: &'static str = "xspf";
+pub const FILE_EXTENSION_XSPF: &str = "xspf";
 /// The file extension for Mozilla XUL XML.
-pub const FILE_EXTENSION_XUL: &'static str = "xul";
+pub const FILE_EXTENSION_XUL: &str = "xul";
 /// The file extension for XV XML.
-pub const FILE_EXTENSION_XVM: &'static str = "xvm";
+pub const FILE_EXTENSION_XVM: &str = "xvm";
 /// The file extension for XV XML.
-pub const FILE_EXTENSION_XVML: &'static str = "xvml";
+pub const FILE_EXTENSION_XVML: &str = "xvml";
 /// The file extension for XWD image.
-pub const FILE_EXTENSION_XWD: &'static str = "xwd";
+pub const FILE_EXTENSION_XWD: &str = "xwd";
 /// The file extension for XYZ chemical.
-pub const FILE_EXTENSION_XYZ: &'static str = "xyz";
+pub const FILE_EXTENSION_XYZ: &str = "xyz";
 /// The file extension for XZ archive.
-pub const FILE_EXTENSION_XZ: &'static str = "xz";
+pub const FILE_EXTENSION_XZ: &str = "xz";
 /// The file extension for YANG.
-pub const FILE_EXTENSION_YANG: &'static str = "yang";
+pub const FILE_EXTENSION_YANG: &str = "yang";
 /// The file extension for YIN XML.
-pub const FILE_EXTENSION_YIN: &'static str = "yin";
+pub const FILE_EXTENSION_YIN: &str = "yin";
 /// The file extension for compress archive.
-pub const FILE_EXTENSION_Z: &'static str = "z";
+pub const FILE_EXTENSION_Z: &str = "z";
 /// The file extension for compress archive.
-pub const FILE_EXTENSION_Z_UPPERCASEE: &'static str = "Z";
+pub const FILE_EXTENSION_Z_UPPERCASEE: &str = "Z";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z1: &'static str = "z1";
+pub const FILE_EXTENSION_Z1: &str = "z1";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z2: &'static str = "z2";
+pub const FILE_EXTENSION_Z2: &str = "z2";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z3: &'static str = "z3";
+pub const FILE_EXTENSION_Z3: &str = "z3";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z4: &'static str = "z4";
+pub const FILE_EXTENSION_Z4: &str = "z4";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z5: &'static str = "z5";
+pub const FILE_EXTENSION_Z5: &str = "z5";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z6: &'static str = "z6";
+pub const FILE_EXTENSION_Z6: &str = "z6";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z7: &'static str = "z7";
+pub const FILE_EXTENSION_Z7: &str = "z7";
 /// The file extension for Z-machine.
-pub const FILE_EXTENSION_Z8: &'static str = "z8";
+pub const FILE_EXTENSION_Z8: &str = "z8";
 /// The file extension for Zzazz Deck XML.
-pub const FILE_EXTENSION_ZAZ: &'static str = "zaz";
+pub const FILE_EXTENSION_ZAZ: &str = "zaz";
 /// The file extension for ZIP archive.
-pub const FILE_EXTENSION_ZIP: &'static str = "zip";
+pub const FILE_EXTENSION_ZIP: &str = "zip";
 /// The file extension for ZUL.
-pub const FILE_EXTENSION_ZIR: &'static str = "zir";
+pub const FILE_EXTENSION_ZIR: &str = "zir";
 /// The file extension for ZUL.
-pub const FILE_EXTENSION_ZIRZ: &'static str = "zirz";
+pub const FILE_EXTENSION_ZIRZ: &str = "zirz";
 /// The file extension for Handheld Entertainment XML.
-pub const FILE_EXTENSION_ZMM: &'static str = "zmm";
+pub const FILE_EXTENSION_ZMM: &str = "zmm";
 /// The file extension for markdown.
-pub const FILE_EXTENSION_MARKDOWN: &'static str = "md";
+pub const FILE_EXTENSION_MARKDOWN: &str = "md";
 /// The file extension for toml.
-pub const FILE_EXTENSION_TOML: &'static str = "toml";
+pub const FILE_EXTENSION_TOML: &str = "toml";
 /// The file extension for yaml.
-pub const FILE_EXTENSION_YAML: &'static str = "yaml";
+pub const FILE_EXTENSION_YAML: &str = "yaml";
 /// The file extension for yaml.
-pub const FILE_EXTENSION_YML: &'static str = "yml";
+pub const FILE_EXTENSION_YML: &str = "yml";
 /// The file extension for ini.
-pub const FILE_EXTENSION_INI: &'static str = "ini";
+pub const FILE_EXTENSION_INI: &str = "ini";
 /// The file extension for cfg.
-pub const FILE_EXTENSION_CFG: &'static str = "cfg";
+pub const FILE_EXTENSION_CFG: &str = "cfg";
 /// The file extension for Python.
-pub const FILE_EXTENSION_PY: &'static str = "py";
+pub const FILE_EXTENSION_PY: &str = "py";
 /// The file extension for Go.
-pub const FILE_EXTENSION_GO: &'static str = "go";
+pub const FILE_EXTENSION_GO: &str = "go";
 /// The file extension for TypeScript.
-pub const FILE_EXTENSION_TS: &'static str = "ts";
+pub const FILE_EXTENSION_TS: &str = "ts";
 /// The file extension for C#.
-pub const FILE_EXTENSION_CS: &'static str = "cs";
+pub const FILE_EXTENSION_CS: &str = "cs";
 /// The file extension for PHP.
-pub const FILE_EXTENSION_PHP: &'static str = "php";
+pub const FILE_EXTENSION_PHP: &str = "php";
 /// The file extension for Ruby.
-pub const FILE_EXTENSION_RB: &'static str = "rb";
+pub const FILE_EXTENSION_RB: &str = "rb";
 /// The file extension for Swift.
-pub const FILE_EXTENSION_SWIFT: &'static str = "swift";
+pub const FILE_EXTENSION_SWIFT: &str = "swift";
 /// The file extension for Kotlin.
-pub const FILE_EXTENSION_KT: &'static str = "kt";
+pub const FILE_EXTENSION_KT: &str = "kt";
 /// The file extension for Kotlin Script.
-pub const FILE_EXTENSION_KTS: &'static str = "kts";
+pub const FILE_EXTENSION_KTS: &str = "kts";
 /// The file extension for Scala.
-pub const FILE_EXTENSION_SCALA: &'static str = "scala";
+pub const FILE_EXTENSION_SCALA: &str = "scala";
 /// The file extension for IBM Secure Container or Scala Script.
-pub const FILE_EXTENSION_SC: &'static str = "sc";
+pub const FILE_EXTENSION_SC: &str = "sc";
 /// The file extension for Perl.
-pub const FILE_EXTENSION_PL: &'static str = "pl";
+pub const FILE_EXTENSION_PL: &str = "pl";
 /// The file extension for Perl Module.
-pub const FILE_EXTENSION_PM: &'static str = "pm";
+pub const FILE_EXTENSION_PM: &str = "pm";
 /// The file extension for Lua.
-pub const FILE_EXTENSION_LUA: &'static str = "lua";
+pub const FILE_EXTENSION_LUA: &str = "lua";
 /// The file extension for PowerShell.
-pub const FILE_EXTENSION_PS1: &'static str = "ps1";
+pub const FILE_EXTENSION_PS1: &str = "ps1";
 /// The file extension for C++ Header.
-pub const FILE_EXTENSION_HPP: &'static str = "hpp";
+pub const FILE_EXTENSION_HPP: &str = "hpp";
 /// The file extension for Objective-C.
-pub const FILE_EXTENSION_M: &'static str = "m";
+pub const FILE_EXTENSION_M: &str = "m";
 /// The file extension for Objective-C++.
-pub const FILE_EXTENSION_MM: &'static str = "mm";
+pub const FILE_EXTENSION_MM: &str = "mm";
 /// The file extension for Groovy.
-pub const FILE_EXTENSION_GROOVY: &'static str = "groovy";
+pub const FILE_EXTENSION_GROOVY: &str = "groovy";
 /// The file extension for R.
-pub const FILE_EXTENSION_R: &'static str = "r";
+pub const FILE_EXTENSION_R: &str = "r";
 /// The file extension for SCSS.
-pub const FILE_EXTENSION_SCSS: &'static str = "scss";
+pub const FILE_EXTENSION_SCSS: &str = "scss";
 /// The file extension for SASS.
-pub const FILE_EXTENSION_SASS: &'static str = "sass";
+pub const FILE_EXTENSION_SASS: &str = "sass";
 /// The file extension for LESS.
-pub const FILE_EXTENSION_LESS: &'static str = "less";
+pub const FILE_EXTENSION_LESS: &str = "less";
 /// The file extension for Vue.
-pub const FILE_EXTENSION_VUE: &'static str = "vue";
+pub const FILE_EXTENSION_VUE: &str = "vue";
 /// The file extension for JSX.
-pub const FILE_EXTENSION_JSX: &'static str = "jsx";
+pub const FILE_EXTENSION_JSX: &str = "jsx";
 /// The file extension for TSX.
-pub const FILE_EXTENSION_TSX: &'static str = "tsx";
+pub const FILE_EXTENSION_TSX: &str = "tsx";
 /// The file extension for Dockerfile.
-pub const FILE_EXTENSION_DOCKERFILE: &'static str = "dockerfile";
+pub const FILE_EXTENSION_DOCKERFILE: &str = "dockerfile";
 /// The file extension for Makefile.
-pub const FILE_EXTENSION_MAKEFILE: &'static str = "makefile";
+pub const FILE_EXTENSION_MAKEFILE: &str = "makefile";
 /// The file extension for Gitignore.
-pub const FILE_EXTENSION_GITIGNORE: &'static str = "gitignore";
+pub const FILE_EXTENSION_GITIGNORE: &str = "gitignore";
 /// The file extension for RLS Services XML or Rust.
-pub const FILE_EXTENSION_RS: &'static str = "rs";
+pub const FILE_EXTENSION_RS: &str = "rs";
 /// The file extension for Haskell.
-pub const FILE_EXTENSION_HS: &'static str = "hs";
+pub const FILE_EXTENSION_HS: &str = "hs";
 /// The file extension for Erlang.
-pub const FILE_EXTENSION_ERL: &'static str = "erl";
+pub const FILE_EXTENSION_ERL: &str = "erl";
 /// The file extension for Elixir.
-pub const FILE_EXTENSION_EX: &'static str = "ex";
+pub const FILE_EXTENSION_EX: &str = "ex";
 /// The file extension for Elixir Script.
-pub const FILE_EXTENSION_EXS: &'static str = "exs";
+pub const FILE_EXTENSION_EXS: &str = "exs";
 /// The file extension for Clojure.
-pub const FILE_EXTENSION_CLJ: &'static str = "clj";
+pub const FILE_EXTENSION_CLJ: &str = "clj";
 /// The file extension for ClojureScript.
-pub const FILE_EXTENSION_CLJS: &'static str = "cljs";
+pub const FILE_EXTENSION_CLJS: &str = "cljs";
 /// The file extension for Clojure Common.
-pub const FILE_EXTENSION_CLJC: &'static str = "cljc";
+pub const FILE_EXTENSION_CLJC: &str = "cljc";
 /// The file extension for F#.
-pub const FILE_EXTENSION_FS: &'static str = "fs";
+pub const FILE_EXTENSION_FS: &str = "fs";
 /// The file extension for F# Script.
-pub const FILE_EXTENSION_FSX: &'static str = "fsx";
+pub const FILE_EXTENSION_FSX: &str = "fsx";
 /// The file extension for OCaml.
-pub const FILE_EXTENSION_ML: &'static str = "ml";
+pub const FILE_EXTENSION_ML: &str = "ml";
 /// The file extension for OCaml Interface.
-pub const FILE_EXTENSION_MLI: &'static str = "mli";
+pub const FILE_EXTENSION_MLI: &str = "mli";
 /// The file extension for Bash.
-pub const FILE_EXTENSION_BASH: &'static str = "bash";
+pub const FILE_EXTENSION_BASH: &str = "bash";
 /// The file extension for Zsh.
-pub const FILE_EXTENSION_ZSH: &'static str = "zsh";
+pub const FILE_EXTENSION_ZSH: &str = "zsh";
 /// The file extension for env.
-pub const FILE_EXTENSION_ENV: &'static str = "env";
+pub const FILE_EXTENSION_ENV: &str = "env";
 /// The file extension for cj.
-pub const FILE_EXTENSION_CJ: &'static str = "cj";
+pub const FILE_EXTENSION_CJ: &str = "cj";
