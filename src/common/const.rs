@@ -6,14 +6,14 @@ use crate::*;
 /// or byte operations.
 pub const SPACE: &str = " ";
 
+/// A const byte slice representation of the string `SPACE`.
+pub const SPACE_BYTES: &[u8] = SPACE.as_bytes();
+
 /// The byte representation of a single space character.
 ///
 /// This constant provides the byte equivalent of the space character
 /// for use in low-level operations.
-pub const SPACE_U8: u8 = SPACE.as_bytes()[0];
-
-/// A const byte slice representation of the string `SPACE`.
-pub const SPACE_BYTES: &[u8] = SPACE.as_bytes();
+pub const SPACE_U8: u8 = SPACE_BYTES[0];
 
 /// A tab character.
 ///
@@ -21,14 +21,14 @@ pub const SPACE_BYTES: &[u8] = SPACE.as_bytes();
 /// or byte operations.
 pub const TAB: &str = "\t";
 
+/// A const byte slice representation of the string `TAB`.
+pub const TAB_BYTES: &[u8] = TAB.as_bytes();
+
 /// The byte representation of a tab character.
 ///
 /// This constant provides the byte equivalent of the tab character
 /// for use in low-level operations.
-pub const TAB_U8: u8 = TAB.as_bytes()[0];
-
-/// A const byte slice representation of the string `TAB`.
-pub const TAB_BYTES: &[u8] = TAB.as_bytes();
+pub const TAB_U8: u8 = TAB_BYTES[0];
 
 /// A line break character (newline).
 ///
@@ -36,17 +36,17 @@ pub const TAB_BYTES: &[u8] = TAB.as_bytes();
 /// string or byte operations.
 pub const BR: &str = "\n";
 
+/// A const byte slice representation of the string `BR`.
+pub const BR_BYTES: &[u8] = BR.as_bytes();
+
 /// The byte representation of a line break character.
 ///
 /// This constant provides the byte equivalent of the line break character
 /// for use in low-level operations.
-pub const BR_U8: u8 = BR.as_bytes()[0];
+pub const BR_U8: u8 = BR_BYTES[0];
 
 /// A double line break.
 pub const DOUBLE_BR: &str = "\n\n";
-
-/// A const byte slice representation of the string `BR`.
-pub const BR_BYTES: &[u8] = BR.as_bytes();
 
 /// A const byte slice representation of the string `DOUBLE_BR`.
 pub const DOUBLE_BR_BYTES: &[u8] = DOUBLE_BR.as_bytes();
@@ -69,14 +69,14 @@ pub const COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
 /// headers or key-value pairs, where a colon and a space are needed.
 pub const COLON: &str = ":";
 
+/// A const byte slice representation of the string `COLON`.
+pub const COLON_BYTES: &[u8] = COLON.as_bytes();
+
 /// The byte representation of a colon character.
 ///
 /// This constant provides the byte equivalent of the colon character
 /// for use in low-level operations.
-pub const COLON_U8: u8 = COLON.as_bytes()[0];
-
-/// A const byte slice representation of the string `COLON`.
-pub const COLON_BYTES: &[u8] = COLON.as_bytes();
+pub const COLON_U8: u8 = COLON_BYTES[0];
 
 /// A query symbol (`?`).
 ///
@@ -84,28 +84,28 @@ pub const COLON_BYTES: &[u8] = COLON.as_bytes();
 /// commonly used to denote the beginning of a query string in a URL.
 pub const QUERY: &str = "?";
 
+/// A const byte slice representation of the string `QUERY`.
+pub const QUERY_BYTES: &[u8] = QUERY.as_bytes();
+
 /// The byte representation of a query symbol.
 ///
 /// This constant provides the byte equivalent of the query character
 /// for use in low-level operations.
-pub const QUERY_U8: u8 = QUERY.as_bytes()[0];
-
-/// A const byte slice representation of the string `QUERY`.
-pub const QUERY_BYTES: &[u8] = QUERY.as_bytes();
+pub const QUERY_U8: u8 = QUERY_BYTES[0];
 
 /// The string ",".
 ///
 /// This constant is used to represent a comma.
 pub const COMMA: &str = ",";
 
+/// A const byte slice representation of the string `COMMA`.
+pub const COMMA_BYTES: &[u8] = COMMA.as_bytes();
+
 /// The byte representation of a comma character.
 ///
 /// This constant provides the byte equivalent of the comma character
 /// for use in low-level operations.
-pub const COMMA_U8: u8 = COMMA.as_bytes()[0];
-
-/// A const byte slice representation of the string `COMMA`.
-pub const COMMA_BYTES: &[u8] = COMMA.as_bytes();
+pub const COMMA_U8: u8 = COMMA_BYTES[0];
 
 /// A hash symbol (`#`).
 ///
@@ -113,14 +113,14 @@ pub const COMMA_BYTES: &[u8] = COMMA.as_bytes();
 /// identify a fragment or anchor in a URL.
 pub const HASH: &str = "#";
 
+/// A const byte slice representation of the string `HASH`.
+pub const HASH_BYTES: &[u8] = HASH.as_bytes();
+
 /// The byte representation of a hash symbol.
 ///
 /// This constant provides the byte equivalent of the hash character
 /// for use in low-level operations.
-pub const HASH_U8: u8 = HASH.as_bytes()[0];
-
-/// A const byte slice representation of the string `HASH`.
-pub const HASH_BYTES: &[u8] = HASH.as_bytes();
+pub const HASH_U8: u8 = HASH_BYTES[0];
 
 /// An empty string.
 ///
@@ -190,14 +190,14 @@ pub const AND: &str = "&";
 /// The byte representation of an ampersand character.
 ///
 /// This constant provides the byte equivalent of the ampersand character
-/// for use in low-level operations.
-pub const AND_U8: u8 = AND.as_bytes()[0];
+/// for use in URL parsing and construction.
+pub const AND_BYTES: &[u8] = AND.as_bytes();
 
 /// The byte representation of an ampersand character.
 ///
 /// This constant provides the byte equivalent of the ampersand character
-/// for use in URL parsing and construction.
-pub const AND_BYTES: &[u8] = AND.as_bytes();
+/// for use in low-level operations.
+pub const AND_U8: u8 = AND_BYTES[0];
 
 /// An equal sign (`=`).
 ///
@@ -208,14 +208,14 @@ pub const EQUAL: &str = "=";
 /// The byte representation of an equal sign.
 ///
 /// This constant provides the byte equivalent of the equal sign for
-/// use in low-level operations.
-pub const EQUAL_U8: u8 = EQUAL.as_bytes()[0];
+/// use in URL parsing and construction.
+pub const EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
 
 /// The byte representation of an equal sign.
 ///
 /// This constant provides the byte equivalent of the equal sign for
-/// use in URL parsing and construction.
-pub const EQUAL_BYTES: &[u8] = EQUAL.as_bytes();
+/// use in low-level operations.
+pub const EQUAL_U8: u8 = EQUAL_BYTES[0];
 
 /// The string representation of the number zero.
 ///
@@ -224,14 +224,14 @@ pub const ZERO_STR: &str = "0";
 
 /// The byte representation of the number zero.
 ///
-/// This constant provides the byte equivalent of the character '0'
-/// for use in low-level operations.
-pub const ZERO_STR_U8: u8 = ZERO_STR.as_bytes()[0];
+/// This constant provides the byte equivalent of the character '0'.
+pub const ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
 
 /// The byte representation of the number zero.
 ///
-/// This constant provides the byte equivalent of the character '0'.
-pub const ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
+/// This constant provides the byte equivalent of the character '0'
+/// for use in low-level operations.
+pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 
 /// The default buffer size.
 ///
@@ -257,28 +257,28 @@ pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
 /// often used as a separator in file names or domain names.
 pub const POINT: &str = ".";
 
+/// A const byte slice representation of the string `POINT`.
+pub const POINT_BYTES: &[u8] = POINT.as_bytes();
+
 /// The byte representation of a point character.
 ///
 /// This constant provides the byte equivalent of the point character
 /// for use in low-level operations.
-pub const POINT_U8: u8 = POINT.as_bytes()[0];
-
-/// A const byte slice representation of the string `POINT`.
-pub const POINT_BYTES: &[u8] = POINT.as_bytes();
+pub const POINT_U8: u8 = POINT_BYTES[0];
 
 /// The root path.
 ///
 /// This constant represents the root path in a file system or URL.
 pub const ROOT_PATH: &str = "/";
 
+/// A const byte slice representation of the string `ROOT_PATH`.
+pub const ROOT_PATH_BYTES: &[u8] = ROOT_PATH.as_bytes();
+
 /// The byte representation of the root path character.
 ///
 /// This constant provides the byte equivalent of the root path character
 /// for use in low-level operations.
-pub const ROOT_PATH_U8: u8 = ROOT_PATH.as_bytes()[0];
-
-/// A const byte slice representation of the string `ROOT_PATH`.
-pub const ROOT_PATH_BYTES: &[u8] = ROOT_PATH.as_bytes();
+pub const ROOT_PATH_U8: u8 = ROOT_PATH_BYTES[0];
 
 /// A semicolon character (`;`).
 ///
@@ -286,14 +286,14 @@ pub const ROOT_PATH_BYTES: &[u8] = ROOT_PATH.as_bytes();
 /// as a separator in various contexts.
 pub const SEMICOLON: &str = ";";
 
+/// A const byte slice representation of the string `SEMICOLON`.
+pub const SEMICOLON_BYTES: &[u8] = SEMICOLON.as_bytes();
+
 /// The byte representation of a semicolon character.
 ///
 /// This constant provides the byte equivalent of the semicolon character
 /// for use in low-level operations.
-pub const SEMICOLON_U8: u8 = SEMICOLON.as_bytes()[0];
-
-/// A const byte slice representation of the string `SEMICOLON`.
-pub const SEMICOLON_BYTES: &[u8] = SEMICOLON.as_bytes();
+pub const SEMICOLON_U8: u8 = SEMICOLON_BYTES[0];
 
 /// A semicolon followed by a space (`; `).
 ///
@@ -476,84 +476,84 @@ pub const BINARY_BYTES: &[u8] = BINARY.as_bytes();
 /// This constant is used to represent a left bracket.
 pub const LEFT_BRACKET: &str = "{";
 
+/// A const byte slice representation of the string `LEFT_BRACKET`.
+pub const LEFT_BRACKET_BYTES: &[u8] = LEFT_BRACKET.as_bytes();
+
 /// The byte representation of a left bracket character.
 ///
 /// This constant provides the byte equivalent of the left bracket character
 /// for use in low-level operations.
-pub const LEFT_BRACKET_U8: u8 = LEFT_BRACKET.as_bytes()[0];
-
-/// A const byte slice representation of the string `LEFT_BRACKET`.
-pub const LEFT_BRACKET_BYTES: &[u8] = LEFT_BRACKET.as_bytes();
+pub const LEFT_BRACKET_U8: u8 = LEFT_BRACKET_BYTES[0];
 
 /// The string "}".
 ///
 /// This constant is used to represent a right bracket.
 pub const RIGHT_BRACKET: &str = "}";
 
+/// A const byte slice representation of the string `RIGHT_BRACKET`.
+pub const RIGHT_BRACKET_BYTES: &[u8] = RIGHT_BRACKET.as_bytes();
+
 /// The byte representation of a right bracket character.
 ///
 /// This constant provides the byte equivalent of the right bracket character
 /// for use in low-level operations.
-pub const RIGHT_BRACKET_U8: u8 = RIGHT_BRACKET.as_bytes()[0];
-
-/// A const byte slice representation of the string `RIGHT_BRACKET`.
-pub const RIGHT_BRACKET_BYTES: &[u8] = RIGHT_BRACKET.as_bytes();
+pub const RIGHT_BRACKET_U8: u8 = RIGHT_BRACKET_BYTES[0];
 
 /// The string "(":
 ///
 /// This constant is used to represent a left parenthesis.
 pub const LEFT_PAREN: &str = "(";
 
+/// A const byte slice representation of the string `LEFT_PAREN`.
+pub const LEFT_PAREN_BYTES: &[u8] = LEFT_PAREN.as_bytes();
+
 /// The byte representation of a left parenthesis character.
 ///
 /// This constant provides the byte equivalent of the left parenthesis character
 /// for use in low-level operations.
-pub const LEFT_PAREN_U8: u8 = LEFT_PAREN.as_bytes()[0];
-
-/// A const byte slice representation of the string `LEFT_PAREN`.
-pub const LEFT_PAREN_BYTES: &[u8] = LEFT_PAREN.as_bytes();
+pub const LEFT_PAREN_U8: u8 = LEFT_PAREN_BYTES[0];
 
 /// The string ")".
 ///
 /// This constant is used to represent a right parenthesis.
 pub const RIGHT_PAREN: &str = ")";
 
+/// A const byte slice representation of the string `RIGHT_PAREN`.
+pub const RIGHT_PAREN_BYTES: &[u8] = RIGHT_PAREN.as_bytes();
+
 /// The byte representation of a right parenthesis character.
 ///
 /// This constant provides the byte equivalent of the right parenthesis character
 /// for use in low-level operations.
-pub const RIGHT_PAREN_U8: u8 = RIGHT_PAREN.as_bytes()[0];
-
-/// A const byte slice representation of the string `RIGHT_PAREN`.
-pub const RIGHT_PAREN_BYTES: &[u8] = RIGHT_PAREN.as_bytes();
+pub const RIGHT_PAREN_U8: u8 = RIGHT_PAREN_BYTES[0];
 
 /// The string "[".
 ///
 /// This constant is used to represent a left square bracket.
 pub const LEFT_SQUARE_BRACKET: &str = "[";
 
+/// A const byte slice representation of the string `LEFT_SQUARE_BRACKET`.
+pub const LEFT_SQUARE_BRACKET_BYTES: &[u8] = LEFT_SQUARE_BRACKET.as_bytes();
+
 /// The byte representation of a left square bracket character.
 ///
 /// This constant provides the byte equivalent of the left square bracket character
 /// for use in low-level operations.
-pub const LEFT_SQUARE_BRACKET_U8: u8 = LEFT_SQUARE_BRACKET.as_bytes()[0];
-
-/// A const byte slice representation of the string `LEFT_SQUARE_BRACKET`.
-pub const LEFT_SQUARE_BRACKET_BYTES: &[u8] = LEFT_SQUARE_BRACKET.as_bytes();
+pub const LEFT_SQUARE_BRACKET_U8: u8 = LEFT_SQUARE_BRACKET_BYTES[0];
 
 /// The string "]".
 ///
 /// This constant is used to represent a right square bracket.
 pub const RIGHT_SQUARE_BRACKET: &str = "]";
 
+/// A const byte slice representation of the string `RIGHT_SQUARE_BRACKET`.
+pub const RIGHT_SQUARE_BRACKET_BYTES: &[u8] = RIGHT_SQUARE_BRACKET.as_bytes();
+
 /// The byte representation of a right square bracket character.
 ///
 /// This constant provides the byte equivalent of the right square bracket character
 /// for use in low-level operations.
-pub const RIGHT_SQUARE_BRACKET_U8: u8 = RIGHT_SQUARE_BRACKET.as_bytes()[0];
-
-/// A const byte slice representation of the string `RIGHT_SQUARE_BRACKET`.
-pub const RIGHT_SQUARE_BRACKET_BYTES: &[u8] = RIGHT_SQUARE_BRACKET.as_bytes();
+pub const RIGHT_SQUARE_BRACKET_U8: u8 = RIGHT_SQUARE_BRACKET_BYTES[0];
 
 /// localhost
 ///
