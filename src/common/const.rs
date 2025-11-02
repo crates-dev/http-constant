@@ -55,13 +55,13 @@ pub const COLON_SPACE_BYTES: &[u8] = COLON_SPACE.as_bytes();
 ///
 /// This constant is commonly used in formatted strings, such as
 /// headers or key-value pairs, where a colon and a space are needed.
-pub const COLON_SPACE_SYMBOL: &str = ":";
+pub const COLON: &str = ":";
 
 /// A query symbol (`?`).
 ///
 /// This constant represents the question mark character, which is
 /// commonly used to denote the beginning of a query string in a URL.
-pub const QUERY_SYMBOL: &str = "?";
+pub const QUERY: &str = "?";
 
 /// The string ",".
 ///
@@ -72,7 +72,7 @@ pub const COMMA: &str = ",";
 ///
 /// This constant represents the hash character, which is used to
 /// identify a fragment or anchor in a URL.
-pub const HASH_SYMBOL: &str = "#";
+pub const HASH: &str = "#";
 
 /// An empty string.
 ///
