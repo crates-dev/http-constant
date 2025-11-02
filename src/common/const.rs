@@ -63,6 +63,11 @@ pub const COLON_SPACE_SYMBOL: &str = ":";
 /// commonly used to denote the beginning of a query string in a URL.
 pub const QUERY_SYMBOL: &str = "?";
 
+/// The string ",".
+///
+/// This constant is used to represent a comma.
+pub const COMMA: &str = ",";
+
 /// A hash symbol (`#`).
 ///
 /// This constant represents the hash character, which is used to
@@ -330,3 +335,43 @@ pub const PLAIN: &str = "plain";
 ///
 /// This constant is used to represent binary content.
 pub const BINARY: &str = "binary";
+
+/// The string "{".
+///
+/// This constant is used to represent a left bracket.
+pub const LEFT_BRACKET: &str = "{";
+
+/// The string "}".
+///
+/// This constant is used to represent a right bracket.
+pub const RIGHT_BRACKET: &str = "}";
+
+/// The string "(":
+///
+/// This constant is used to represent a left parenthesis.
+pub const LEFT_PAREN: &str = "(";
+
+/// The string ")".
+///
+/// This constant is used to represent a right parenthesis.
+pub const RIGHT_PAREN: &str = ")";
+
+/// The string "[".
+///
+/// This constant is used to represent a left square bracket.
+pub const LEFT_SQUARE_BRACKET: &str = "[";
+
+/// The string "]".
+///
+/// This constant is used to represent a right square bracket.
+pub const RIGHT_SQUARE_BRACKET: &str = "]";
+
+/// localhost
+///
+/// This constant is used to represent the localhost address.
+pub const LOCALHOST: &str = "localhost";
+
+/// 127.0.0.1
+///
+/// This constant is used to represent the loopback address.
+pub const LOOPBACK: &str = "127.0.0.1";
