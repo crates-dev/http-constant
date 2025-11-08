@@ -1,3 +1,5 @@
+use crate::KEEP_ALIVE;
+
 /// The HTTP header field name `server`.
 pub const SERVER: &str = "server";
 
@@ -342,3 +344,15 @@ pub const X_ROBOTS_TAG: &str = "x-robots-tag";
 
 /// The HTTP header field `x-ua-compatible`, used to specify which version of Internet Explorer the page should be rendered as.
 pub const X_UA_COMPATIBLE: &str = "x-ua-compatible";
+
+/// The HTTP header field `proxy-connection`, used to specify the connection used to connect to the proxy.
+pub const PROXY_CONNECTION: &str = "proxy-connection";
+
+/// The HTTP header field `transfer-encoding`, used to specify the form of encoding used to safely transfer the entity to the user.
+pub const HTTP2_FORBIDDEN_HEADERS: [&str; 5] = [
+    CONNECTION,
+    KEEP_ALIVE,
+    PROXY_CONNECTION,
+    TRANSFER_ENCODING,
+    UPGRADE,
+];
