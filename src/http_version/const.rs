@@ -1,5 +1,9 @@
+/// HTTP version 0.
+pub const HTTP_VERSION_0: &str = "HTTP/0";
 /// HTTP version 0.9.
 pub const HTTP_VERSION_0_9: &str = "HTTP/0.9";
+/// HTTP version 1.
+pub const HTTP_VERSION_1: &str = "HTTP/1";
 /// HTTP version 1.0.
 pub const HTTP_VERSION_1_0: &str = "HTTP/1.0";
 /// HTTP version 1.1.
