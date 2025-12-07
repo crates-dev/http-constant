@@ -125,7 +125,7 @@ pub const ZERO_STR_BYTES: &[u8] = ZERO_STR.as_bytes();
 pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// The default buffer size.
 /// This constant defines the default size for buffers used in I/O/// operations, such as reading from a network stream.
-pub const DEFAULT_BUFFER_SIZE: usize = 4096;
+pub const DEFAULT_BUFFER_SIZE: usize = 8192;
 /// The default maximum number of redirect times.
 /// This constant specifies the default limit for the number of times/// an HTTP client should follow a redirect.
 pub const DEFAULT_MAX_REDIRECT_TIMES: usize = 8;
