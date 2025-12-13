@@ -1,6 +1,6 @@
 [package]
 name = "http-constant"
-version = "1.73.1"
+version = "1.73.2"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -9,12 +9,7 @@ description = """A comprehensive library providing common HTTP constants for hea
 keywords = ["http", "request", "response", "tcp", "redirect"]
 repository = "https://github.com/crates-dev/http-constant.git"
 categories = ["network-programming", "web-programming"]
-exclude = [
-    "target",
-    "Cargo.lock",
-    "sh",
-    ".github"
-]
+exclude = ["target", "Cargo.lock", "sh", ".github"]
 
 [profile.dev]
 incremental = false
