@@ -183,6 +183,12 @@ pub const MAX_FRAME_SIZE: usize = 65535;
 /// The maximum number of attempts to decode a UTF-8 character.
 /// This constant specifies the maximum number of bytes that can be/// part of a single UTF-8 character.
 pub const MAX_UTF8_ATTEMPTS: usize = 4;
+/// The default socket IPv4 host address.
+/// This constant represents the default IPv4 host address for a socket.
+pub const DEFAULT_IPV4_ADDR: Ipv4Addr = Ipv4Addr::new(0, 0, 0, 0);
+/// The default socket IPv6 host address.
+/// This constant represents the default IPv6 host address for a socket.
+pub const DEFAULT_IPV6_ADDR: Ipv6Addr = Ipv6Addr::new(0, 0, 0, 0, 0, 0, 0, 0);
 /// The maximum number of attempts to decode a UTF-8 character.
 /// This constant specifies the maximum number of bytes that can be/// part of a single UTF-8 character.
 pub const DEFAULT_SOCKET_IPV4_ADDR: SocketAddrV4 = SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 0);
@@ -196,8 +202,10 @@ pub const DEFAULT_SOCKET_IPV6_ADDR: SocketAddrV6 = SocketAddrV6::new(
 );
 /// The default socket address.
 /// This constant represents a default, unspecified socket address.
-pub const DEFAULT_SOCKET_ADDR: SocketAddr =
-    SocketAddr::V4(SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 0));
+pub const DEFAULT_SOCKET_ADDR: SocketAddr = SocketAddr::V4(SocketAddrV4::new(
+    Ipv4Addr::new(0, 0, 0, 0),
+    DEFAULT_WEB_PORT as u16,
+));
 /// The loopback socket address (127.0.0.1).
 /// This constant represents the loopback address, which is used for local network communication.
 pub const SOCKET_ADDR_127_0_0_1: SocketAddr =
