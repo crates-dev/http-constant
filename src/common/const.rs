@@ -75,9 +75,24 @@ pub const EMPTY_STR_BYTES: &[u8] = EMPTY_STR.as_bytes();
 pub const DEFAULT_HOST: &str = "0.0.0.0";
 /// A const byte slice representation of the string `DEFAULT_HOST`.
 pub const DEFAULT_HOST_BYTES: &[u8] = DEFAULT_HOST.as_bytes();
+/// The default HTTP port.
+/// This constant represents the default port for HTTP traffic.
+pub const DEFAULT_HTTP_PORT: u16 = 80;
+/// The string representation of the default HTTP port.
+/// This constant represents the default port for HTTP traffic as a string.
+pub const DEFAULT_HTTP_PORT_STR: &str = "80";
+/// The default HTTPS port.
+/// This constant represents the default port for HTTPS traffic.
+pub const DEFAULT_HTTPS_PORT: u16 = 443;
+/// The string representation of the default HTTPS port.
+/// This constant represents the default port for HTTPS traffic as a string.
+pub const DEFAULT_HTTPS_PORT_STR: &str = "443";
 /// The default web port.
 /// This constant represents the default port for HTTP traffic.
-pub const DEFAULT_WEB_PORT: usize = 80;
+pub const DEFAULT_WEB_PORT: u16 = DEFAULT_HTTP_PORT;
+/// The string representation of the default web port.
+/// This constant represents the default port for HTTP traffic as a string.
+pub const DEFAULT_WEB_PORT_STR: &str = DEFAULT_HTTP_PORT_STR;
 /// An HTTP line break (`\r\n`).
 /// This constant represents the standard line break sequence used in/// the HTTP protocol.
 pub const HTTP_BR: &str = "\r\n";
@@ -196,22 +211,20 @@ pub const DEFAULT_IP_ADDR: IpAddr = IpAddr::V4(DEFAULT_HOST_IPV4_ADDR);
 /// The maximum number of attempts to decode a UTF-8 character.
 /// This constant specifies the maximum number of bytes that can be/// part of a single UTF-8 character.
 pub const DEFAULT_SOCKET_IPV4_ADDR: SocketAddrV4 =
-    SocketAddrV4::new(DEFAULT_HOST_IPV4_ADDR, DEFAULT_WEB_PORT as u16);
+    SocketAddrV4::new(DEFAULT_HOST_IPV4_ADDR, DEFAULT_WEB_PORT);
 /// The default socket address.
 /// This constant represents a default, unspecified socket address.
 pub const DEFAULT_SOCKET_IPV6_ADDR: SocketAddrV6 =
-    SocketAddrV6::new(DEFAULT_HOST_IPV6_ADDR, DEFAULT_WEB_PORT as u16, 0, 0);
+    SocketAddrV6::new(DEFAULT_HOST_IPV6_ADDR, DEFAULT_WEB_PORT, 0, 0);
 /// The default socket address.
 /// This constant represents a default, unspecified socket address.
-pub const DEFAULT_SOCKET_ADDR: SocketAddr = SocketAddr::V4(SocketAddrV4::new(
-    DEFAULT_HOST_IPV4_ADDR,
-    DEFAULT_WEB_PORT as u16,
-));
+pub const DEFAULT_SOCKET_ADDR: SocketAddr =
+    SocketAddr::V4(SocketAddrV4::new(DEFAULT_HOST_IPV4_ADDR, DEFAULT_WEB_PORT));
 /// The loopback socket address (127.0.0.1).
 /// This constant represents the loopback address, which is used for local network communication.
 pub const SOCKET_ADDR_127_0_0_1: SocketAddr = SocketAddr::V4(SocketAddrV4::new(
     Ipv4Addr::new(127, 0, 0, 1),
-    DEFAULT_WEB_PORT as u16,
+    DEFAULT_WEB_PORT,
 ));
 /// The string "hyperlane".
 /// This constant is used for identification or naming purposes.
