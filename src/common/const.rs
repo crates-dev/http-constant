@@ -437,6 +437,15 @@ pub const BASE64_CHARSET_TABLE: &[u8] =
 /// can be processed.
 pub const MAX_FRAME_SIZE: usize = 65535;
 
+/// Connection close frame (FIN=1, OPCODE=0x8, payload len=0)
+pub const CLOSE_FRAME: [u8; 2] = [0x88, 0x00];
+
+/// Ping frame (FIN=1, OPCODE=0x9, payload len=0)
+pub const PING_FRAME: [u8; 2] = [0x89, 0x00];
+
+/// Pong frame (FIN=1, OPCODE=0xA, payload len=0)
+pub const PONG_FRAME: [u8; 2] = [0x8A, 0x00];
+
 /// The maximum number of attempts to decode a UTF-8 character.
 /// This constant specifies the maximum number of bytes that can be
 /// part of a single UTF-8 character.
