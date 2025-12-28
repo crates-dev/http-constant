@@ -1,24 +1,35 @@
 use crate::*;
+
 /// HTTP/2 connection preface
 pub const CONNECTION_PREFACE: &[u8] = b"PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n";
+
 /// HTTP/2 SETTINGS parameter: HEADER_TABLE_SIZE (0x1)
 pub const HEADER_TABLE_SIZE: u16 = 0x1;
+
 /// HTTP/2 SETTINGS parameter: ENABLE_PUSH (0x2)
 pub const ENABLE_PUSH: u16 = 0x2;
+
 /// HTTP/2 SETTINGS parameter: MAX_CONCURRENT_STREAMS (0x3)
 pub const MAX_CONCURRENT_STREAMS: u16 = 0x3;
+
 /// HTTP/2 SETTINGS parameter: INITIAL_WINDOW_SIZE (0x4)
 pub const INITIAL_WINDOW_SIZE: u16 = 0x4;
+
 /// HTTP/2 SETTINGS parameter: MAX_FRAME_SIZE (0x5)
 pub const SETTINGS_MAX_FRAME_SIZE: u16 = 0x5;
+
 /// HTTP/2 SETTINGS parameter: MAX_HEADER_LIST_SIZE (0x6)
 pub const MAX_HEADER_LIST_SIZE: u16 = 0x6;
+
 /// HTTP/2 pseudo-header field `:status`, used to specify the HTTP status code.
 pub const COLON_STATUS: &str = ":status";
+
 /// Accept-Encoding header value: "gzip, deflate"
 pub const GZIP_DEFLATE: &str = "gzip, deflate";
+
 /// Path value: "/index.html"
 pub const INDEX_HTML_PATH: &str = "/index.html";
+
 /// HPACK static table as defined in RFC 7541 Appendix A
 pub const STATIC_TABLE: &[(&str, &str)] = &[
     (COLON_AUTHORITY, EMPTY_STR),
