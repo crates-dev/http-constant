@@ -224,14 +224,40 @@ pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// operations, such as reading from a network stream.
 pub const DEFAULT_BUFFER_SIZE: usize = 8192;
 
-/// Maximum number of WebSocket frames.
-pub const MAX_WS_FRAMES: usize = 5000;
+/// The default maximum number of WebSocket frames.
+/// This constant defines the maximum number of WebSocket frames that can be
+/// processed in a single operation to prevent resource exhaustion.
+pub const DEFAULT_MAX_WS_FRAMES: usize = 10000;
 
-/// Timeout for HTTP read operations in milliseconds
-pub const HTTP_READ_TIMEOUT_MS: u64 = 20000;
+/// The default HTTP read timeout in milliseconds.
+/// This constant defines the maximum time to wait for an HTTP read operation
+/// before timing out, helping to prevent hanging connections.
+pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 10000;
 
-/// Timeout for WebSocket read operations in milliseconds
-pub const WS_READ_TIMEOUT_MS: u64 = 20000;
+/// The default WebSocket read timeout in milliseconds.
+/// This constant defines the maximum time to wait for a WebSocket read operation
+/// before timing out, helping to prevent hanging connections.
+pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 10000;
+
+/// The default buffer size for high security configurations.
+/// This constant defines the buffer size used in high security mode for I/O
+/// operations, balancing performance with security considerations.
+pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = 4096;
+
+/// The default maximum number of WebSocket frames for high security configurations.
+/// This constant defines a more restrictive limit on WebSocket frames in high
+/// security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES: usize = 3000;
+
+/// The default HTTP read timeout in milliseconds for high security configurations.
+/// This constant defines a shorter timeout for HTTP read operations in high
+/// security mode to reduce the window of opportunity for certain attacks.
+pub const DEFAULT_HIGH_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = 3000;
+
+/// The default WebSocket read timeout in milliseconds for high security configurations.
+/// This constant defines a shorter timeout for WebSocket read operations in high
+/// security mode to reduce the window of opportunity for certain attacks.
+pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 3000;
 
 /// The default maximum number of redirect times.
 /// This constant specifies the default limit for the number of times
