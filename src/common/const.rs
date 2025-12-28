@@ -268,7 +268,7 @@ pub const DEFAULT_MAX_BODY_SIZE: usize = MB_2;
 /// The default maximum WebSocket frame size.
 /// This constant defines the maximum size of a WebSocket frame
 /// to prevent excessive memory usage and potential attacks.
-pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = KB_128;
+pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = KB_64;
 
 /// The default maximum number of WebSocket frames.
 /// This constant defines the maximum number of WebSocket frames that can be
@@ -334,7 +334,7 @@ pub const DEFAULT_HIGH_SECURITY_MAX_BODY_SIZE: usize = MB_1;
 /// The high security maximum WebSocket frame size.
 /// This constant defines a more restrictive limit on WebSocket frame size
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_64;
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_32;
 
 /// The default buffer size for high security configurations.
 /// This constant defines the buffer size used in high security mode for I/O
