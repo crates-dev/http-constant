@@ -280,11 +280,6 @@ pub const DEFAULT_MAX_WS_FRAMES: usize = 6000;
 /// before timing out, helping to prevent hanging connections.
 pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 6000;
 
-/// The default WebSocket read timeout in milliseconds.
-/// This constant defines the maximum time to wait for a WebSocket read operation
-/// before timing out, helping to prevent hanging connections.
-pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 6000;
-
 // High security HTTP request configuration constants
 /// The high security buffer size.
 /// This constant defines a more restrictive buffer size for high security
@@ -350,11 +345,6 @@ pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES: usize = 3000;
 /// This constant defines a shorter timeout for HTTP read operations in high
 /// security mode to reduce the window of opportunity for certain attacks.
 pub const DEFAULT_HIGH_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = 3000;
-
-/// The default WebSocket read timeout in milliseconds for high security configurations.
-/// This constant defines a shorter timeout for WebSocket read operations in high
-/// security mode to reduce the window of opportunity for certain attacks.
-pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 3000;
 
 /// The default maximum number of redirect times.
 /// This constant specifies the default limit for the number of times
