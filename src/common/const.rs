@@ -224,6 +224,52 @@ pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// operations, such as reading from a network stream.
 pub const DEFAULT_BUFFER_SIZE: usize = 8192;
 
+// Default HTTP request configuration constants
+/// The default maximum request line length.
+/// This constant defines the maximum length of an HTTP request line
+/// to prevent buffer overflow attacks and resource exhaustion.
+pub const DEFAULT_MAX_REQUEST_LINE_LENGTH: usize = KB_16;
+
+/// The default maximum path length.
+/// This constant defines the maximum length of the path component
+/// in an HTTP request to prevent excessive memory usage.
+pub const DEFAULT_MAX_PATH_LENGTH: usize = KB_8;
+
+/// The default maximum query length.
+/// This constant defines the maximum length of the query string
+/// in an HTTP request to prevent excessive memory usage.
+pub const DEFAULT_MAX_QUERY_LENGTH: usize = KB_16;
+
+/// The default maximum header line length.
+/// This constant defines the maximum length of a single HTTP header
+/// line to prevent buffer overflow attacks.
+pub const DEFAULT_MAX_HEADER_LINE_LENGTH: usize = KB_16;
+
+/// The default maximum header count.
+/// This constant defines the maximum number of HTTP headers allowed
+/// in a single request to prevent resource exhaustion.
+pub const DEFAULT_MAX_HEADER_COUNT: usize = 200;
+
+/// The default maximum header key length.
+/// This constant defines the maximum length of an HTTP header key
+/// to prevent excessive memory usage and potential attacks.
+pub const DEFAULT_MAX_HEADER_KEY_LENGTH: usize = KB_512;
+
+/// The default maximum header value length.
+/// This constant defines the maximum length of an HTTP header value
+/// to prevent excessive memory usage and potential attacks.
+pub const DEFAULT_MAX_HEADER_VALUE_LENGTH: usize = KB_16;
+
+/// The default maximum body size.
+/// This constant defines the maximum size of an HTTP request body
+/// to prevent excessive memory usage and potential denial of service attacks.
+pub const DEFAULT_MAX_BODY_SIZE: usize = MB_100;
+
+/// The default maximum WebSocket frame size.
+/// This constant defines the maximum size of a WebSocket frame
+/// to prevent excessive memory usage and potential attacks.
+pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = MB_10;
+
 /// The default maximum number of WebSocket frames.
 /// This constant defines the maximum number of WebSocket frames that can be
 /// processed in a single operation to prevent resource exhaustion.
@@ -238,6 +284,57 @@ pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 10000;
 /// This constant defines the maximum time to wait for a WebSocket read operation
 /// before timing out, helping to prevent hanging connections.
 pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 10000;
+
+// High security HTTP request configuration constants
+/// The high security buffer size.
+/// This constant defines a more restrictive buffer size for high security
+/// configurations to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE_REQUEST: usize = KB_4;
+
+/// The high security maximum request line length.
+/// This constant defines a more restrictive limit on request line length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_LENGTH: usize = KB_2;
+
+/// The high security maximum path length.
+/// This constant defines a more restrictive limit on path length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_PATH_LENGTH: usize = KB_1;
+
+/// The high security maximum query length.
+/// This constant defines a more restrictive limit on query string length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_QUERY_LENGTH: usize = KB_2;
+
+/// The high security maximum header line length.
+/// This constant defines a more restrictive limit on header line length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_LINE_LENGTH: usize = KB_2;
+
+/// The high security maximum header count.
+/// This constant defines a more restrictive limit on header count
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_COUNT: usize = 50;
+
+/// The high security maximum header key length.
+/// This constant defines a more restrictive limit on header key length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_KEY_LENGTH: usize = KB_128;
+
+/// The high security maximum header value length.
+/// This constant defines a more restrictive limit on header value length
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_VALUE_LENGTH: usize = KB_2;
+
+/// The high security maximum body size.
+/// This constant defines a more restrictive limit on request body size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_BODY_SIZE: usize = MB_1;
+
+/// The high security maximum WebSocket frame size.
+/// This constant defines a more restrictive limit on WebSocket frame size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_256;
 
 /// The default buffer size for high security configurations.
 /// This constant defines the buffer size used in high security mode for I/O
