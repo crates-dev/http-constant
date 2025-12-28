@@ -222,13 +222,13 @@ pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// The default buffer size.
 /// This constant defines the default size for buffers used in I/O
 /// operations, such as reading from a network stream.
-pub const DEFAULT_BUFFER_SIZE: usize = 8192;
+pub const DEFAULT_BUFFER_SIZE: usize = KB_8;
 
 // Default HTTP request configuration constants
 /// The default maximum request line length.
 /// This constant defines the maximum length of an HTTP request line
 /// to prevent buffer overflow attacks and resource exhaustion.
-pub const DEFAULT_MAX_REQUEST_LINE_LENGTH: usize = KB_16;
+pub const DEFAULT_MAX_REQUEST_LINE_LENGTH: usize = KB_8;
 
 /// The default maximum path length.
 /// This constant defines the maximum length of the path component
@@ -238,12 +238,12 @@ pub const DEFAULT_MAX_PATH_LENGTH: usize = KB_8;
 /// The default maximum query length.
 /// This constant defines the maximum length of the query string
 /// in an HTTP request to prevent excessive memory usage.
-pub const DEFAULT_MAX_QUERY_LENGTH: usize = KB_16;
+pub const DEFAULT_MAX_QUERY_LENGTH: usize = KB_8;
 
 /// The default maximum header line length.
 /// This constant defines the maximum length of a single HTTP header
 /// line to prevent buffer overflow attacks.
-pub const DEFAULT_MAX_HEADER_LINE_LENGTH: usize = KB_16;
+pub const DEFAULT_MAX_HEADER_LINE_LENGTH: usize = KB_8;
 
 /// The default maximum header count.
 /// This constant defines the maximum number of HTTP headers allowed
@@ -294,22 +294,22 @@ pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE_REQUEST: usize = KB_4;
 /// The high security maximum request line length.
 /// This constant defines a more restrictive limit on request line length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_LENGTH: usize = KB_2;
+pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_LENGTH: usize = KB_4;
 
 /// The high security maximum path length.
 /// This constant defines a more restrictive limit on path length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_PATH_LENGTH: usize = KB_1;
+pub const DEFAULT_HIGH_SECURITY_MAX_PATH_LENGTH: usize = KB_4;
 
 /// The high security maximum query length.
 /// This constant defines a more restrictive limit on query string length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_QUERY_LENGTH: usize = KB_2;
+pub const DEFAULT_HIGH_SECURITY_MAX_QUERY_LENGTH: usize = KB_4;
 
 /// The high security maximum header line length.
 /// This constant defines a more restrictive limit on header line length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_LINE_LENGTH: usize = KB_2;
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_LINE_LENGTH: usize = KB_4;
 
 /// The high security maximum header count.
 /// This constant defines a more restrictive limit on header count
