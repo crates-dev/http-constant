@@ -248,42 +248,42 @@ pub const DEFAULT_MAX_HEADER_LINE_LENGTH: usize = KB_16;
 /// The default maximum header count.
 /// This constant defines the maximum number of HTTP headers allowed
 /// in a single request to prevent resource exhaustion.
-pub const DEFAULT_MAX_HEADER_COUNT: usize = 200;
+pub const DEFAULT_MAX_HEADER_COUNT: usize = 100;
 
 /// The default maximum header key length.
 /// This constant defines the maximum length of an HTTP header key
 /// to prevent excessive memory usage and potential attacks.
-pub const DEFAULT_MAX_HEADER_KEY_LENGTH: usize = KB_512;
+pub const DEFAULT_MAX_HEADER_KEY_LENGTH: usize = KB_8;
 
 /// The default maximum header value length.
 /// This constant defines the maximum length of an HTTP header value
 /// to prevent excessive memory usage and potential attacks.
-pub const DEFAULT_MAX_HEADER_VALUE_LENGTH: usize = KB_16;
+pub const DEFAULT_MAX_HEADER_VALUE_LENGTH: usize = KB_8;
 
 /// The default maximum body size.
 /// This constant defines the maximum size of an HTTP request body
 /// to prevent excessive memory usage and potential denial of service attacks.
-pub const DEFAULT_MAX_BODY_SIZE: usize = MB_100;
+pub const DEFAULT_MAX_BODY_SIZE: usize = MB_2;
 
 /// The default maximum WebSocket frame size.
 /// This constant defines the maximum size of a WebSocket frame
 /// to prevent excessive memory usage and potential attacks.
-pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = MB_10;
+pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = KB_128;
 
 /// The default maximum number of WebSocket frames.
 /// This constant defines the maximum number of WebSocket frames that can be
 /// processed in a single operation to prevent resource exhaustion.
-pub const DEFAULT_MAX_WS_FRAMES: usize = 10000;
+pub const DEFAULT_MAX_WS_FRAMES: usize = 6000;
 
 /// The default HTTP read timeout in milliseconds.
 /// This constant defines the maximum time to wait for an HTTP read operation
 /// before timing out, helping to prevent hanging connections.
-pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 10000;
+pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 6000;
 
 /// The default WebSocket read timeout in milliseconds.
 /// This constant defines the maximum time to wait for a WebSocket read operation
 /// before timing out, helping to prevent hanging connections.
-pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 10000;
+pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 6000;
 
 // High security HTTP request configuration constants
 /// The high security buffer size.
@@ -319,12 +319,12 @@ pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_COUNT: usize = 50;
 /// The high security maximum header key length.
 /// This constant defines a more restrictive limit on header key length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_KEY_LENGTH: usize = KB_128;
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_KEY_LENGTH: usize = KB_4;
 
 /// The high security maximum header value length.
 /// This constant defines a more restrictive limit on header value length
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_VALUE_LENGTH: usize = KB_2;
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_VALUE_LENGTH: usize = KB_4;
 
 /// The high security maximum body size.
 /// This constant defines a more restrictive limit on request body size
@@ -334,7 +334,7 @@ pub const DEFAULT_HIGH_SECURITY_MAX_BODY_SIZE: usize = MB_1;
 /// The high security maximum WebSocket frame size.
 /// This constant defines a more restrictive limit on WebSocket frame size
 /// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_256;
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_64;
 
 /// The default buffer size for high security configurations.
 /// This constant defines the buffer size used in high security mode for I/O
