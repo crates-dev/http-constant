@@ -24,12 +24,6 @@ To use this crate, you can run cmd:
 cargo add http-constant
 ```
 
-## Use
-
-```rust
-use http_constant::*;
-```
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
