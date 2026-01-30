@@ -356,6 +356,72 @@ pub const DEFAULT_HIGH_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = 3000;
 /// security mode to reduce the window of opportunity for certain attacks.
 pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 900000;
 
+// Low security HTTP request configuration constants
+/// The low security buffer size.
+/// This constant defines a permissive buffer size for low security
+/// configurations to maximize compatibility and performance.
+pub const DEFAULT_LOW_SECURITY_BUFFER_SIZE: usize = usize::MAX;
+
+/// The low security maximum request line length.
+/// This constant defines a permissive limit on request line length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_REQUEST_LINE_LENGTH: usize = usize::MAX;
+
+/// The low security maximum path length.
+/// This constant defines a permissive limit on path length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_PATH_LENGTH: usize = usize::MAX;
+
+/// The low security maximum query length.
+/// This constant defines a permissive limit on query string length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_QUERY_LENGTH: usize = usize::MAX;
+
+/// The low security maximum header line length.
+/// This constant defines a permissive limit on header line length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_HEADER_LINE_LENGTH: usize = usize::MAX;
+
+/// The low security maximum header count.
+/// This constant defines a permissive limit on header count
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_HEADER_COUNT: usize = usize::MAX;
+
+/// The low security maximum header key length.
+/// This constant defines a permissive limit on header key length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_HEADER_KEY_LENGTH: usize = usize::MAX;
+
+/// The low security maximum header value length.
+/// This constant defines a permissive limit on header value length
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_HEADER_VALUE_LENGTH: usize = usize::MAX;
+
+/// The low security maximum body size.
+/// This constant defines a permissive limit on request body size
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_BODY_SIZE: usize = usize::MAX;
+
+/// The low security maximum WebSocket frame size.
+/// This constant defines a permissive limit on WebSocket frame size
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_WS_FRAME_SIZE: usize = usize::MAX;
+
+/// The low security maximum number of WebSocket frames.
+/// This constant defines a permissive limit on WebSocket frames
+/// in low security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_MAX_WS_FRAMES: usize = usize::MAX;
+
+/// The low security HTTP read timeout in milliseconds.
+/// This constant defines a permissive timeout for HTTP read operations in low
+/// security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = u64::MAX;
+
+/// The low security WebSocket read timeout in milliseconds.
+/// This constant defines a permissive timeout for WebSocket read operations in low
+/// security mode to maximize compatibility.
+pub const DEFAULT_LOW_SECURITY_WS_READ_TIMEOUT_MS: u64 = u64::MAX;
+
 /// The default maximum number of redirect times.
 /// This constant specifies the default limit for the number of times
 /// an HTTP client should follow a redirect.
