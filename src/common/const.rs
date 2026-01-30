@@ -273,7 +273,7 @@ pub const DEFAULT_MAX_WS_FRAME_SIZE: usize = KB_64;
 /// The default maximum number of WebSocket frames.
 /// This constant defines the maximum number of WebSocket frames that can be
 /// processed in a single operation to prevent resource exhaustion.
-pub const DEFAULT_MAX_WS_FRAMES: usize = 6000;
+pub const DEFAULT_MAX_WS_FRAMES_COUNT: usize = 6000;
 
 /// The default HTTP read timeout in milliseconds.
 /// This constant defines the maximum time to wait for an HTTP read operation
@@ -344,7 +344,7 @@ pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = 4096;
 /// The default maximum number of WebSocket frames for high security configurations.
 /// This constant defines a more restrictive limit on WebSocket frames in high
 /// security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES: usize = 3000;
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES_COUNT: usize = 3000;
 
 /// The default HTTP read timeout in milliseconds for high security configurations.
 /// This constant defines a shorter timeout for HTTP read operations in high
@@ -410,7 +410,7 @@ pub const DEFAULT_LOW_SECURITY_MAX_WS_FRAME_SIZE: usize = usize::MAX;
 /// The low security maximum number of WebSocket frames.
 /// This constant defines a permissive limit on WebSocket frames
 /// in low security mode to maximize compatibility.
-pub const DEFAULT_LOW_SECURITY_MAX_WS_FRAMES: usize = usize::MAX;
+pub const DEFAULT_LOW_SECURITY_MAX_WS_FRAMES_COUNT: usize = usize::MAX;
 
 /// The low security HTTP read timeout in milliseconds.
 /// This constant defines a permissive timeout for HTTP read operations in low
