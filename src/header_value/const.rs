@@ -304,6 +304,9 @@ pub const H2C_LOWERCASE: &str = "h2c";
 /// H2C
 pub const H2C_UPPERCASE: &str = "H2C";
 
+// websocket
+pub const WEBSOCKET: &str = "websocket";
+
 /// websocket
 pub const WEBSOCKET_LOWERCASE: &str = "websocket";
 
