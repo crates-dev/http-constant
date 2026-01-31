@@ -298,25 +298,25 @@ pub const CHARSET_UTF_32LE: &str = "charset=utf-32le";
 /// Charset utf-32be
 pub const CHARSET_UTF_32BE: &str = "charset=utf-32be";
 
-/// H2C
+/// H2C lowercase
 pub const H2C_LOWERCASE: &str = "h2c";
 
-/// H2C
+/// H2C uppercase
 pub const H2C_UPPERCASE: &str = "H2C";
 
-// websocket
+/// Websocket
 pub const WEBSOCKET: &str = "websocket";
 
-/// websocket
+/// Websocket lowercase
 pub const WEBSOCKET_LOWERCASE: &str = "websocket";
 
-/// WEBSOCKET
+/// Websocket uppercase
 pub const WEBSOCKET_UPPERCASE: &str = "WEBSOCKET";
 
-// TLS
+/// TLS lowercase
 pub const TLS_LOWERCASE: &str = "tls";
 
-/// TLS
+/// TLS uppercase
 pub const TLS_UPPERCASE: &str = "TLS";
 
 /// TLS/1.0
@@ -484,55 +484,55 @@ pub const VARY_ORIGIN: &str = "origin";
 /// domain
 pub const COOKIE_DOMAIN: &str = "Domain";
 
-/// domain lowercase
+/// Domain lowercase
 pub const COOKIE_DOMAIN_LOWERCASE: &str = "domain";
 
 /// path
 pub const COOKIE_PATH: &str = "Path";
 
-/// path lowercase
+/// Path lowercase
 pub const COOKIE_PATH_LOWERCASE: &str = "path";
 
 /// secure
 pub const COOKIE_SECURE: &str = "Secure";
 
-/// secure lowercase
+/// Secure lowercase
 pub const COOKIE_SECURE_LOWERCASE: &str = "secure";
 
 /// HttpOnly
 pub const COOKIE_HTTP_ONLY: &str = "HttpOnly";
 
-/// httponly lowercase
+/// Httponly lowercase
 pub const COOKIE_HTTP_ONLY_LOWERCASE: &str = "httponly";
 
 /// SameSite
 pub const COOKIE_SAME_SITE: &str = "SameSite";
 
-/// samesite lowercase
+/// Samesite lowercase
 pub const COOKIE_SAME_SITE_LOWERCASE: &str = "samesite";
 
 /// max-age
 pub const COOKIE_MAX_AGE: &str = "Max-Age";
 
-/// max-age lowercase
+/// Max-age lowercase
 pub const COOKIE_MAX_AGE_LOWERCASE: &str = "max-age";
 
 /// expires
 pub const COOKIE_EXPIRES: &str = "Expires";
 
-/// expires lowercase
+/// Expires lowercase
 pub const COOKIE_EXPIRES_LOWERCASE: &str = "expires";
 
 /// priority
 pub const COOKIE_PRIORITY: &str = "Priority";
 
-/// priority lowercase
+/// Priority lowercase
 pub const COOKIE_PRIORITY_LOWERCASE: &str = "priority";
 
 /// preload
 pub const COOKIE_PRELOAD: &str = "Preload";
 
-/// preload lowercase
+/// Preload lowercase
 pub const COOKIE_PRELOAD_LOWERCASE: &str = "preload";
 
 /// SameSite value: Strict
@@ -544,13 +544,13 @@ pub const COOKIE_SAME_SITE_LAX: &str = "Lax";
 /// SameSite value: None
 pub const COOKIE_SAME_SITE_NONE: &str = "None";
 
-/// SameSite value: strict lowercase
+/// SameSite strict lowercase
 pub const COOKIE_SAME_SITE_STRICT_LOWERCASE: &str = "strict";
 
-/// SameSite value: lax lowercase
+/// SameSite lax lowercase
 pub const COOKIE_SAME_SITE_LAX_LOWERCASE: &str = "lax";
 
-/// SameSite value: none lowercase
+/// SameSite none lowercase
 pub const COOKIE_SAME_SITE_NONE_LOWERCASE: &str = "none";
 
 /// Priority value: Low
@@ -562,13 +562,13 @@ pub const COOKIE_PRIORITY_MEDIUM: &str = "Medium";
 /// Priority value: High
 pub const COOKIE_PRIORITY_HIGH: &str = "High";
 
-/// Priority value: low lowercase
+/// Priority low lowercase
 pub const COOKIE_PRIORITY_LOW_LOWERCASE: &str = "low";
 
-/// Priority value: medium lowercase
+/// Priority medium lowercase
 pub const COOKIE_PRIORITY_MEDIUM_LOWERCASE: &str = "medium";
 
-/// Priority value: high lowercase
+/// Priority high lowercase
 pub const COOKIE_PRIORITY_HIGH_LOWERCASE: &str = "high";
 
 /// Cookie attribute with value: SameSite=Strict
@@ -580,13 +580,13 @@ pub const COOKIE_SAME_SITE_LAX_ATTR: &str = "SameSite=Lax";
 /// Cookie attribute with value: SameSite=None
 pub const COOKIE_SAME_SITE_NONE_ATTR: &str = "SameSite=None";
 
-/// Cookie attribute with value: samesite=strict lowercase
+/// Samesite strict attr lowercase
 pub const COOKIE_SAME_SITE_STRICT_ATTR_LOWERCASE: &str = "samesite=strict";
 
-/// Cookie attribute with value: samesite=lax lowercase
+/// Samesite lax attr lowercase
 pub const COOKIE_SAME_SITE_LAX_ATTR_LOWERCASE: &str = "samesite=lax";
 
-/// Cookie attribute with value: samesite=none lowercase
+/// Samesite none attr lowercase
 pub const COOKIE_SAME_SITE_NONE_ATTR_LOWERCASE: &str = "samesite=none";
 
 /// Cookie attribute with value: Priority=Low
@@ -598,13 +598,13 @@ pub const COOKIE_PRIORITY_MEDIUM_ATTR: &str = "Priority=Medium";
 /// Cookie attribute with value: Priority=High
 pub const COOKIE_PRIORITY_HIGH_ATTR: &str = "Priority=High";
 
-/// Cookie attribute with value: priority=low lowercase
+/// Priority low attr lowercase
 pub const COOKIE_PRIORITY_LOW_ATTR_LOWERCASE: &str = "priority=low";
 
-/// Cookie attribute with value: priority=medium lowercase
+/// Priority medium attr lowercase
 pub const COOKIE_PRIORITY_MEDIUM_ATTR_LOWERCASE: &str = "priority=medium";
 
-/// Cookie attribute with value: priority=high lowercase
+/// Priority high attr lowercase
 pub const COOKIE_PRIORITY_HIGH_ATTR_LOWERCASE: &str = "priority=high";
 
 /// Cookie separator
@@ -616,37 +616,37 @@ pub const COOKIE_NAME_VALUE_SEPARATOR: &str = "=";
 /// Cookie attribute prefix: Domain=
 pub const COOKIE_DOMAIN_PREFIX: &str = "Domain=";
 
-/// Cookie attribute prefix: domain= lowercase
+/// Domain prefix lowercase
 pub const COOKIE_DOMAIN_PREFIX_LOWERCASE: &str = "domain=";
 
 /// Cookie attribute prefix: Path=
 pub const COOKIE_PATH_PREFIX: &str = "Path=";
 
-/// Cookie attribute prefix: path= lowercase
+/// Path prefix lowercase
 pub const COOKIE_PATH_PREFIX_LOWERCASE: &str = "path=";
 
 /// Cookie attribute prefix: Max-Age=
 pub const COOKIE_MAX_AGE_PREFIX: &str = "Max-Age=";
 
-/// Cookie attribute prefix: max-age= lowercase
+/// Max-age prefix lowercase
 pub const COOKIE_MAX_AGE_PREFIX_LOWERCASE: &str = "max-age=";
 
 /// Cookie attribute prefix: Expires=
 pub const COOKIE_EXPIRES_PREFIX: &str = "Expires=";
 
-/// Cookie attribute prefix: expires= lowercase
+/// Expires prefix lowercase
 pub const COOKIE_EXPIRES_PREFIX_LOWERCASE: &str = "expires=";
 
 /// Cookie attribute prefix: SameSite=
 pub const COOKIE_SAME_SITE_PREFIX: &str = "SameSite=";
 
-/// Cookie attribute prefix: samesite= lowercase
+/// Samesite prefix lowercase
 pub const COOKIE_SAME_SITE_PREFIX_LOWERCASE: &str = "samesite=";
 
 /// Cookie attribute prefix: Priority=
 pub const COOKIE_PRIORITY_PREFIX: &str = "Priority=";
 
-/// Cookie attribute prefix: priority= lowercase
+/// Priority prefix lowercase
 pub const COOKIE_PRIORITY_PREFIX_LOWERCASE: &str = "priority=";
 
 /// Cookie common max-age values: 0 (delete immediately)
@@ -685,40 +685,40 @@ pub const COOKIE_HOST_PREFIX: &str = "__Host-";
 /// Cookie complete attribute strings with common values/// Complete secure cookie attributes
 pub const COOKIE_SECURE_HTTP_ONLY: &str = "Secure; HttpOnly";
 
-/// Complete secure cookie attributes lowercase
+/// Secure httponly lowercase
 pub const COOKIE_SECURE_HTTP_ONLY_LOWERCASE: &str = "secure; httponly";
 
 /// Complete secure cookie with SameSite=Strict
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_STRICT: &str = "Secure; HttpOnly; SameSite=Strict";
 
-/// Complete secure cookie with SameSite=Strict lowercase
+/// Secure httponly SameSite strict lowercase
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_STRICT_LOWERCASE: &str =
     "secure; httponly; samesite=strict";
 
 /// Complete secure cookie with SameSite=Lax
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_LAX: &str = "Secure; HttpOnly; SameSite=Lax";
 
-/// Complete secure cookie with SameSite=Lax lowercase
+/// Secure httponly SameSite lax lowercase
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_LAX_LOWERCASE: &str = "secure; httponly; samesite=lax";
 
 /// Complete secure cookie with SameSite=None
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_NONE: &str = "Secure; HttpOnly; SameSite=None";
 
-/// Complete secure cookie with SameSite=None lowercase
+/// Secure httponly SameSite none lowercase
 pub const COOKIE_SECURE_HTTP_ONLY_SAME_SITE_NONE_LOWERCASE: &str =
     "secure; httponly; samesite=none";
 
 /// Cookie with root path
 pub const COOKIE_PATH_ROOT_ATTR: &str = "Path=/";
 
-/// Cookie with root path lowercase
+/// Path root attr lowercase
 pub const COOKIE_PATH_ROOT_ATTR_LOWERCASE: &str = "path=/";
 
 /// Cookie deletion attributes (Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT)
 pub const COOKIE_DELETE_ATTRS: &str = "Max-Age=0; Expires=Thu, 01 Jan 1970 00:00:00 GMT";
 
-/// Cookie deletion attributes lowercase
-pub const COOKIE_DELETE_ATTRS_LOWERCASE: &str = "max-age=0; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+/// Delete attrs lowercase
+pub const COOKIE_DELETE_ATTRS_LOWERCASE: &str = "max-age=0; expires=thu, 01 jan 1970 00:00:00 gmt";
 
 /// Common expires date for deletion
 pub const COOKIE_EXPIRES_EPOCH: &str = "Thu, 01 Jan 1970 00:00:00 GMT";
@@ -726,41 +726,41 @@ pub const COOKIE_EXPIRES_EPOCH: &str = "Thu, 01 Jan 1970 00:00:00 GMT";
 /// Cookie attribute: Expires
 pub const COOKIE_EXPIRES_ATTRIBUTE: &str = "; Expires=";
 
-/// Cookie attribute: expires lowercase
+/// Expires attribute lowercase
 pub const COOKIE_EXPIRES_ATTRIBUTE_LOWERCASE: &str = "; expires=";
 
 /// Cookie attribute: Max-Age
 pub const COOKIE_MAX_AGE_ATTRIBUTE: &str = "; Max-Age=";
 
-/// Cookie attribute: max-age lowercase
+/// Max-age attribute lowercase
 pub const COOKIE_MAX_AGE_ATTRIBUTE_LOWERCASE: &str = "; max-age=";
 
 /// Cookie attribute: Domain
 pub const COOKIE_DOMAIN_ATTRIBUTE: &str = "; Domain=";
 
-/// Cookie attribute: domain lowercase
+/// Domain attribute lowercase
 pub const COOKIE_DOMAIN_ATTRIBUTE_LOWERCASE: &str = "; domain=";
 
 /// Cookie attribute: Path
 pub const COOKIE_PATH_ATTRIBUTE: &str = "; Path=";
 
-/// Cookie attribute: path lowercase
+/// Path attribute lowercase
 pub const COOKIE_PATH_ATTRIBUTE_LOWERCASE: &str = "; path=";
 
 /// Cookie attribute: Secure
 pub const COOKIE_SECURE_ATTRIBUTE: &str = "; Secure";
 
-/// Cookie attribute: secure lowercase
+/// Secure attribute lowercase
 pub const COOKIE_SECURE_ATTRIBUTE_LOWERCASE: &str = "; secure";
 
 /// Cookie attribute: HttpOnly
 pub const COOKIE_HTTP_ONLY_ATTRIBUTE: &str = "; HttpOnly";
 
-/// Cookie attribute: httponly lowercase
+/// Httponly attribute lowercase
 pub const COOKIE_HTTP_ONLY_ATTRIBUTE_LOWERCASE: &str = "; httponly";
 
 /// Cookie attribute: SameSite
 pub const COOKIE_SAME_SITE_ATTRIBUTE: &str = "; SameSite=";
 
-/// Cookie attribute: samesite lowercase
+/// Samesite attribute lowercase
 pub const COOKIE_SAME_SITE_ATTRIBUTE_LOWERCASE: &str = "; samesite=";
