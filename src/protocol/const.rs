@@ -10,52 +10,52 @@ pub const HTTPS_LOWERCASE: &str = "https";
 /// Represents the uppercase "HTTPS" protocol string.
 pub const HTTPS_UPPERCASE: &str = "HTTPS";
 
-/// Constant for FTP protocol lowercase string.
+/// Represents the lowercase "ftp" protocol string.
 pub const FTP_LOWERCASE: &str = "ftp";
 
 /// Represents the uppercase "FTP" protocol string.
 pub const FTP_UPPERCASE: &str = "FTP";
 
-/// Constant for FTPS protocol lowercase string.
+/// Represents the lowercase "ftps" protocol string.
 pub const FTPS_LOWERCASE: &str = "ftps";
 
 /// Represents the uppercase "FTPS" protocol string, commonly used for secure FTP.
 pub const FTPS_UPPERCASE: &str = "FTPS";
 
-/// Constant for SFTP protocol lowercase string.
+/// Represents the lowercase "sftp" protocol string.
 pub const SFTP_LOWERCASE: &str = "sftp";
 
 /// Represents the uppercase "SFTP" protocol string, commonly used for SSH File Transfer Protocol.
 pub const SFTP_UPPERCASE: &str = "SFTP";
 
-/// Constant for SSH protocol lowercase string.
+/// Represents the lowercase "ssh" protocol string.
 pub const SSH_LOWERCASE: &str = "ssh";
 
-/// Constant for Telnet protocol lowercase string.
+/// Represents the lowercase "telnet" protocol string.
 pub const TELNET_LOWERCASE: &str = "telnet";
 
-/// Constant for SMTP protocol lowercase string.
+/// Represents the lowercase "smtp" protocol string.
 pub const SMTP_LOWERCASE: &str = "smtp";
 
-/// Constant for SMTPS protocol lowercase string.
+/// Represents the lowercase "smtps" protocol string.
 pub const SMTPS_LOWERCASE: &str = "smtps";
 
-/// Constant for POP3 protocol lowercase string.
+/// Represents the lowercase "pop3" protocol string.
 pub const POP3_LOWERCASE: &str = "pop3";
 
-/// Constant for POP3S protocol lowercase string.
+/// Represents the lowercase "pop3s" protocol string.
 pub const POP3S_LOWERCASE: &str = "pop3s";
 
-/// Constant for IMAP protocol lowercase string.
+/// Represents the lowercase "imap" protocol string.
 pub const IMAP_LOWERCASE: &str = "imap";
 
-/// Constant for IMAPS protocol lowercase string.
+/// Represents the lowercase "imaps" protocol string.
 pub const IMAPS_LOWERCASE: &str = "imaps";
 
-/// Constant for DNS protocol lowercase string.
+/// Represents the lowercase "dns" protocol string.
 pub const DNS_LOWERCASE: &str = "dns";
 
-/// Constant for WebSocket protocol lowercase string.
+/// Represents the lowercase "ws" (WebSocket) protocol string.
 pub const WS_LOWERCASE: &str = "ws";
 
 /// Represents the uppercase "WS" protocol string, commonly used for WebSockets.
@@ -115,5 +115,5 @@ pub const LDAPS_LOWERCASE: &str = "ldaps";
 /// Represents the uppercase "LDAPS" protocol string, used for secure LDAP.
 pub const LDAPS_UPPERCASE: &str = "LDAPS";
 
-/// Empty protocol string.
+/// Represents the empty protocol string.
 pub const EMPTY_PROTOCOL: &str = "";

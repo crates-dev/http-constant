@@ -55,10 +55,10 @@ pub const CLOSE: &str = "close";
 /// Allow framing only by same origin.
 pub const SAMEORIGIN: &str = "SAMEORIGIN";
 
-/// Charset
+/// Represents the charset parameter name.
 pub const CHARSET: &str = "charset";
 
-/// Charset Equal
+/// Represents the charset parameter name with equals sign.
 pub const CHARSET_EQUAL: &str = "charset=";
 
 /// UTF-8
@@ -298,25 +298,25 @@ pub const CHARSET_UTF_32LE: &str = "charset=utf-32le";
 /// Charset utf-32be
 pub const CHARSET_UTF_32BE: &str = "charset=utf-32be";
 
-/// H2C lowercase
+/// Represents the H2C (HTTP/2 Cleartext) protocol lowercase string.
 pub const H2C_LOWERCASE: &str = "h2c";
 
-/// H2C uppercase
+/// Represents the H2C (HTTP/2 Cleartext) protocol uppercase string.
 pub const H2C_UPPERCASE: &str = "H2C";
 
-/// Websocket
+/// Represents the WebSocket protocol string.
 pub const WEBSOCKET: &str = "websocket";
 
-/// Websocket lowercase
+/// Represents the WebSocket protocol lowercase string.
 pub const WEBSOCKET_LOWERCASE: &str = "websocket";
 
-/// Websocket uppercase
+/// Represents the WebSocket protocol uppercase string.
 pub const WEBSOCKET_UPPERCASE: &str = "WEBSOCKET";
 
-/// TLS lowercase
+/// Represents the TLS (Transport Layer Security) protocol lowercase string.
 pub const TLS_LOWERCASE: &str = "tls";
 
-/// TLS uppercase
+/// Represents the TLS (Transport Layer Security) protocol uppercase string.
 pub const TLS_UPPERCASE: &str = "TLS";
 
 /// TLS/1.0
@@ -331,7 +331,7 @@ pub const TLS_1_2: &str = "TLS/1.2";
 /// TLS/1.3
 pub const TLS_1_3: &str = "TLS/1.3";
 
-/// Bytes
+/// Represents the bytes content type.
 pub const BYTES: &str = "bytes";
 
 /// Cache control directive: max-age
@@ -373,7 +373,7 @@ pub const FORM_DATA: &str = "form-data";
 /// X-Frame-Options: ALLOWALL
 pub const ALLOWALL: &str = "ALLOWALL";
 
-/// X-Content-Type-Options: nosniff (already exists as NOSNIFF)/// Referrer Policy: no-referrer
+/// Referrer Policy: no-referrer
 pub const NO_REFERRER: &str = "no-referrer";
 
 /// Referrer Policy: no-referrer-when-downgrade
@@ -682,7 +682,7 @@ pub const COOKIE_SECURE_PREFIX: &str = "__Secure-";
 /// Cookie __Host- prefix
 pub const COOKIE_HOST_PREFIX: &str = "__Host-";
 
-/// Cookie complete attribute strings with common values/// Complete secure cookie attributes
+/// Complete secure cookie attributes (Secure; HttpOnly)
 pub const COOKIE_SECURE_HTTP_ONLY: &str = "Secure; HttpOnly";
 
 /// Secure httponly lowercase
