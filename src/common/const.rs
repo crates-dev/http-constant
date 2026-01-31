@@ -339,7 +339,7 @@ pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_32;
 /// The default buffer size for high security configurations.
 /// This constant defines the buffer size used in high security mode for I/O
 /// operations, balancing performance with security considerations.
-pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = 4096;
+pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = KB_4;
 
 /// The default maximum number of WebSocket frames for high security configurations.
 /// This constant defines a more restrictive limit on WebSocket frames in high
@@ -360,7 +360,7 @@ pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 900000;
 /// The low security buffer size.
 /// This constant defines a permissive buffer size for low security
 /// configurations to maximize compatibility and performance.
-pub const DEFAULT_LOW_SECURITY_BUFFER_SIZE: usize = usize::MAX;
+pub const DEFAULT_LOW_SECURITY_BUFFER_SIZE: usize = KB_4;
 
 /// The low security maximum request line size.
 /// This constant defines a permissive limit on request line size
