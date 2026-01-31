@@ -222,7 +222,7 @@ pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// The default buffer size.
 /// This constant defines the default size for buffers used in I/O
 /// operations, such as reading from a network stream.
-pub const DEFAULT_BUFFER_SIZE: usize = KB_8;
+pub const DEFAULT_BUFFER_SIZE: usize = KB_4;
 
 // Default HTTP request configuration constants
 /// The default maximum request line size.
@@ -284,77 +284,6 @@ pub const DEFAULT_HTTP_READ_TIMEOUT_MS: u64 = 6000;
 /// This constant defines the maximum time to wait for a WebSocket read operation
 /// before timing out, helping to prevent hanging connections.
 pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 1800000;
-
-// High security HTTP request configuration constants
-/// The high security buffer size.
-/// This constant defines a more restrictive buffer size for high security
-/// configurations to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE_REQUEST: usize = KB_4;
-
-/// The high security maximum request line size.
-/// This constant defines a more restrictive limit on request line size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_SIZE: usize = KB_4;
-
-/// The high security maximum path size.
-/// This constant defines a more restrictive limit on path size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_PATH_SIZE: usize = KB_4;
-
-/// The high security maximum query size.
-/// This constant defines a more restrictive limit on query string size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_QUERY_SIZE: usize = KB_4;
-
-/// The high security maximum header line size.
-/// This constant defines a more restrictive limit on header line size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_LINE_SIZE: usize = KB_4;
-
-/// The high security maximum header count.
-/// This constant defines a more restrictive limit on header count
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_COUNT: usize = 50;
-
-/// The high security maximum header key size.
-/// This constant defines a more restrictive limit on header key size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_KEY_SIZE: usize = KB_4;
-
-/// The high security maximum header value size.
-/// This constant defines a more restrictive limit on header value size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_VALUE_SIZE: usize = KB_4;
-
-/// The high security maximum body size.
-/// This constant defines a more restrictive limit on request body size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_BODY_SIZE: usize = MB_1;
-
-/// The high security maximum WebSocket frame size.
-/// This constant defines a more restrictive limit on WebSocket frame size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_32;
-
-/// The default buffer size for high security configurations.
-/// This constant defines the buffer size used in high security mode for I/O
-/// operations, balancing performance with security considerations.
-pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = KB_4;
-
-/// The default maximum number of WebSocket frames for high security configurations.
-/// This constant defines a more restrictive limit on WebSocket frames in high
-/// security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES_COUNT: usize = 3000;
-
-/// The default HTTP read timeout in milliseconds for high security configurations.
-/// This constant defines a shorter timeout for HTTP read operations in high
-/// security mode to reduce the window of opportunity for certain attacks.
-pub const DEFAULT_HIGH_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = 3000;
-
-/// The default WebSocket read timeout in milliseconds for high security configurations.
-/// This constant defines a shorter timeout for WebSocket read operations in high
-/// security mode to reduce the window of opportunity for certain attacks.
-pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 900000;
 
 // Low security HTTP request configuration constants
 /// The low security buffer size.
@@ -422,15 +351,76 @@ pub const DEFAULT_LOW_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = u64::MAX;
 /// security mode to maximize compatibility.
 pub const DEFAULT_LOW_SECURITY_WS_READ_TIMEOUT_MS: u64 = u64::MAX;
 
+// High security HTTP request configuration constants
+/// The high security buffer size.
+/// This constant defines a more restrictive buffer size for high security
+/// configurations to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = KB_4;
+
+/// The high security maximum request line size.
+/// This constant defines a more restrictive limit on request line size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_SIZE: usize = KB_4;
+
+/// The high security maximum path size.
+/// This constant defines a more restrictive limit on path size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_PATH_SIZE: usize = KB_4;
+
+/// The high security maximum query size.
+/// This constant defines a more restrictive limit on query string size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_QUERY_SIZE: usize = KB_4;
+
+/// The high security maximum header line size.
+/// This constant defines a more restrictive limit on header line size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_LINE_SIZE: usize = KB_4;
+
+/// The high security maximum header count.
+/// This constant defines a more restrictive limit on header count
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_COUNT: usize = 50;
+
+/// The high security maximum header key size.
+/// This constant defines a more restrictive limit on header key size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_KEY_SIZE: usize = KB_4;
+
+/// The high security maximum header value size.
+/// This constant defines a more restrictive limit on header value size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_HEADER_VALUE_SIZE: usize = KB_4;
+
+/// The high security maximum body size.
+/// This constant defines a more restrictive limit on request body size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_BODY_SIZE: usize = MB_1;
+
+/// The high security maximum WebSocket frame size.
+/// This constant defines a more restrictive limit on WebSocket frame size
+/// in high security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAME_SIZE: usize = KB_32;
+
+/// The default maximum number of WebSocket frames for high security configurations.
+/// This constant defines a more restrictive limit on WebSocket frames in high
+/// security mode to reduce potential attack surface.
+pub const DEFAULT_HIGH_SECURITY_MAX_WS_FRAMES_COUNT: usize = 3000;
+
+/// The default HTTP read timeout in milliseconds for high security configurations.
+/// This constant defines a shorter timeout for HTTP read operations in high
+/// security mode to reduce the window of opportunity for certain attacks.
+pub const DEFAULT_HIGH_SECURITY_HTTP_READ_TIMEOUT_MS: u64 = 3000;
+
+/// The default WebSocket read timeout in milliseconds for high security configurations.
+/// This constant defines a shorter timeout for WebSocket read operations in high
+/// security mode to reduce the window of opportunity for certain attacks.
+pub const DEFAULT_HIGH_SECURITY_WS_READ_TIMEOUT_MS: u64 = 900000;
+
 /// The default maximum number of redirect times.
 /// This constant specifies the default limit for the number of times
 /// an HTTP client should follow a redirect.
 pub const DEFAULT_MAX_REDIRECT_TIMES: usize = 8;
-
-/// The default timeout value.
-/// This constant represents the default timeout for operations, which
-/// is set to the maximum value of `u64` to indicate no timeout.
-pub const DEFAULT_TIMEOUT: u64 = u64::MAX;
 
 /// A point character (`.`).
 /// This constant represents the period or dot character, which is
