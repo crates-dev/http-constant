@@ -1,56 +1,119 @@
-/// Represents the uppercase "HTTP" protocol string.
-pub const HTTP_UPPERCASE: &str = "HTTP";
-
-/// Represents the uppercase "HTTPS" protocol string.
-pub const HTTPS_UPPERCASE: &str = "HTTPS";
-
 /// Represents the lowercase "http" protocol string.
 pub const HTTP_LOWERCASE: &str = "http";
+
+/// Represents the uppercase "HTTP" protocol string.
+pub const HTTP_UPPERCASE: &str = "HTTP";
 
 /// Represents the lowercase "https" protocol string.
 pub const HTTPS_LOWERCASE: &str = "https";
 
-/// Represents the "websocket" protocol string.
-pub const WEBSOCKET: &str = "websocket";
+/// Represents the uppercase "HTTPS" protocol string.
+pub const HTTPS_UPPERCASE: &str = "HTTPS";
 
-/// Represents the "ws" protocol string, commonly used for WebSockets.
-pub const WS: &str = "ws";
+/// Constant for FTP protocol lowercase string.
+pub const FTP_LOWERCASE: &str = "ftp";
 
-/// Represents the "wss" protocol string, commonly used for secure WebSockets.
-pub const WSS: &str = "wss";
+/// Represents the uppercase "FTP" protocol string.
+pub const FTP_UPPERCASE: &str = "FTP";
 
-/// Represents the "ftp" protocol string.
-pub const FTP: &str = "ftp";
+/// Constant for FTPS protocol lowercase string.
+pub const FTPS_LOWERCASE: &str = "ftps";
 
-/// Represents the "ftps" protocol string, commonly used for secure FTP.
-pub const FTPS: &str = "ftps";
+/// Represents the uppercase "FTPS" protocol string, commonly used for secure FTP.
+pub const FTPS_UPPERCASE: &str = "FTPS";
 
-/// Represents the "sftp" protocol string, commonly used for SSH File Transfer Protocol.
-pub const SFTP: &str = "sftp";
+/// Constant for SFTP protocol lowercase string.
+pub const SFTP_LOWERCASE: &str = "sftp";
 
-/// Represents the "file" protocol string, used for local file access.
-pub const FILE: &str = "file";
+/// Represents the uppercase "SFTP" protocol string, commonly used for SSH File Transfer Protocol.
+pub const SFTP_UPPERCASE: &str = "SFTP";
 
-/// Represents the "mailto" protocol string, used for email addresses.
-pub const MAILTO: &str = "mailto";
+/// Constant for SSH protocol lowercase string.
+pub const SSH_LOWERCASE: &str = "ssh";
 
-/// Represents the "data" protocol string, used for embedding small files inline.
-pub const DATA: &str = "data";
+/// Constant for Telnet protocol lowercase string.
+pub const TELNET_LOWERCASE: &str = "telnet";
 
-/// Represents the "tel" protocol string, used for telephone numbers.
-pub const TEL: &str = "tel";
+/// Constant for SMTP protocol lowercase string.
+pub const SMTP_LOWERCASE: &str = "smtp";
 
-/// Represents the "sms" protocol string, used for SMS messages.
-pub const SMS: &str = "sms";
+/// Constant for SMTPS protocol lowercase string.
+pub const SMTPS_LOWERCASE: &str = "smtps";
 
-/// Represents the "gopher" protocol string.
-pub const GOPHER: &str = "gopher";
+/// Constant for POP3 protocol lowercase string.
+pub const POP3_LOWERCASE: &str = "pop3";
 
-/// Represents the "ldap" protocol string, used for Lightweight Directory Access Protocol.
-pub const LDAP: &str = "ldap";
+/// Constant for POP3S protocol lowercase string.
+pub const POP3S_LOWERCASE: &str = "pop3s";
 
-/// Represents the "ldaps" protocol string, used for secure LDAP.
-pub const LDAPS: &str = "ldaps";
+/// Constant for IMAP protocol lowercase string.
+pub const IMAP_LOWERCASE: &str = "imap";
 
-/// Represents an unknown or unspecified HTTP version string.
-pub const UNKNOWN_HTTP_VERSION: &str = "";
+/// Constant for IMAPS protocol lowercase string.
+pub const IMAPS_LOWERCASE: &str = "imaps";
+
+/// Constant for DNS protocol lowercase string.
+pub const DNS_LOWERCASE: &str = "dns";
+
+/// Constant for WebSocket protocol lowercase string.
+pub const WS_LOWERCASE: &str = "ws";
+
+/// Represents the uppercase "WS" protocol string, commonly used for WebSockets.
+pub const WS_UPPERCASE: &str = "WS";
+
+/// Constant for WebSocket Secure protocol lowercase string.
+pub const WSS_LOWERCASE: &str = "wss";
+
+/// Represents the uppercase "WSS" protocol string, commonly used for secure WebSockets.
+pub const WSS_UPPERCASE: &str = "WSS";
+
+/// Represents the lowercase "file" protocol string, used for local file access.
+pub const FILE_LOWERCASE: &str = "file";
+
+/// Represents the uppercase "FILE" protocol string, used for local file access.
+pub const FILE_UPPERCASE: &str = "FILE";
+
+/// Represents the lowercase "mailto" protocol string, used for email addresses.
+pub const MAILTO_LOWERCASE: &str = "mailto";
+
+/// Represents the uppercase "MAILTO" protocol string, used for email addresses.
+pub const MAILTO_UPPERCASE: &str = "MAILTO";
+
+/// Represents the lowercase "data" protocol string, used for embedding small files inline.
+pub const DATA_LOWERCASE: &str = "data";
+
+/// Represents the uppercase "DATA" protocol string, used for embedding small files inline.
+pub const DATA_UPPERCASE: &str = "DATA";
+
+/// Represents the lowercase "tel" protocol string, used for telephone numbers.
+pub const TEL_LOWERCASE: &str = "tel";
+
+/// Represents the uppercase "TEL" protocol string, used for telephone numbers.
+pub const TEL_UPPERCASE: &str = "TEL";
+
+/// Represents the lowercase "sms" protocol string, used for SMS messages.
+pub const SMS_LOWERCASE: &str = "sms";
+
+/// Represents the uppercase "SMS" protocol string, used for SMS messages.
+pub const SMS_UPPERCASE: &str = "SMS";
+
+/// Represents the lowercase "gopher" protocol string.
+pub const GOPHER_LOWERCASE: &str = "gopher";
+
+/// Represents the uppercase "GOPHER" protocol string.
+pub const GOPHER_UPPERCASE: &str = "GOPHER";
+
+/// Represents the lowercase "ldap" protocol string, used for Lightweight Directory Access Protocol.
+pub const LDAP_LOWERCASE: &str = "ldap";
+
+/// Represents the uppercase "LDAP" protocol string, used for Lightweight Directory Access Protocol.
+pub const LDAP_UPPERCASE: &str = "LDAP";
+
+/// Represents the lowercase "ldaps" protocol string, used for secure LDAP.
+pub const LDAPS_LOWERCASE: &str = "ldaps";
+
+/// Represents the uppercase "LDAPS" protocol string, used for secure LDAP.
+pub const LDAPS_UPPERCASE: &str = "LDAPS";
+
+/// Empty protocol string.
+pub const EMPTY_PROTOCOL: &str = "";

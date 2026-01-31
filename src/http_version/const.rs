@@ -24,3 +24,6 @@ pub const HTTP_VERSION_3: &str = "HTTP/3";
 
 /// HTTP version 3.0.
 pub const HTTP_VERSION_3_0: &str = "HTTP/3.0";
+
+/// Empty HTTP version string.
+pub const EMPTY_HTTP_VERSION: &str = "";
