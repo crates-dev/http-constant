@@ -1,4 +1,7 @@
-use crate::KEEP_ALIVE;
+use crate::*;
+
+/// The field name "headers" for Request and Response structs.
+pub const HEADERS: &str = "headers";
 
 /// The HTTP header field name `server`.
 pub const SERVER: &str = "server";

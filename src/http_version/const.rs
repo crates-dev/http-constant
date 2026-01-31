@@ -1,3 +1,6 @@
+/// The field name "version" for Request and Response structs.
+pub const VERSION: &str = "version";
+
 /// HTTP version 0.
 pub const HTTP_VERSION_0: &str = "HTTP/0";
 

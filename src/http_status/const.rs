@@ -1,3 +1,9 @@
+/// The field name "status_code" for Response struct.
+pub const STATUS_CODE: &str = "status_code";
+
+/// The field name "reason_phrase" for Response struct.
+pub const REASON_PHRASE: &str = "reason_phrase";
+
 /// HTTP status code 100: Continue.
 pub const CONTINUE: &str = "Continue";
 

@@ -1,3 +1,6 @@
+/// The field name "method" for Request struct.
+pub const METHOD: &str = "method";
+
 /// HTTP GET method.
 pub const GET: &str = "GET";
 
