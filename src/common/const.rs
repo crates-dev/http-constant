@@ -224,12 +224,6 @@ pub const ZERO_STR_U8: u8 = ZERO_STR_BYTES[0];
 /// operations, such as reading from a network stream.
 pub const DEFAULT_BUFFER_SIZE: usize = KB_4;
 
-// Default HTTP request configuration constants
-/// The default maximum request line size.
-/// This constant defines the maximum size of an HTTP request line
-/// to prevent buffer overflow attacks and resource exhaustion.
-pub const DEFAULT_MAX_REQUEST_LINE_SIZE: usize = KB_8;
-
 /// The default maximum path size.
 /// This constant defines the maximum size of the path component
 /// in an HTTP request to prevent excessive memory usage.
@@ -291,11 +285,6 @@ pub const DEFAULT_WS_READ_TIMEOUT_MS: u64 = 1800000;
 /// configurations to maximize compatibility and performance.
 pub const DEFAULT_LOW_SECURITY_BUFFER_SIZE: usize = KB_4;
 
-/// The low security maximum request line size.
-/// This constant defines a permissive limit on request line size
-/// in low security mode to maximize compatibility.
-pub const DEFAULT_LOW_SECURITY_MAX_REQUEST_LINE_SIZE: usize = usize::MAX;
-
 /// The low security maximum path size.
 /// This constant defines a permissive limit on path size
 /// in low security mode to maximize compatibility.
@@ -356,11 +345,6 @@ pub const DEFAULT_LOW_SECURITY_WS_READ_TIMEOUT_MS: u64 = u64::MAX;
 /// This constant defines a more restrictive buffer size for high security
 /// configurations to reduce potential attack surface.
 pub const DEFAULT_HIGH_SECURITY_BUFFER_SIZE: usize = KB_4;
-
-/// The high security maximum request line size.
-/// This constant defines a more restrictive limit on request line size
-/// in high security mode to reduce potential attack surface.
-pub const DEFAULT_HIGH_SECURITY_MAX_REQUEST_LINE_SIZE: usize = KB_4;
 
 /// The high security maximum path size.
 /// This constant defines a more restrictive limit on path size
