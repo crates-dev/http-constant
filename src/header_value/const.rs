@@ -361,6 +361,18 @@ pub const STALE_WHILE_REVALIDATE: &str = "stale-while-revalidate";
 /// Cache control directive: stale-if-error
 pub const STALE_IF_ERROR: &str = "stale-if-error";
 
+/// Cache control directive combination: no-cache, no-store
+pub const NO_CACHE_NO_STORE: &str = "no-cache, no-store";
+
+/// Cache control directive combination: no-cache, must-revalidate
+pub const NO_CACHE_MUST_REVALIDATE: &str = "no-cache, must-revalidate";
+
+/// Cache control directive combination: no-store, must-revalidate
+pub const NO_STORE_MUST_REVALIDATE: &str = "no-store, must-revalidate";
+
+/// Cache control directive combination: no-cache, no-store, must-revalidate
+pub const NO_CACHE_NO_STORE_MUST_REVALIDATE: &str = "no-cache, no-store, must-revalidate";
+
 /// Content disposition: inline
 pub const INLINE: &str = "inline";
 
@@ -651,6 +663,9 @@ pub const COOKIE_PRIORITY_PREFIX_LOWERCASE: &str = "priority=";
 
 /// Cookie common max-age values: 0 (delete immediately)
 pub const COOKIE_MAX_AGE_DELETE: &str = "0";
+
+/// Expires value to disable caching (Expires: 0)
+pub const EXPIRES_DISABLED: &str = "0";
 
 /// Cookie common max-age values: session (no max-age)
 pub const COOKIE_MAX_AGE_SESSION: &str = "";
