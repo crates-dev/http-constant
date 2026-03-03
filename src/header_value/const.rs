@@ -379,6 +379,9 @@ pub const INLINE: &str = "inline";
 /// Content disposition: attachment
 pub const ATTACHMENT: &str = "attachment";
 
+/// Content disposition: filename
+pub const FILENAME: &str = "filename";
+
 /// Content disposition: form-data
 pub const FORM_DATA: &str = "form-data";
 
