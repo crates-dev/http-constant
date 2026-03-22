@@ -386,6 +386,9 @@ pub const PUB_SUPER: &str = "pub(super)";
 /// The `pub(crate)` visibility modifier in Rust.
 pub const PUB_CRATE: &str = "pub(crate)";
 
+/// Represents a URL (Uniform Resource Locator) string.
+pub const URL: &str = "url";
+
 /// A const byte slice representation of the string `SEMICOLON_SPACE`.
 pub const SEMICOLON_SPACE_BYTES: &[u8] = SEMICOLON_SPACE.as_bytes();
 
