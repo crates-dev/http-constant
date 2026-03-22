@@ -374,6 +374,18 @@ pub const SEMICOLON_U8: u8 = SEMICOLON_BYTES[0];
 /// commonly used as a separator in formatted text.
 pub const SEMICOLON_SPACE: &str = "; ";
 
+/// Represents a timestamp or time field.
+pub const TIME: &str = "time";
+
+/// The `pub` keyword in Rust.
+pub const PUB: &str = "pub";
+
+/// The `pub(super)` visibility modifier in Rust.
+pub const PUB_SUPER: &str = "pub(super)";
+
+/// The `pub(crate)` visibility modifier in Rust.
+pub const PUB_CRATE: &str = "pub(crate)";
+
 /// A const byte slice representation of the string `SEMICOLON_SPACE`.
 pub const SEMICOLON_SPACE_BYTES: &[u8] = SEMICOLON_SPACE.as_bytes();
 

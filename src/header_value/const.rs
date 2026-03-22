@@ -43,6 +43,9 @@ pub const ENGLISH: &str = "en";
 /// Bearer token authentication.
 pub const BEARER: &str = "Bearer";
 
+/// Bearer token authentication.
+pub const BEARER_WITH_SPACE: &str = "Bearer ";
+
 /// Private caching.
 pub const PRIVATE: &str = "private";
 

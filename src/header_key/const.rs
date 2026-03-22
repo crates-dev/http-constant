@@ -171,6 +171,12 @@ pub const STRICT_TRANSPORT_SECURITY: &str = "strict-transport-security";
 /// The HTTP header field `www-authenticate`, used to indicate the authentication scheme.
 pub const WWW_AUTHENTICATE: &str = "www-authenticate";
 
+/// The HTTP header field `x-api-key`, used to specify an API key for authentication.
+pub const X_API_KEY: &str = "x-api-key";
+
+/// The HTTP header field `x-auth-token`, used to specify an authentication token.
+pub const X_AUTH_TOKEN: &str = "x-auth-token";
+
 /// The HTTP/2 pseudo-header field `:authority`, used to specify the authority portion of the target URI.
 pub const COLON_AUTHORITY: &str = ":authority";
 
@@ -279,6 +285,15 @@ pub const X_FORWARDED_PORT: &str = "x-forwarded-port";
 /// The HTTP header field `x-real-ip`, used to identify the real IP address of the client.
 pub const X_REAL_IP: &str = "x-real-ip";
 
+/// The HTTP header field `x-request-id`, used to identify the request for tracing purposes.
+pub const X_REQUEST_ID: &str = "x-request-id";
+
+/// The HTTP header field `x-correlation-id`, used to correlate requests across services.
+pub const X_CORRELATION_ID: &str = "x-correlation-id";
+
+/// The HTTP header field `x-trace-id`, used to trace requests across distributed systems.
+pub const X_TRACE_ID: &str = "x-trace-id";
+
 /// The HTTP header field `accept-patch`, used to specify which patch document formats are accepted.
 pub const ACCEPT_PATCH: &str = "accept-patch";
 
@@ -336,6 +351,9 @@ pub const NEL: &str = "nel";
 /// The HTTP header field `report-to`, used to specify endpoints for reporting.
 pub const REPORT_TO: &str = "report-to";
 
+/// The HTTP header field `sourcemap`, used to specify the URL of the source map for a JavaScript file.
+pub const SOURCEMAP: &str = "sourcemap";
+
 /// The HTTP header field `x-dns-prefetch-control`, used to control DNS prefetching.
 pub const X_DNS_PREFETCH_CONTROL: &str = "x-dns-prefetch-control";
 
@@ -351,6 +369,21 @@ pub const X_ROBOTS_TAG: &str = "x-robots-tag";
 /// The HTTP header field `x-ua-compatible`, used to specify which version of Internet Explorer the page should be rendered as.
 pub const X_UA_COMPATIBLE: &str = "x-ua-compatible";
 
+/// The HTTP header field `cdn-loop`, used to prevent CDN loops.
+pub const CDN_LOOP: &str = "cdn-loop";
+
+/// The HTTP header field `cf-connecting-ip`, used by Cloudflare to indicate the client IP address.
+pub const CF_CONNECTING_IP: &str = "cf-connecting-ip";
+
+/// The HTTP header field `cf-ray`, used by Cloudflare to identify the request.
+pub const CF_RAY: &str = "cf-ray";
+
+/// The HTTP header field `cf-visitor`, used by Cloudflare to indicate the scheme used by the client.
+pub const CF_VISITOR: &str = "cf-visitor";
+
+/// The HTTP header field `true-client-ip`, used by some CDNs to indicate the real client IP address.
+pub const TRUE_CLIENT_IP: &str = "true-client-ip";
+
 /// The HTTP header field `proxy-connection`, used to specify the connection used to connect to the proxy.
 pub const PROXY_CONNECTION: &str = "proxy-connection";
 
@@ -362,3 +395,9 @@ pub const HTTP2_FORBIDDEN_HEADERS: [&str; 5] = [
     TRANSFER_ENCODING,
     UPGRADE,
 ];
+
+/// The HTTP header field `socket-address`.
+pub const SOCKET_ADDRESS: &str = "socket-address";
+
+/// The HTTP header field `token`, used for authentication purposes.
+pub const TOKEN: &str = "token";
