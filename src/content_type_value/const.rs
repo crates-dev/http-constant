@@ -2168,6 +2168,9 @@ pub const APPLICATION_VND_PMI_WIDGET: &str = "application/vnd.pmi.widget";
 /// The `Content-Type` for Widget.
 pub const APPLICATION_WIDGET: &str = "application/widget";
 
+/// The `Content-Type` for WebAssembly.
+pub const APPLICATION_WASM: &str = "application/wasm";
+
 /// The `Content-Type` for WM video.
 pub const VIDEO_X_MS_WM: &str = "video/x-ms-wm";
 
