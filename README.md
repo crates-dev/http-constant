@@ -10,8 +10,6 @@
 
 </center>
 
-[Official Documentation](https://docs.ltpp.vip/http-constant/)
-
 [Api Docs](https://docs.rs/http-constant/latest/)
 
 > A comprehensive library providing common HTTP constants for header names, versions, MIME types, and protocol identifiers.
