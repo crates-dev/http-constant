@@ -501,12 +501,26 @@ pub const DEFAULT_INNER_PRINT: bool = true;
 pub const DEFAULT_INNER_LOG: bool = true;
 
 /// The default setting for TCP_NODELAY.
-/// This constant specifies the default value for the `TCP_NODELAY`/// socket option.
+/// This constant specifies the default value for the `TCP_NODELAY`
+/// socket option.
 pub const DEFAULT_NODELAY: Option<bool> = None;
 
 /// The default setting for socket linger.
-/// This constant specifies the default value for the `SO_LINGER`/// socket option.
+/// This constant specifies the default value for the `SO_LINGER`
+/// socket option.
 pub const DEFAULT_LINGER: Option<Duration> = None;
+
+/// Default value for `SO_REUSEADDR` when no explicit configuration is provided.
+/// Enabling it allows immediate rebind to the same address during restart.
+pub const DEFAULT_REUSE_ADDRESS: bool = true;
+
+/// Default listen backlog (maximum number of pending connections) passed to
+/// the underlying `listen()` syscall when no explicit configuration is provided.
+pub const DEFAULT_LISTEN_BACKLOG: u32 = 4096;
+
+/// Default non-blocking mode for the listening socket when no explicit
+/// configuration is provided. Required for handoff to the tokio reactor.
+pub const DEFAULT_NONBLOCKING: bool = true;
 
 /// The default time-to-live (TTL) setting.
 /// This constant specifies the default value for the IP_TTL socket
