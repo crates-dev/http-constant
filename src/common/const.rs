@@ -515,7 +515,7 @@ pub const DEFAULT_REUSE_ADDRESS: Option<bool> = None;
 
 /// Default listen backlog (maximum number of pending connections) passed to
 /// the underlying `listen()` syscall when no explicit configuration is provided.
-pub const DEFAULT_LISTEN_BACKLOG: i32 = 4096;
+pub const DEFAULT_LISTEN_BACKLOG: Option<i32> = None;
 
 /// Default non-blocking mode for the listening socket when no explicit
 /// configuration is provided. Required for handoff to the tokio reactor.
