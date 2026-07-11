@@ -511,16 +511,15 @@ pub const DEFAULT_NODELAY: Option<bool> = None;
 pub const DEFAULT_LINGER: Option<Duration> = None;
 
 /// Default value for `SO_REUSEADDR` when no explicit configuration is provided.
-/// Enabling it allows immediate rebind to the same address during restart.
-pub const DEFAULT_REUSE_ADDRESS: bool = true;
+pub const DEFAULT_REUSE_ADDRESS: Option<bool> = None;
 
 /// Default listen backlog (maximum number of pending connections) passed to
 /// the underlying `listen()` syscall when no explicit configuration is provided.
-pub const DEFAULT_LISTEN_BACKLOG: u32 = 4096;
+pub const DEFAULT_LISTEN_BACKLOG: Option<u32> = None;
 
 /// Default non-blocking mode for the listening socket when no explicit
 /// configuration is provided. Required for handoff to the tokio reactor.
-pub const DEFAULT_NONBLOCKING: bool = true;
+pub const DEFAULT_NONBLOCKING: Option<bool> = None;
 
 /// The default time-to-live (TTL) setting.
 /// This constant specifies the default value for the IP_TTL socket
