@@ -1,4 +1,4 @@
-use crate::*;
+use super::*;
 
 /// HTTP/2 connection preface
 pub const CONNECTION_PREFACE: &[u8] = b"PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n";

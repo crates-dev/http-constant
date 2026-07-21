@@ -1,4 +1,4 @@
-use crate::*;
+use super::*;
 
 /// A single space character.
 /// This constant is used to represent a space character in string

@@ -1,4 +1,4 @@
-use crate::*;
+use super::*;
 
 /// The field name "headers" for Request and Response structs.
 pub const HEADERS: &str = "headers";
